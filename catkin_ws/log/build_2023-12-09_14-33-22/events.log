@@ -1,0 +1,775 @@
+[0.000000] (-) TimerEvent: {}
+[0.000640] (beluga_simulator) JobQueued: {'identifier': 'beluga_simulator', 'dependencies': OrderedDict()}
+[0.000698] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000725] (beluga_simulator) JobStarted: {'identifier': 'beluga_simulator'}
+[0.053477] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099941] (-) TimerEvent: {}
+[0.106985] (beluga_simulator) JobProgress: {'identifier': 'beluga_simulator', 'progress': 'cmake'}
+[0.107142] (beluga_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/sunny/catkin_ws/src/beluga_simulator', '-DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_simulator'], 'cwd': '/home/sunny/catkin_ws/build/beluga_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'sunny'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('OLDPWD', '/home/sunny/.ros/log/2023-12-09-10-57-40-341576-sunny-Legion-5-15ACH6H-41611'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1701'), ('SYSTEMD_EXEC_PID', '2167'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3147'), ('COLCON_PREFIX_PATH', '/home/sunny/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:39054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sunny/.fzf/bin'), ('SESSION_MANAGER', 'local/sunny-Legion-5-15ACH6H:@/tmp/.ICE-unix/2139,unix/sunny-Legion-5-15ACH6H:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '783bf2287a32478db0f660f8e3084d20'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4e1e8df4-e0e5-4ca4-86d8-0ea44e4596c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/catkin_ws/build/beluga_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble')]), 'shell': False}
+[0.110127] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.110719] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/sunny/catkin_ws/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/turtlesim'], 'cwd': '/home/sunny/catkin_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'sunny'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('OLDPWD', '/home/sunny/.ros/log/2023-12-09-10-57-40-341576-sunny-Legion-5-15ACH6H-41611'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1701'), ('SYSTEMD_EXEC_PID', '2167'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3147'), ('COLCON_PREFIX_PATH', '/home/sunny/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:39054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sunny/.fzf/bin'), ('SESSION_MANAGER', 'local/sunny-Legion-5-15ACH6H:@/tmp/.ICE-unix/2139,unix/sunny-Legion-5-15ACH6H:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '783bf2287a32478db0f660f8e3084d20'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4e1e8df4-e0e5-4ca4-86d8-0ea44e4596c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/catkin_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble')]), 'shell': False}
+[0.179221] (beluga_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.179481] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200050] (-) TimerEvent: {}
+[0.243076] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.243269] (beluga_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.251909] (beluga_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.252068] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300173] (-) TimerEvent: {}
+[0.316806] (beluga_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.317023] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.322413] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.322622] (beluga_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.322774] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.322904] (beluga_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.323182] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.323308] (beluga_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.326126] (beluga_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.326295] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.398888] (beluga_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.399084] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400233] (-) TimerEvent: {}
+[0.404662] (beluga_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.404791] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.404894] (beluga_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.404989] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.405234] (beluga_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.405308] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.408095] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.408202] (beluga_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500350] (-) TimerEvent: {}
+[0.547953] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.549735] (beluga_simulator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600455] (-) TimerEvent: {}
+[0.622823] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.623040] (beluga_simulator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.624497] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.658489] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.662731] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.670449] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.681817] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.686111] (beluga_simulator) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.686848] (beluga_simulator) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.687405] (beluga_simulator) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.689549] (beluga_simulator) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.690658] (beluga_simulator) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.693747] (beluga_simulator) StdoutLine: {'line': b'-- Generating done\n'}
+[0.694544] (beluga_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/sunny/catkin_ws/build/beluga_simulator\n'}
+[0.697845] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.698690] (beluga_simulator) CommandEnded: {'returncode': 0}
+[0.699238] (beluga_simulator) JobProgress: {'identifier': 'beluga_simulator', 'progress': 'build'}
+[0.700385] (beluga_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunny/catkin_ws/build/beluga_simulator', '--', '-j16', '-l16'], 'cwd': '/home/sunny/catkin_ws/build/beluga_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'sunny'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('OLDPWD', '/home/sunny/.ros/log/2023-12-09-10-57-40-341576-sunny-Legion-5-15ACH6H-41611'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1701'), ('SYSTEMD_EXEC_PID', '2167'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3147'), ('COLCON_PREFIX_PATH', '/home/sunny/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:39054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sunny/.fzf/bin'), ('SESSION_MANAGER', 'local/sunny-Legion-5-15ACH6H:@/tmp/.ICE-unix/2139,unix/sunny-Legion-5-15ACH6H:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '783bf2287a32478db0f660f8e3084d20'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4e1e8df4-e0e5-4ca4-86d8-0ea44e4596c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/catkin_ws/build/beluga_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble')]), 'shell': False}
+[0.701016] (-) TimerEvent: {}
+[0.737025] (beluga_simulator) CommandEnded: {'returncode': 0}
+[0.759576] (beluga_simulator) JobProgress: {'identifier': 'beluga_simulator', 'progress': 'install'}
+[0.769739] (beluga_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunny/catkin_ws/build/beluga_simulator'], 'cwd': '/home/sunny/catkin_ws/build/beluga_simulator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'sunny'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('OLDPWD', '/home/sunny/.ros/log/2023-12-09-10-57-40-341576-sunny-Legion-5-15ACH6H-41611'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1701'), ('SYSTEMD_EXEC_PID', '2167'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3147'), ('COLCON_PREFIX_PATH', '/home/sunny/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:39054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sunny/.fzf/bin'), ('SESSION_MANAGER', 'local/sunny-Legion-5-15ACH6H:@/tmp/.ICE-unix/2139,unix/sunny-Legion-5-15ACH6H:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '783bf2287a32478db0f660f8e3084d20'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4e1e8df4-e0e5-4ca4-86d8-0ea44e4596c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/catkin_ws/build/beluga_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble')]), 'shell': False}
+[0.776456] (beluga_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.776624] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/config\n'}
+[0.776769] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/launch\n'}
+[0.776864] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/launch/beluga_model.launch.py\n'}
+[0.776999] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/maps\n'}
+[0.777118] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes\n'}
+[0.777182] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/pressure.dae\n'}
+[0.777281] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/oe14-372.dae\n'}
+[0.777637] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/propeller.dae\n'}
+[0.778599] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/propeller.stl\n'}
+[0.778756] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models\n'}
+[0.778891] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/camera_snippets.xacro\n'}
+[0.779000] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/imu_snippets.xacro\n'}
+[0.779151] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_snippets.xacro\n'}
+[0.779285] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_default.urdf\n'}
+[0.779421] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_base.xacro\n'}
+[0.779587] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/thruster_snippets.xacro\n'}
+[0.779732] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/pressure_snippets.xacro\n'}
+[0.779887] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/misc.xacro\n'}
+[0.780066] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_sensors.xacro\n'}
+[0.780213] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/sensor_snippets.xacro\n'}
+[0.780348] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/common.urdf.xacro\n'}
+[0.780455] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_thrusters.xacro\n'}
+[0.780595] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/params\n'}
+[0.780712] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/rviz\n'}
+[0.780834] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/rviz/urdf.rviz\n'}
+[0.780946] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/src\n'}
+[0.781060] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/worlds\n'}
+[0.781227] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/ament_index/resource_index/package_run_dependencies/beluga_simulator\n'}
+[0.781473] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/ament_index/resource_index/parent_prefix_path/beluga_simulator\n'}
+[0.781694] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/ament_prefix_path.sh\n'}
+[0.781877] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/ament_prefix_path.dsv\n'}
+[0.782051] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/path.sh\n'}
+[0.782223] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/path.dsv\n'}
+[0.782408] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.bash\n'}
+[0.782587] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.sh\n'}
+[0.782757] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.zsh\n'}
+[0.782937] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.dsv\n'}
+[0.783102] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.dsv\n'}
+[0.783332] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/ament_index/resource_index/packages/beluga_simulator\n'}
+[0.783577] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/cmake/beluga_simulatorConfig.cmake\n'}
+[0.783733] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/cmake/beluga_simulatorConfig-version.cmake\n'}
+[0.783895] (beluga_simulator) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.xml\n'}
+[0.786425] (beluga_simulator) CommandEnded: {'returncode': 0}
+[0.808528] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.809182] (-) TimerEvent: {}
+[0.853823] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.856286] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.909576] (-) TimerEvent: {}
+[0.925506] (beluga_simulator) JobEnded: {'identifier': 'beluga_simulator', 'rc': 0}
+[0.955614] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.983171] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.009684] (-) TimerEvent: {}
+[1.029065] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.038985] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.108396] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.108589] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.109744] (-) TimerEvent: {}
+[1.176799] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.177741] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.209860] (-) TimerEvent: {}
+[1.281484] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.309961] (-) TimerEvent: {}
+[1.358009] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.366832] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.410081] (-) TimerEvent: {}
+[1.510361] (-) TimerEvent: {}
+[1.610614] (-) TimerEvent: {}
+[1.632067] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.710727] (-) TimerEvent: {}
+[1.810987] (-) TimerEvent: {}
+[1.902765] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.911082] (-) TimerEvent: {}
+[2.001485] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.011182] (-) TimerEvent: {}
+[2.029583] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.031279] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.052964] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.053150] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.053231] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.053305] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.070467] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.111307] (-) TimerEvent: {}
+[2.115610] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.172927] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.176034] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/sunny/catkin_ws/build/turtlesim\n'}
+[2.188564] (turtlesim) CommandEnded: {'returncode': 0}
+[2.189178] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[2.190071] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunny/catkin_ws/build/turtlesim', '--', '-j16', '-l16'], 'cwd': '/home/sunny/catkin_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'sunny'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('OLDPWD', '/home/sunny/.ros/log/2023-12-09-10-57-40-341576-sunny-Legion-5-15ACH6H-41611'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1701'), ('SYSTEMD_EXEC_PID', '2167'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3147'), ('COLCON_PREFIX_PATH', '/home/sunny/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:39054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sunny/.fzf/bin'), ('SESSION_MANAGER', 'local/sunny-Legion-5-15ACH6H:@/tmp/.ICE-unix/2139,unix/sunny-Legion-5-15ACH6H:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '783bf2287a32478db0f660f8e3084d20'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4e1e8df4-e0e5-4ca4-86d8-0ea44e4596c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/catkin_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble')]), 'shell': False}
+[2.211405] (-) TimerEvent: {}
+[2.231946] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.242255] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.250574] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[2.311521] (-) TimerEvent: {}
+[2.411779] (-) TimerEvent: {}
+[2.465168] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[2.465557] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[2.465695] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[2.465828] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[2.465960] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[2.466097] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.467387] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.467774] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.491020] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[2.511877] (-) TimerEvent: {}
+[2.612125] (-) TimerEvent: {}
+[2.712368] (-) TimerEvent: {}
+[2.812606] (-) TimerEvent: {}
+[2.894159] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[2.905988] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.906779] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.907080] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.912719] (-) TimerEvent: {}
+[2.952876] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[2.953143] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[2.953289] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[2.953417] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[2.953520] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[2.954558] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[2.954716] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[2.955094] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[3.012943] (-) TimerEvent: {}
+[3.071745] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[3.109516] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[3.113035] (-) TimerEvent: {}
+[3.119952] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.120180] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.120301] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.213142] (-) TimerEvent: {}
+[3.313480] (-) TimerEvent: {}
+[3.339024] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.339248] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.339380] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.340368] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.340957] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.342024] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.342138] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.342237] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.413596] (-) TimerEvent: {}
+[3.507051] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[3.507979] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[3.508787] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.509467] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[3.513730] (-) TimerEvent: {}
+[3.614247] (-) TimerEvent: {}
+[3.714796] (-) TimerEvent: {}
+[3.719723] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.726424] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.727156] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.735769] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.741813] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.747836] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.755722] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.794337] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.804506] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.806865] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.814905] (-) TimerEvent: {}
+[3.817969] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.835609] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[3.855836] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.873738] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.885934] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[3.915080] (-) TimerEvent: {}
+[3.928701] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.972345] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[4.007731] (turtlesim) StdoutLine: {'line': b'[ 46%] Built target turtlesim__rosidl_typesupport_c\n'}
+[4.015206] (-) TimerEvent: {}
+[4.017562] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.046979] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.052247] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.055396] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[4.059346] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.083644] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[4.099397] (turtlesim) StdoutLine: {'line': b'[ 52%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[4.114247] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[4.115285] (-) TimerEvent: {}
+[4.181072] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[4.195553] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[4.215434] (-) TimerEvent: {}
+[4.239899] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[4.255323] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[4.255655] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[4.256648] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[4.311666] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[4.316066] (-) TimerEvent: {}
+[4.335441] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[4.335833] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[4.347296] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[4.347688] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[4.357415] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.379113] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[4.402998] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.416890] (-) TimerEvent: {}
+[4.424718] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[4.461468] (turtlesim) StdoutLine: {'line': b'[ 69%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[4.461789] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[4.485288] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[4.493265] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[4.512527] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[4.517005] (-) TimerEvent: {}
+[4.527393] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[4.562345] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[4.590249] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[4.617135] (-) TimerEvent: {}
+[4.634314] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[4.639710] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[4.663638] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[4.700681] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.717247] (-) TimerEvent: {}
+[4.817599] (-) TimerEvent: {}
+[4.838365] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[4.917729] (-) TimerEvent: {}
+[5.018098] (-) TimerEvent: {}
+[5.099737] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.118210] (-) TimerEvent: {}
+[5.183136] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[5.207020] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[5.218343] (-) TimerEvent: {}
+[5.230098] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.318465] (-) TimerEvent: {}
+[5.418820] (-) TimerEvent: {}
+[5.519136] (-) TimerEvent: {}
+[5.619467] (-) TimerEvent: {}
+[5.719866] (-) TimerEvent: {}
+[5.820218] (-) TimerEvent: {}
+[5.920590] (-) TimerEvent: {}
+[6.020906] (-) TimerEvent: {}
+[6.121228] (-) TimerEvent: {}
+[6.221553] (-) TimerEvent: {}
+[6.321877] (-) TimerEvent: {}
+[6.422191] (-) TimerEvent: {}
+[6.522494] (-) TimerEvent: {}
+[6.577437] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[6.601423] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[6.601871] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[6.602065] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[6.602181] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[6.602276] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[6.602420] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[6.602513] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[6.602730] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[6.622608] (-) TimerEvent: {}
+[6.722991] (-) TimerEvent: {}
+[6.779368] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[6.823111] (-) TimerEvent: {}
+[6.831763] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[6.855144] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.861100] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.861479] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.923234] (-) TimerEvent: {}
+[7.023584] (-) TimerEvent: {}
+[7.033213] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.074246] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[7.074517] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.084868] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.116510] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.123698] (-) TimerEvent: {}
+[7.140418] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[7.223803] (-) TimerEvent: {}
+[7.324119] (-) TimerEvent: {}
+[7.424453] (-) TimerEvent: {}
+[7.524745] (-) TimerEvent: {}
+[7.625036] (-) TimerEvent: {}
+[7.725323] (-) TimerEvent: {}
+[7.825600] (-) TimerEvent: {}
+[7.925892] (-) TimerEvent: {}
+[8.026173] (-) TimerEvent: {}
+[8.126477] (-) TimerEvent: {}
+[8.226776] (-) TimerEvent: {}
+[8.327060] (-) TimerEvent: {}
+[8.427358] (-) TimerEvent: {}
+[8.527699] (-) TimerEvent: {}
+[8.628057] (-) TimerEvent: {}
+[8.728363] (-) TimerEvent: {}
+[8.828634] (-) TimerEvent: {}
+[8.928941] (-) TimerEvent: {}
+[9.029259] (-) TimerEvent: {}
+[9.129588] (-) TimerEvent: {}
+[9.229969] (-) TimerEvent: {}
+[9.330285] (-) TimerEvent: {}
+[9.430692] (-) TimerEvent: {}
+[9.531008] (-) TimerEvent: {}
+[9.631318] (-) TimerEvent: {}
+[9.731627] (-) TimerEvent: {}
+[9.831894] (-) TimerEvent: {}
+[9.932172] (-) TimerEvent: {}
+[10.000427] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[10.032283] (-) TimerEvent: {}
+[10.132570] (-) TimerEvent: {}
+[10.231579] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[10.232637] (-) TimerEvent: {}
+[10.332865] (-) TimerEvent: {}
+[10.433160] (-) TimerEvent: {}
+[10.533467] (-) TimerEvent: {}
+[10.633817] (-) TimerEvent: {}
+[10.734120] (-) TimerEvent: {}
+[10.834400] (-) TimerEvent: {}
+[10.934695] (-) TimerEvent: {}
+[11.035055] (-) TimerEvent: {}
+[11.135338] (-) TimerEvent: {}
+[11.235647] (-) TimerEvent: {}
+[11.335976] (-) TimerEvent: {}
+[11.436290] (-) TimerEvent: {}
+[11.536563] (-) TimerEvent: {}
+[11.636835] (-) TimerEvent: {}
+[11.737116] (-) TimerEvent: {}
+[11.837393] (-) TimerEvent: {}
+[11.937680] (-) TimerEvent: {}
+[12.037970] (-) TimerEvent: {}
+[12.138251] (-) TimerEvent: {}
+[12.199426] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[12.238360] (-) TimerEvent: {}
+[12.338653] (-) TimerEvent: {}
+[12.438931] (-) TimerEvent: {}
+[12.539209] (-) TimerEvent: {}
+[12.539886] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target mimic\n'}
+[12.599051] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[12.639322] (-) TimerEvent: {}
+[12.739578] (-) TimerEvent: {}
+[12.839878] (-) TimerEvent: {}
+[12.940162] (-) TimerEvent: {}
+[12.974564] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[13.040267] (-) TimerEvent: {}
+[13.140539] (-) TimerEvent: {}
+[13.240809] (-) TimerEvent: {}
+[13.341085] (-) TimerEvent: {}
+[13.441357] (-) TimerEvent: {}
+[13.541625] (-) TimerEvent: {}
+[13.641896] (-) TimerEvent: {}
+[13.742165] (-) TimerEvent: {}
+[13.842453] (-) TimerEvent: {}
+[13.942737] (-) TimerEvent: {}
+[14.043038] (-) TimerEvent: {}
+[14.143335] (-) TimerEvent: {}
+[14.243614] (-) TimerEvent: {}
+[14.343890] (-) TimerEvent: {}
+[14.444181] (-) TimerEvent: {}
+[14.544508] (-) TimerEvent: {}
+[14.644775] (-) TimerEvent: {}
+[14.745046] (-) TimerEvent: {}
+[14.845333] (-) TimerEvent: {}
+[14.945617] (-) TimerEvent: {}
+[15.045921] (-) TimerEvent: {}
+[15.146235] (-) TimerEvent: {}
+[15.246538] (-) TimerEvent: {}
+[15.266229] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[15.346673] (-) TimerEvent: {}
+[15.447051] (-) TimerEvent: {}
+[15.547386] (-) TimerEvent: {}
+[15.647735] (-) TimerEvent: {}
+[15.748057] (-) TimerEvent: {}
+[15.848383] (-) TimerEvent: {}
+[15.948743] (-) TimerEvent: {}
+[16.049064] (-) TimerEvent: {}
+[16.149384] (-) TimerEvent: {}
+[16.249686] (-) TimerEvent: {}
+[16.350000] (-) TimerEvent: {}
+[16.450281] (-) TimerEvent: {}
+[16.550581] (-) TimerEvent: {}
+[16.650869] (-) TimerEvent: {}
+[16.751159] (-) TimerEvent: {}
+[16.851500] (-) TimerEvent: {}
+[16.943026] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[16.951556] (-) TimerEvent: {}
+[16.957138] (turtlesim) CommandEnded: {'returncode': 0}
+[17.051644] (-) TimerEvent: {}
+[17.151901] (-) TimerEvent: {}
+[17.169098] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[17.170237] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunny/catkin_ws/build/turtlesim'], 'cwd': '/home/sunny/catkin_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'sunny'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunny'), ('OLDPWD', '/home/sunny/.ros/log/2023-12-09-10-57-40-341576-sunny-Legion-5-15ACH6H-41611'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1701'), ('SYSTEMD_EXEC_PID', '2167'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3147'), ('COLCON_PREFIX_PATH', '/home/sunny/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunny'), ('JOURNAL_STREAM', '8:39054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sunny'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sunny/.fzf/bin'), ('SESSION_MANAGER', 'local/sunny-Legion-5-15ACH6H:@/tmp/.ICE-unix/2139,unix/sunny-Legion-5-15ACH6H:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '783bf2287a32478db0f660f8e3084d20'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4e1e8df4-e0e5-4ca4-86d8-0ea44e4596c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sunny/catkin_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/beluga_simulator:/opt/ros/humble')]), 'shell': False}
+[17.177304] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.177513] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[17.177789] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[17.177937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[17.178085] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[17.178224] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[17.178357] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[17.178453] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[17.178525] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[17.178626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[17.178700] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[17.178769] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[17.178885] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[17.178995] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[17.179125] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[17.179235] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[17.179345] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[17.179455] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[17.179611] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[17.179719] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[17.179859] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[17.179975] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[17.180108] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[17.180214] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[17.180340] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[17.180469] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[17.180604] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[17.180715] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[17.180822] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[17.180929] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[17.181032] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[17.181108] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[17.181216] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[17.181302] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[17.181408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[17.181529] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[17.181720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[17.181892] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[17.181976] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[17.182049] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[17.182150] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[17.182265] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[17.182378] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[17.182494] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[17.182612] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[17.182727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[17.182843] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[17.182951] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.183059] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[17.183165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[17.183364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[17.183517] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[17.183711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[17.184219] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[17.184313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[17.184392] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[17.184467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[17.184534] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[17.184592] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[17.184690] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[17.184780] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[17.184844] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[17.184940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[17.185006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[17.185070] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[17.185134] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[17.185206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[17.185292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[17.185355] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[17.185434] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.185578] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[17.185990] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.186052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[17.186147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[17.186206] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[17.186277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[17.186334] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[17.186414] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[17.186509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[17.186626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[17.186738] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[17.186864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[17.186978] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[17.187105] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[17.187225] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[17.187340] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[17.187461] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[17.187616] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[17.187770] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[17.187923] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[17.188039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[17.188159] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[17.188267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[17.188379] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[17.188486] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[17.188588] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[17.188687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[17.188747] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[17.188827] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[17.188971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[17.189096] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[17.189194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[17.189306] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[17.189415] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[17.189529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[17.189636] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[17.189721] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[17.189784] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[17.189845] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[17.189939] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[17.190054] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[17.190189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[17.190308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[17.190371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[17.190439] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.190496] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.190578] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.190705] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.190851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[17.190967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.191099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[17.191218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[17.191284] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.191357] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[17.191444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[17.191607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[17.191679] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.191745] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.191850] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[17.191913] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.191988] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.192512] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.192600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[17.192689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[17.192750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[17.192822] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[17.192881] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[17.192963] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[17.193061] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[17.193178] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[17.193325] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[17.193440] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[17.193555] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[17.193685] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[17.193832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[17.193936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[17.194068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[17.194161] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[17.194271] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[17.194378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[17.194456] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.194538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[17.194657] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[17.194734] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[17.194835] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[17.194946] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[17.195030] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[17.195463] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.195584] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[17.195952] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[17.196076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[17.196157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[17.196220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[17.196298] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.196411] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[17.196488] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[17.196596] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.196690] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[17.196775] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.196913] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[17.197058] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[17.197190] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.197318] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.197429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[17.197547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[17.197612] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[17.197702] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.197800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[17.197910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[17.197969] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[17.198052] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.198148] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.198240] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[17.198382] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[17.198923] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.199022] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[17.199503] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[17.199606] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[17.199762] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[17.199915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[17.200087] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[17.200203] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[17.200311] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[17.200419] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[17.200551] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[17.200653] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[17.200745] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[17.200834] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[17.200955] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[17.201082] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[17.201198] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[17.201312] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[17.201432] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[17.201548] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[17.201673] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[17.201797] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[17.201917] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[17.202043] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[17.202168] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.202430] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.202633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[17.202726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[17.202827] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[17.202997] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[17.203147] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.203354] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[17.203450] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[17.203555] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[17.203674] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[17.203782] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[17.203901] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[17.204017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.204271] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[17.204523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[17.204747] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.242980] (turtlesim) StdoutLine: {'line': b"Listing '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[17.243163] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[17.243247] (turtlesim) StdoutLine: {'line': b"Listing '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[17.243319] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[17.243389] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[17.243456] (turtlesim) StdoutLine: {'line': b"Listing '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[17.243548] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[17.243623] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[17.243707] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[17.243777] (turtlesim) StdoutLine: {'line': b"Listing '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[17.243842] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[17.243907] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[17.243970] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[17.244033] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[17.244096] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[17.244158] (turtlesim) StdoutLine: {'line': b"Compiling '/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[17.247545] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.248006] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.248238] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.248635] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.248822] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.249203] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.249313] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[17.249756] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[17.249856] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[17.250032] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[17.250165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[17.250336] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[17.250468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[17.250603] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[17.250742] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[17.250872] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[17.251005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[17.251137] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[17.251272] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[17.251409] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[17.251571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[17.251711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[17.251834] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[17.251893] (-) TimerEvent: {}
+[17.252022] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[17.252125] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[17.252233] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[17.252366] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[17.252497] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[17.252628] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[17.252768] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[17.252899] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[17.253033] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[17.253169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[17.253305] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[17.253499] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[17.267260] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[17.267415] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[17.270136] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[17.270293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[17.276986] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[17.277147] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[17.283009] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/sunny/catkin_ws/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[17.283142] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images\n'}
+[17.283284] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[17.283382] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[17.283460] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[17.283631] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[17.283718] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[17.283869] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[17.283976] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[17.284062] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[17.284198] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[17.284293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/launch\n'}
+[17.284418] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[17.284549] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[17.284650] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[17.284763] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[17.284905] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[17.285060] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[17.285201] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[17.285328] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[17.285454] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[17.285598] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[17.285730] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[17.285889] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[17.286064] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[17.286242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[17.286394] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.286540] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.286685] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.286830] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[17.286974] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.287126] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.287282] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.287432] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.287588] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[17.287737] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.287892] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.288042] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.288181] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[17.288338] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.288499] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[17.288650] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.288787] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[17.288922] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.289067] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.289204] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.289346] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.289485] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.289622] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.289757] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[17.289871] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[17.290009] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[17.292374] (turtlesim) CommandEnded: {'returncode': 0}
+[17.351987] (-) TimerEvent: {}
+[17.452209] (-) TimerEvent: {}
+[17.552451] (-) TimerEvent: {}
+[17.627095] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[17.627780] (-) EventReactorShutdown: {}

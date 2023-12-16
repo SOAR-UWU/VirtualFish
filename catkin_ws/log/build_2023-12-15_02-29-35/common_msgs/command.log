@@ -1,0 +1,4 @@
+Invoking command in '/home/sunny/catkin_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/common_msgs -- -j16 -l16
+Invoked command in '/home/sunny/catkin_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/common_msgs -- -j16 -l16
+Invoking command in '/home/sunny/catkin_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/common_msgs
+Invoked command in '/home/sunny/catkin_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/common_msgs

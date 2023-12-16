@@ -1,0 +1,104 @@
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunny/catkin_ws/build/uuv_assistants
+[35m[1mConsolidate compiler generated dependencies of target uuv_message_to_tf[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uuv_message_to_tf.dir/src/message_to_tf.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_tf_quaternion
+running egg_info
+writing tf_quaternion.egg-info/PKG-INFO
+writing dependency_links to tf_quaternion.egg-info/dependency_links.txt
+writing top-level names to tf_quaternion.egg-info/top_level.txt
+reading manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+writing manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_tf_quaternion_egg
+[100%] [32m[1mLinking CXX executable uuv_message_to_tf[0m
+[100%] Built target uuv_message_to_tf
+-- Install configuration: ""
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/pythonpath.sh
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/pythonpath.dsv
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/top_level.txt
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion/__init__.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion/transformations.py
+Listing '/home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion'...
+Compiling '/home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion/__init__.py'...
+Compiling '/home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion/transformations.py'...
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_body_sname.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/unpause_simulation.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_world_ned_frame.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/set_simulation_timer.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/message_to_tf.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_footprints.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_vehicle_footprint.launch
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch/upload.launch.template
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/robots
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/robots/default.xacro.template
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/meshes
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/meshes/README.md
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/snippets.xacro.template
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/base.xacro.template
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/gazebo.xacro.template
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/sensors.xacro.template
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/actuators.xacro.template
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/position_hold_launch.xml
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/thruster_manager_launch.xml
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/inertial.yaml
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/TAM.yaml
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/pos_pid_control.yaml
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/thruster_manager.yaml
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/vel_pid_control.yaml
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch/start_thruster_manager.launch.template
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/config
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/config/thruster_manager.yaml.template
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/uuv_message_to_tf
+-- Set runtime path of "/home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/uuv_message_to_tf" to ""
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/publish_footprints.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/set_simulation_timer.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/publish_world_models.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/publish_vehicle_footprint.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/unpause_simulation.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/create_new_robot_model
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/create_thruster_manager_configuration
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/create_control_package
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/ament_index/resource_index/package_run_dependencies/uuv_assistants
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/ament_index/resource_index/parent_prefix_path/uuv_assistants
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/ament_prefix_path.sh
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/path.sh
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/path.dsv
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.bash
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.sh
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.zsh
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.dsv
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/package.dsv
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/ament_index/resource_index/packages/uuv_assistants
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/cmake/uuv_assistantsConfig.cmake
+-- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/cmake/uuv_assistantsConfig-version.cmake
+-- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/package.xml

@@ -1,0 +1,84 @@
+[0.723s] Invoking command in '/home/sunny/catkin_ws/build/uuv_assistants': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_assistants -- -j16 -l16
+[0.910s] [  0%] Built target ament_cmake_python_copy_tf_quaternion
+[0.911s] [100%] Built target uuv_message_to_tf
+[1.108s] running egg_info
+[1.109s] writing tf_quaternion.egg-info/PKG-INFO
+[1.109s] writing dependency_links to tf_quaternion.egg-info/dependency_links.txt
+[1.109s] writing top-level names to tf_quaternion.egg-info/top_level.txt
+[1.112s] reading manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+[1.113s] writing manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+[1.165s] [100%] Built target ament_cmake_python_build_tf_quaternion_egg
+[1.283s] Invoked command in '/home/sunny/catkin_ws/build/uuv_assistants' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_assistants -- -j16 -l16
+[1.373s] Invoking command in '/home/sunny/catkin_ws/build/uuv_assistants': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_assistants
+[1.390s] -- Install configuration: ""
+[1.390s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/pythonpath.sh
+[1.390s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/pythonpath.dsv
+[1.390s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info
+[1.390s] -- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/PKG-INFO
+[1.391s] -- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/SOURCES.txt
+[1.391s] -- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/top_level.txt
+[1.391s] -- Installing: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion-0.6.1-py3.10.egg-info/dependency_links.txt
+[1.391s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion
+[1.392s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion/__init__.py
+[1.393s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion/transformations.py
+[1.444s] Listing '/home/sunny/catkin_ws/install/uuv_assistants/local/lib/python3.10/dist-packages/tf_quaternion'...
+[1.451s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch
+[1.452s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_body_sname.launch
+[1.452s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/unpause_simulation.launch
+[1.452s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_world_ned_frame.launch
+[1.453s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/set_simulation_timer.launch
+[1.453s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/message_to_tf.launch
+[1.453s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_footprints.launch
+[1.453s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_vehicle_footprint.launch
+[1.453s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates
+[1.453s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch/upload.launch.template
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/robots
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/robots/default.xacro.template
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/meshes
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/meshes/README.md
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/snippets.xacro.template
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/base.xacro.template
+[1.454s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/gazebo.xacro.template
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/sensors.xacro.template
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/actuators.xacro.template
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/position_hold_launch.xml
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/thruster_manager_launch.xml
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/inertial.yaml
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/TAM.yaml
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/pos_pid_control.yaml
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/thruster_manager.yaml
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/control/vel_pid_control.yaml
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config
+[1.455s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch/start_thruster_manager.launch.template
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/config
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/config/thruster_manager.yaml.template
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/uuv_message_to_tf
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/publish_footprints.py
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/set_simulation_timer.py
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/publish_world_models.py
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/publish_vehicle_footprint.py
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/unpause_simulation.py
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/create_new_robot_model
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/create_thruster_manager_configuration
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/lib/uuv_assistants/create_control_package
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/ament_index/resource_index/package_run_dependencies/uuv_assistants
+[1.456s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/ament_index/resource_index/parent_prefix_path/uuv_assistants
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/ament_prefix_path.sh
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/ament_prefix_path.dsv
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/path.sh
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/environment/path.dsv
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.bash
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.sh
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.zsh
+[1.457s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/local_setup.dsv
+[1.457s] -- Installing: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/package.dsv
+[1.470s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/ament_index/resource_index/packages/uuv_assistants
+[1.470s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/cmake/uuv_assistantsConfig.cmake
+[1.470s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/cmake/uuv_assistantsConfig-version.cmake
+[1.470s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/package.xml
+[1.471s] Invoked command in '/home/sunny/catkin_ws/build/uuv_assistants' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_assistants

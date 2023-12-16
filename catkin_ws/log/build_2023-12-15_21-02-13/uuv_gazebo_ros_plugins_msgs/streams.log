@@ -1,0 +1,24 @@
+[0.749s] Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_ros_plugins_msgs -- -j16 -l16
+[0.876s] [  0%] Built target uuv_gazebo_ros_plugins_msgs__cpp
+[0.880s] [ 12%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_generator_c
+[0.932s] [ 12%] Built target ament_cmake_python_copy_uuv_gazebo_ros_plugins_msgs
+[1.016s] [ 24%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp
+[1.033s] [ 36%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_cpp
+[1.046s] [ 48%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c
+[1.061s] [ 60%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_cpp
+[1.062s] [ 72%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c
+[1.062s] [ 84%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c
+[1.153s] [ 84%] Built target uuv_gazebo_ros_plugins_msgs
+[1.210s] [ 85%] Built target uuv_gazebo_ros_plugins_msgs__py
+[1.277s] [ 96%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_generator_py
+[1.326s] [ 97%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.338s] [ 99%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext
+[1.344s] [100%] Built target uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c__pyext
+[1.487s] running egg_info
+[1.488s] writing uuv_gazebo_ros_plugins_msgs.egg-info/PKG-INFO
+[1.489s] writing dependency_links to uuv_gazebo_ros_plugins_msgs.egg-info/dependency_links.txt
+[1.489s] writing top-level names to uuv_gazebo_ros_plugins_msgs.egg-info/top_level.txt
+[1.503s] reading manifest file 'uuv_gazebo_ros_plugins_msgs.egg-info/SOURCES.txt'
+[1.503s] writing manifest file 'uuv_gazebo_ros_plugins_msgs.egg-info/SOURCES.txt'
+[1.562s] [100%] Built target ament_cmake_python_build_uuv_gazebo_ros_plugins_msgs_egg
+[1.833s] Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_ros_plugins_msgs -- -j16 -l16

@@ -1,0 +1,1 @@
+Invoking command in '/home/sunny/catkin_ws/build/bubbles_adapter': /usr/bin/cmake /home/sunny/catkin_ws/src/sauvc_simulator/bubbles_adapter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/bubbles_adapter

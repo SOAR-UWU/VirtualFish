@@ -1,0 +1,441 @@
+[0.424s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs
+[0.521s] -- The C compiler identification is GNU 11.4.0
+[0.625s] -- The CXX compiler identification is GNU 11.4.0
+[0.641s] -- Detecting C compiler ABI info
+[0.744s] -- Detecting C compiler ABI info - done
+[0.757s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.757s] -- Detecting C compile features
+[0.765s] -- Detecting C compile features - done
+[0.770s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.886s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.887s] -- Detecting CXX compile features
+[0.888s] -- Detecting CXX compile features - done
+[0.895s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.122s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.288s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.294s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.304s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.507s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.956s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.725s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.727s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.759s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.759s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.760s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.761s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.787s] -- Found PythonExtra: .so  
+[2.872s] -- Configuring done
+[2.947s] -- Generating done
+[2.950s] -- Build files have been written to: /home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs
+[2.988s] Invoked command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs
+[2.990s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs -- -j16 -l16
+[3.055s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.071s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.084s] [  2%] Built target ament_cmake_python_copy_uuv_world_ros_plugins_msgs
+[3.515s] running egg_info
+[3.515s] creating uuv_world_ros_plugins_msgs.egg-info
+[3.515s] writing uuv_world_ros_plugins_msgs.egg-info/PKG-INFO
+[3.515s] writing dependency_links to uuv_world_ros_plugins_msgs.egg-info/dependency_links.txt
+[3.515s] writing top-level names to uuv_world_ros_plugins_msgs.egg-info/top_level.txt
+[3.515s] writing manifest file 'uuv_world_ros_plugins_msgs.egg-info/SOURCES.txt'
+[3.516s] reading manifest file 'uuv_world_ros_plugins_msgs.egg-info/SOURCES.txt'
+[3.516s] writing manifest file 'uuv_world_ros_plugins_msgs.egg-info/SOURCES.txt'
+[3.642s] [  2%] Built target ament_cmake_python_build_uuv_world_ros_plugins_msgs_egg
+[6.179s] [  2%] Built target uuv_world_ros_plugins_msgs__cpp
+[6.233s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.254s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.262s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.554s] [  6%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__functions.c.o[0m
+[6.585s] [  8%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__functions.c.o[0m
+[6.598s] [  9%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__functions.c.o[0m
+[6.604s] [ 10%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__functions.c.o[0m
+[6.648s] [ 11%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__functions.c.o[0m
+[6.648s] [ 12%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__functions.c.o[0m
+[6.773s] [ 13%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__functions.c.o[0m
+[6.796s] [ 14%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__functions.c.o[0m
+[7.054s] [ 16%] [32m[1mLinking C shared library libuuv_world_ros_plugins_msgs__rosidl_generator_c.so[0m
+[7.336s] [ 16%] Built target uuv_world_ros_plugins_msgs__rosidl_generator_c
+[7.411s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.425s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.441s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.383s] [ 20%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.cpp.o[0m
+[9.390s] [ 21%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.cpp.o[0m
+[9.414s] [ 22%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.cpp.o[0m
+[9.445s] [ 25%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.cpp.o[0m
+[9.446s] [ 25%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.cpp.o[0m
+[9.469s] [ 26%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.cpp.o[0m
+[9.597s] [ 27%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.cpp.o[0m
+[9.609s] [ 28%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.cpp.o[0m
+[9.765s] [ 29%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_current_model__type_support.cpp.o[0m
+[9.809s] [ 31%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/get_current_model__type_support.cpp.o[0m
+[9.813s] [ 32%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_current_velocity__type_support.cpp.o[0m
+[10.106s] [ 33%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_current_direction__type_support.cpp.o[0m
+[10.198s] [ 34%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_current_model__type_support.cpp.o[0m
+[10.227s] [ 35%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/get_current_model__type_support.cpp.o[0m
+[10.467s] [ 36%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_current_model__type_support.cpp.o[0m
+[10.497s] [ 37%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/get_current_model__type_support.cpp.o[0m
+[10.616s] [ 39%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_current_velocity__type_support.cpp.o[0m
+[10.672s] [ 40%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord__type_support.cpp.o[0m
+[10.682s] [ 41%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_current_direction__type_support.cpp.o[0m
+[10.767s] [ 42%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord__type_support.cpp.o[0m
+[10.794s] [ 43%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord__type_support.cpp.o[0m
+[10.838s] [ 44%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord__type_support.cpp.o[0m
+[10.867s] [ 45%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord__type_support.cpp.o[0m
+[10.959s] [ 47%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_current_velocity__type_support.cpp.o[0m
+[11.005s] [ 48%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord__type_support.cpp.o[0m
+[11.013s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_current_direction__type_support.cpp.o[0m
+[11.014s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord__type_support.cpp.o[0m
+[11.088s] [ 51%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_origin_spherical_coord__type_support.cpp.o[0m
+[11.165s] [ 52%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord__type_support.cpp.o[0m
+[11.174s] [ 54%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.c.o[0m
+[11.220s] [ 55%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_c.so[0m
+[11.363s] [ 56%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.c.o[0m
+[11.427s] [ 57%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.c.o[0m
+[11.561s] [ 58%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.c.o[0m
+[11.586s] [ 58%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_c
+[11.614s] [ 59%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.c.o[0m
+[11.617s] [ 60%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/get_origin_spherical_coord__type_support.cpp.o[0m
+[11.721s] [ 64%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.c.o[0m
+[11.721s] [ 64%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.729s] [ 64%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/transform_to_spherical_coord__type_support.cpp.o[0m
+[11.798s] [ 65%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.c.o[0m
+[11.844s] [ 66%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/transform_from_spherical_coord__type_support.cpp.o[0m
+[11.851s] [ 67%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.c.o[0m
+[12.153s] [ 68%] [32m[1mLinking C shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.380s] [ 68%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c
+[12.437s] [ 68%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp
+[12.497s] [ 70%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.so[0m
+[12.685s] [ 70%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp
+[12.923s] [ 71%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support_c.cpp.o[0m
+[12.960s] [ 72%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support_c.cpp.o[0m
+[12.974s] [ 73%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support_c.cpp.o[0m
+[12.984s] [ 74%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support_c.cpp.o[0m
+[12.996s] [ 75%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support_c.cpp.o[0m
+[13.021s] [ 77%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support_c.cpp.o[0m
+[13.031s] [ 78%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support_c.cpp.o[0m
+[13.042s] [ 79%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support_c.cpp.o[0m
+[13.325s] [ 80%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.781s] [ 80%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp
+[14.684s] [ 81%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.979s] [ 81%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c
+[15.129s] [ 81%] Built target uuv_world_ros_plugins_msgs
+[15.287s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.941s] [ 82%] Built target uuv_world_ros_plugins_msgs__py
+[21.089s] [ 83%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_get_current_model_s.c.o[0m
+[21.111s] [ 85%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_current_model_s.c.o[0m
+[21.114s] [ 86%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_current_velocity_s.c.o[0m
+[21.117s] [ 87%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_current_direction_s.c.o[0m
+[21.151s] [ 88%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_origin_spherical_coord_s.c.o[0m
+[21.189s] [ 89%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_get_origin_spherical_coord_s.c.o[0m
+[21.206s] [ 90%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_transform_to_spherical_coord_s.c.o[0m
+[21.211s] [ 91%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_transform_from_spherical_coord_s.c.o[0m
+[21.621s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/libuuv_world_ros_plugins_msgs__rosidl_generator_py.so[0m
+[21.834s] [ 93%] Built target uuv_world_ros_plugins_msgs__rosidl_generator_py
+[21.899s] [ 94%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.913s] [ 95%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[21.918s] [ 96%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.297s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.334s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.554s] [ 98%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext
+[22.562s] [ 98%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext
+[22.574s] [100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.733s] [100%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext
+[22.805s] Invoked command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs -- -j16 -l16
+[26.899s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs
+[26.933s] -- Install configuration: ""
+[26.934s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/rosidl_interfaces/uuv_world_ros_plugins_msgs
+[26.934s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs
+[26.934s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv
+[26.934s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord.h
+[26.934s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord.h
+[26.935s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail
+[26.935s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.h
+[26.935s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__functions.c
+[26.935s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__functions.c
+[26.935s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.h
+[26.936s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.h
+[26.936s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.h
+[26.936s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__functions.h
+[26.936s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__functions.h
+[26.936s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__struct.h
+[26.936s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.h
+[26.937s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__functions.c
+[26.937s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__functions.c
+[26.937s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__struct.h
+[26.937s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.h
+[26.937s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__functions.h
+[26.938s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__functions.h
+[26.938s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__functions.c
+[26.938s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__struct.h
+[26.938s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__functions.h
+[26.938s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__struct.h
+[26.938s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__struct.h
+[26.939s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.h
+[26.939s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__functions.h
+[26.939s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__functions.c
+[26.939s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.h
+[26.939s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__functions.c
+[26.939s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__functions.h
+[26.940s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__struct.h
+[26.940s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__struct.h
+[26.940s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__functions.c
+[26.940s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__struct.h
+[26.940s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__functions.h
+[26.940s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord.h
+[26.941s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/get_current_model.h
+[26.941s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_current_velocity.h
+[26.941s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_current_direction.h
+[26.941s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord.h
+[26.941s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_current_model.h
+[26.941s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg
+[26.942s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg/rosidl_generator_c__visibility_control.h
+[26.942s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/library_path.sh
+[26.942s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/library_path.dsv
+[26.942s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_generator_c.so
+[26.943s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_generator_c.so" to ""
+[26.943s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs
+[26.943s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv
+[26.943s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail
+[26.944s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_fastrtps_c.h
+[26.944s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[26.944s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_fastrtps_c.h
+[26.944s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_fastrtps_c.h
+[26.945s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_fastrtps_c.h
+[26.945s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[26.945s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[26.951s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[26.951s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg
+[26.951s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.951s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so
+[26.952s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.952s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs
+[26.952s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv
+[26.953s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord.hpp
+[26.953s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_current_direction.hpp
+[26.953s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord.hpp
+[26.953s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord.hpp
+[26.953s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail
+[26.954s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__traits.hpp
+[26.954s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__struct.hpp
+[26.954s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__traits.hpp
+[26.954s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__builder.hpp
+[26.954s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__traits.hpp
+[26.954s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__builder.hpp
+[26.954s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__builder.hpp
+[26.955s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__struct.hpp
+[26.955s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__builder.hpp
+[26.955s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__struct.hpp
+[26.955s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__traits.hpp
+[26.955s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__struct.hpp
+[26.955s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__builder.hpp
+[26.955s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__struct.hpp
+[26.956s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__struct.hpp
+[26.956s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__struct.hpp
+[26.956s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__builder.hpp
+[26.957s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__traits.hpp
+[26.957s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__traits.hpp
+[26.957s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__builder.hpp
+[26.957s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__traits.hpp
+[26.957s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__traits.hpp
+[26.957s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__builder.hpp
+[26.958s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__struct.hpp
+[26.958s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord.hpp
+[26.958s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_current_model.hpp
+[26.958s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/get_current_model.hpp
+[26.958s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/set_current_velocity.hpp
+[26.959s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs
+[26.959s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv
+[26.959s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail
+[26.959s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_fastrtps_cpp.hpp
+[26.959s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_fastrtps_cpp.hpp
+[26.960s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[26.960s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[26.960s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[26.960s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[26.960s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_fastrtps_cpp.hpp
+[26.960s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[26.960s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps
+[26.961s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg
+[26.961s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.961s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so
+[26.962s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs
+[26.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv
+[26.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail
+[26.962s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_introspection_c.h
+[26.964s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.c
+[26.964s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_introspection_c.h
+[26.964s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.c
+[26.965s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_introspection_c.h
+[26.965s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_introspection_c.h
+[26.966s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.c
+[26.966s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.c
+[26.966s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.c
+[26.966s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_introspection_c.h
+[26.966s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.c
+[26.966s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_introspection_c.h
+[26.966s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.c
+[26.967s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_introspection_c.h
+[26.967s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_introspection_c.h
+[26.967s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.c
+[26.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg
+[26.967s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.968s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.so
+[26.969s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.969s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_c.so
+[26.969s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_c.so" to ""
+[26.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs
+[26.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv
+[26.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail
+[26.970s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.cpp
+[26.970s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_introspection_cpp.hpp
+[26.970s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[26.970s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.cpp
+[26.971s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[26.971s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.cpp
+[26.971s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.cpp
+[26.971s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.cpp
+[26.972s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.cpp
+[26.972s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_introspection_cpp.hpp
+[26.972s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[26.972s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_introspection_cpp.hpp
+[26.973s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[26.973s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_introspection_cpp.hpp
+[26.973s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.cpp
+[26.973s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.cpp
+[26.974s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so
+[26.985s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[26.985s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.so
+[26.985s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.so" to ""
+[26.985s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/pythonpath.sh
+[26.985s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/pythonpath.dsv
+[26.985s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs-0.6.1-py3.10.egg-info
+[26.989s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs-0.6.1-py3.10.egg-info/PKG-INFO
+[26.990s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs-0.6.1-py3.10.egg-info/SOURCES.txt
+[26.990s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs-0.6.1-py3.10.egg-info/top_level.txt
+[26.990s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs-0.6.1-py3.10.egg-info/dependency_links.txt
+[26.990s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs
+[26.990s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/__init__.py
+[26.990s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/libuuv_world_ros_plugins_msgs__rosidl_generator_py.so
+[26.990s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv
+[26.991s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/__init__.py
+[26.991s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_transform_from_spherical_coord.py
+[26.991s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_origin_spherical_coord_s.c
+[26.991s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_velocity_s.c
+[26.991s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_model.py
+[26.991s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_get_current_model_s.c
+[26.991s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_transform_to_spherical_coord.py
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_transform_from_spherical_coord_s.c
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_transform_to_spherical_coord_s.c
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_origin_spherical_coord.py
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_model_s.c
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_direction.py
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_get_origin_spherical_coord.py
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_get_origin_spherical_coord_s.c
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_velocity.py
+[26.992s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_direction_s.c
+[26.993s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_get_current_model.py
+[26.993s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.993s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[26.993s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.994s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_c.c
+[26.994s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.994s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.159s] Listing '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs'...
+[27.160s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/__init__.py'...
+[27.160s] Listing '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv'...
+[27.160s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/__init__.py'...
+[27.160s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_get_current_model.py'...
+[27.160s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_get_origin_spherical_coord.py'...
+[27.160s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_direction.py'...
+[27.161s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_model.py'...
+[27.161s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_current_velocity.py'...
+[27.161s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_set_origin_spherical_coord.py'...
+[27.161s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_transform_from_spherical_coord.py'...
+[27.161s] Compiling '/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/srv/_transform_to_spherical_coord.py'...
+[27.195s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.196s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.196s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.196s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.197s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.198s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.198s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_generator_py.so
+[27.199s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_generator_py.so" to ""
+[27.200s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.idl
+[27.201s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel.idl
+[27.201s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.idl
+[27.202s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.idl
+[27.202s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.idl
+[27.203s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.idl
+[27.203s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord.idl
+[27.204s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord.idl
+[27.204s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.srv
+[27.205s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel_Request.msg
+[27.206s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel_Response.msg
+[27.206s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel.srv
+[27.207s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel_Request.msg
+[27.207s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel_Response.msg
+[27.208s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.srv
+[27.208s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity_Request.msg
+[27.209s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity_Response.msg
+[27.209s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.srv
+[27.210s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection_Request.msg
+[27.210s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection_Response.msg
+[27.211s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.srv
+[27.211s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord_Request.msg
+[27.212s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord_Response.msg
+[27.212s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.srv
+[27.213s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord_Request.msg
+[27.213s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord_Response.msg
+[27.213s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord.srv
+[27.214s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord_Request.msg
+[27.214s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord_Response.msg
+[27.215s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord.srv
+[27.220s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord_Request.msg
+[27.221s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord_Response.msg
+[27.221s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/package_run_dependencies/uuv_world_ros_plugins_msgs
+[27.222s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/parent_prefix_path/uuv_world_ros_plugins_msgs
+[27.222s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/ament_prefix_path.sh
+[27.222s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/ament_prefix_path.dsv
+[27.222s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/path.sh
+[27.223s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/path.dsv
+[27.223s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.bash
+[27.223s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.sh
+[27.223s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.zsh
+[27.224s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.dsv
+[27.224s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/package.dsv
+[27.224s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/packages/uuv_world_ros_plugins_msgs
+[27.225s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_generator_cExport.cmake
+[27.225s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_generator_cExport-noconfig.cmake
+[27.225s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[27.225s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.226s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_generator_cppExport.cmake
+[27.226s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.226s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.226s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cExport.cmake
+[27.227s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.227s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cExport.cmake
+[27.227s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[27.227s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[27.228s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.228s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cppExport.cmake
+[27.228s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[27.246s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_generator_pyExport.cmake
+[27.247s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/export_uuv_world_ros_plugins_msgs__rosidl_generator_pyExport-noconfig.cmake
+[27.249s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/rosidl_cmake-extras.cmake
+[27.250s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.251s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.252s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[27.253s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[27.254s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.256s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.257s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgsConfig.cmake
+[27.258s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgsConfig-version.cmake
+[27.259s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/package.xml
+[27.277s] Invoked command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs

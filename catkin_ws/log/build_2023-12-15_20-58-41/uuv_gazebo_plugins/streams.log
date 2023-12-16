@@ -1,0 +1,110 @@
+[0.704s] Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_plugins -- -j16 -l16
+[0.851s] [  7%] Built target uuv_dynamics
+[0.852s] [ 25%] Built target uuv_gazebo_plugins_msgs
+[0.888s] [ 39%] Built target uuv_underwater_object_plugin
+[0.896s] [ 46%] Built target gtest
+[0.917s] [ 57%] Built target umbilical_plugin
+[0.917s] [ 64%] Built target gtest_main
+[1.009s] [ 75%] Built target uuv_fin_plugin
+[1.036s] [ 82%] Built target UNIT_ThrusterDynamics_TEST
+[1.077s] [ 92%] Built target uuv_thruster_plugin
+[1.239s] [100%] Built target UNIT_ThrusterConversionFcn_TEST
+[1.427s] Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_plugins -- -j16 -l16
+[1.815s] Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_gazebo_plugins
+[1.826s] -- Install configuration: ""
+[1.827s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib/libuuv_gazebo_plugins_msgs.so
+[1.827s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib/libuuv_dynamics.so
+[1.827s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib/libuuv_fin_plugin.so
+[1.828s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib/libuuv_underwater_object_plugin.so
+[1.832s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib/libuuv_thruster_plugin.so
+[1.833s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib/libumbilical_plugin.so
+[1.833s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins
+[1.834s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.h
+[1.834s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/BuoyantObject.h
+[1.834s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Def.h
+[1.834s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UnderwaterObjectPlugin.h
+[1.836s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalPlugin.h
+[1.836s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.h
+[1.836s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.h
+[1.837s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.h
+[1.837s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterPlugin.h
+[1.837s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/HydrodynamicModel.h
+[1.837s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.h
+[1.837s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include
+[1.837s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins
+[1.838s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins
+[1.839s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Accel.pb.cc
+[1.839s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_environment_hooks
+[1.840s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_uninstall_target
+[1.841s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles
+[1.841s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_dynamics.dir
+[1.841s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_dynamics.dir/src
+[1.841s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_fin_plugin.dir
+[1.842s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_fin_plugin.dir/src
+[1.842s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uninstall.dir
+[1.842s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/umbilical_plugin.dir
+[1.843s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/umbilical_plugin.dir/src
+[1.843s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_thruster_plugin.dir
+[1.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_thruster_plugin.dir/src
+[1.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir
+[1.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src
+[1.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/CMakeTmp
+[1.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir
+[1.845s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o
+[1.845s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o.d
+[1.850s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o.d
+[1.850s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o
+[1.850s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_uninstall.dir
+[1.850s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterDynamics_TEST.dir
+[1.850s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterDynamics_TEST.dir/src
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.22.1
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.22.1/CompilerIdC
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.22.1/CompilerIdC/tmp
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.22.1/CompilerIdCXX
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.22.1/CompilerIdCXX/tmp
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterConversionFcn_TEST.dir
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterConversionFcn_TEST.dir/src
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_export_dependencies
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Double.pb.h
+[1.851s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest
+[1.852s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles
+[1.852s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest_main.dir
+[1.852s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest_main.dir/src
+[1.853s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest.dir
+[1.853s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest.dir/src
+[1.853s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/msgs
+[1.853s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Double.pb.cc
+[1.853s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Accel.pb.h
+[1.853s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_core
+[1.854s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_core/stamps
+[1.854s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_package_templates
+[1.854s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_export_libraries
+[1.854s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index
+[1.854s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share
+[1.854s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index
+[1.854s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index
+[1.855s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+[1.855s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/packages
+[1.855s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+[1.856s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_export_include_directories
+[1.856s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/library_path.sh
+[1.856s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/library_path.dsv
+[1.856s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/uuv_gazebo_plugins
+[1.856s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/uuv_gazebo_plugins
+[1.856s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/ament_prefix_path.sh
+[1.856s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/ament_prefix_path.dsv
+[1.857s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/path.sh
+[1.858s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/path.dsv
+[1.859s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.bash
+[1.859s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.sh
+[1.859s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.zsh
+[1.859s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.dsv
+[1.859s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/package.dsv
+[1.860s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/ament_index/resource_index/packages/uuv_gazebo_plugins
+[1.860s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.860s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.860s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[1.860s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/uuv_gazebo_pluginsConfig.cmake
+[1.860s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/uuv_gazebo_pluginsConfig-version.cmake
+[1.861s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/package.xml
+[1.867s] Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_gazebo_plugins

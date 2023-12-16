@@ -1,0 +1,129 @@
+[0.326s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_plugins -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_world_plugins
+[0.429s] -- The C compiler identification is GNU 11.4.0
+[0.524s] -- The CXX compiler identification is GNU 11.4.0
+[0.538s] -- Detecting C compiler ABI info
+[0.655s] -- Detecting C compiler ABI info - done
+[0.668s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.668s] -- Detecting C compile features
+[0.669s] -- Detecting C compile features - done
+[0.673s] -- Detecting CXX compiler ABI info
+[0.776s] -- Detecting CXX compiler ABI info - done
+[0.785s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.785s] -- Detecting CXX compile features
+[0.786s] -- Detecting CXX compile features - done
+[0.791s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.802s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.809s] -- Checking for module 'bullet>=2.82'
+[0.834s] --   Found bullet, version 3.05
+[1.024s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.097s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.126s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.352s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.403s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.403s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.420s] -- Searching for dependencies of ignition-math6
+[1.423s] -- Looking for OGRE...
+[1.424s] -- OGRE_PREFIX_WATCH changed.
+[1.430s] -- Checking for module 'OGRE'
+[1.471s] --   Found OGRE, version 1.9.0
+[1.527s] -- Found Ogre Ghadamon (1.9.0)
+[1.545s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.556s] -- Looking for OGRE_Paging...
+[1.565s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.565s] -- Looking for OGRE_Terrain...
+[1.574s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.574s] -- Looking for OGRE_Property...
+[1.579s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.580s] -- Looking for OGRE_RTShaderSystem...
+[1.586s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.586s] -- Looking for OGRE_Volume...
+[1.592s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.592s] -- Looking for OGRE_Overlay...
+[1.601s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.847s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.848s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.848s] -- Searching for dependencies of ignition-transport8
+[1.861s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.884s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.897s] -- Checking for module 'libzmq >= 4'
+[1.920s] --   Found libzmq , version 4.3.4
+[1.981s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.989s] -- Checking for module 'uuid'
+[2.009s] --   Found uuid, version 2.37.2
+[2.069s] -- Found UUID: TRUE  
+[2.073s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.074s] -- Searching for dependencies of ignition-msgs5
+[2.104s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.111s] -- Checking for module 'tinyxml2'
+[2.132s] --   Found tinyxml2, version 9.0.0
+[2.194s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.194s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.195s] -- Searching for dependencies of ignition-common3
+[2.195s] -- Looking for dlfcn.h - found
+[2.198s] -- Looking for libdl - found
+[2.199s] -- Found DL: TRUE  
+[2.213s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.219s] -- Searching for <ignition-common3> component [graphics]
+[2.219s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.220s] -- Searching for dependencies of ignition-common3-graphics
+[2.221s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.225s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.226s] -- Searching for dependencies of ignition-fuel_tools4
+[2.356s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.368s] -- Checking for module 'jsoncpp'
+[2.391s] --   Found jsoncpp, version 1.9.5
+[2.442s] -- Found JSONCPP: TRUE  
+[2.451s] -- Checking for module 'libzip'
+[2.475s] --   Found libzip, version 1.7.3
+[2.530s] -- Found ZIP: TRUE  
+[2.530s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.531s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.531s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.537s] -- Gazebo version: 11.10
+[2.537s] -- Checking for module 'tbb'
+[2.562s] --   Found tbb, version 2021.5.0
+[2.617s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.848s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.023s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.033s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.049s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.195s] -- Configuring done
+[4.240s] -- Generating done
+[4.243s] -- Build files have been written to: /home/sunny/catkin_ws/build/uuv_world_plugins
+[4.262s] Invoked command in '/home/sunny/catkin_ws/build/uuv_world_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_plugins -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_world_plugins
+[4.275s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_plugins -- -j16 -l16
+[4.598s] [ 33%] [32mBuilding CXX object CMakeFiles/uuv_underwater_current_plugin.dir/src/UnderwaterCurrentPlugin.cpp.o[0m
+[4.603s] [ 66%] [32mBuilding CXX object CMakeFiles/uuv_underwater_current_plugin.dir/src/GaussMarkovProcess.cpp.o[0m
+[33.947s] [100%] [32m[1mLinking CXX shared library libuuv_underwater_current_plugin.so[0m
+[34.473s] [100%] Built target uuv_underwater_current_plugin
+[34.490s] Invoked command in '/home/sunny/catkin_ws/build/uuv_world_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_plugins -- -j16 -l16
+[34.539s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_world_plugins
+[34.561s] -- Install configuration: ""
+[34.561s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/lib/libuuv_underwater_current_plugin.so
+[34.561s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_world_plugins/lib/libuuv_underwater_current_plugin.so" to ""
+[34.561s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/include/uuv_world_plugins
+[34.562s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/include/uuv_world_plugins/UnderwaterCurrentPlugin.h
+[34.562s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.h
+[34.566s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/library_path.sh
+[34.566s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/library_path.dsv
+[34.566s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/ament_index/resource_index/package_run_dependencies/uuv_world_plugins
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/ament_index/resource_index/parent_prefix_path/uuv_world_plugins
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/ament_prefix_path.sh
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/ament_prefix_path.dsv
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/path.sh
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/path.dsv
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.bash
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.sh
+[34.567s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.zsh
+[34.568s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.dsv
+[34.568s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/package.dsv
+[34.568s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/ament_index/resource_index/packages/uuv_world_plugins
+[34.568s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.568s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.568s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[34.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/uuv_world_pluginsConfig.cmake
+[34.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/uuv_world_pluginsConfig-version.cmake
+[34.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/package.xml
+[34.578s] Invoked command in '/home/sunny/catkin_ws/build/uuv_world_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_world_plugins

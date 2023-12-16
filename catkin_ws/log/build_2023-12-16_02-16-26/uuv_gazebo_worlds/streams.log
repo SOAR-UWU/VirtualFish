@@ -1,0 +1,5 @@
+[0.302s] Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_worlds -- -j16 -l16
+[0.334s] [0mCMake Error: The source directory "/home/sunny/catkin_ws/src/Plankton/uuv_gazebo_worlds" does not exist.
+[0.335s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.338s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.348s] Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_worlds -- -j16 -l16

@@ -1,0 +1,42 @@
+[0.323s] Invoking command in '/home/sunny/catkin_ws/build/uuv_trajectory_control': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_trajectory_control -- -j16 -l16
+[0.526s] Built target ament_cmake_python_copy_uuv_control_interfaces
+[0.550s] Built target ament_cmake_python_copy_uuv_trajectory_generator
+[0.558s] Built target ament_cmake_python_copy_uuv_waypoints
+[0.576s] Built target ament_cmake_python_copy_uuv_trajectory_generator.path_generator
+[0.579s] Built target ament_cmake_python_copy_utils
+[1.046s] running egg_info
+[1.050s] writing uuv_control_interfaces.egg-info/PKG-INFO
+[1.051s] writing dependency_links to uuv_control_interfaces.egg-info/dependency_links.txt
+[1.052s] writing top-level names to uuv_control_interfaces.egg-info/top_level.txt
+[1.059s] reading manifest file 'uuv_control_interfaces.egg-info/SOURCES.txt'
+[1.061s] writing manifest file 'uuv_control_interfaces.egg-info/SOURCES.txt'
+[1.100s] running egg_info
+[1.104s] writing uuv_trajectory_generator.egg-info/PKG-INFO
+[1.105s] writing dependency_links to uuv_trajectory_generator.egg-info/dependency_links.txt
+[1.107s] writing top-level names to uuv_trajectory_generator.egg-info/top_level.txt
+[1.116s] reading manifest file 'uuv_trajectory_generator.egg-info/SOURCES.txt'
+[1.119s] writing manifest file 'uuv_trajectory_generator.egg-info/SOURCES.txt'
+[1.177s] running egg_info
+[1.182s] writing uuv_waypoints.egg-info/PKG-INFO
+[1.183s] writing dependency_links to uuv_waypoints.egg-info/dependency_links.txt
+[1.184s] writing top-level names to uuv_waypoints.egg-info/top_level.txt
+[1.190s] reading manifest file 'uuv_waypoints.egg-info/SOURCES.txt'
+[1.191s] running egg_info
+[1.191s] writing manifest file 'uuv_waypoints.egg-info/SOURCES.txt'
+[1.192s] writing utils.egg-info/PKG-INFO
+[1.193s] writing dependency_links to utils.egg-info/dependency_links.txt
+[1.194s] writing top-level names to utils.egg-info/top_level.txt
+[1.199s] reading manifest file 'utils.egg-info/SOURCES.txt'
+[1.200s] writing manifest file 'utils.egg-info/SOURCES.txt'
+[1.249s] Built target ament_cmake_python_build_uuv_trajectory_generator_egg
+[1.250s] running egg_info
+[1.250s] Built target ament_cmake_python_build_uuv_control_interfaces_egg
+[1.265s] writing uuv_trajectory_generator.path_generator.egg-info/PKG-INFO
+[1.265s] writing dependency_links to uuv_trajectory_generator.path_generator.egg-info/dependency_links.txt
+[1.265s] writing top-level names to uuv_trajectory_generator.path_generator.egg-info/top_level.txt
+[1.268s] reading manifest file 'uuv_trajectory_generator.path_generator.egg-info/SOURCES.txt'
+[1.270s] writing manifest file 'uuv_trajectory_generator.path_generator.egg-info/SOURCES.txt'
+[1.345s] Built target ament_cmake_python_build_uuv_waypoints_egg
+[1.358s] Built target ament_cmake_python_build_utils_egg
+[1.423s] Built target ament_cmake_python_build_uuv_trajectory_generator.path_generator_egg
+[1.577s] Invoked command in '/home/sunny/catkin_ws/build/uuv_trajectory_control' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_trajectory_control -- -j16 -l16

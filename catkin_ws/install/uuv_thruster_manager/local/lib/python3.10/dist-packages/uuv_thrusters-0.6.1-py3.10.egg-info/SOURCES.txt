@@ -1,0 +1,11 @@
+setup.py
+uuv_thrusters/__init__.py
+uuv_thrusters/thruster_manager.py
+uuv_thrusters.egg-info/PKG-INFO
+uuv_thrusters.egg-info/SOURCES.txt
+uuv_thrusters.egg-info/dependency_links.txt
+uuv_thrusters.egg-info/top_level.txt
+uuv_thrusters/models/__init__.py
+uuv_thrusters/models/thruster.py
+uuv_thrusters/models/thruster_custom.py
+uuv_thrusters/models/thruster_proportional.py

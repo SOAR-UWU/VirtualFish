@@ -1,0 +1,85 @@
+[0.139s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_ros_plugins -- -j16 -l16
+[0.173s] -- Found uuv_world_plugins: 0.6.1 (/home/sunny/catkin_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake)
+[0.572s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.662s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.663s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.675s] -- Searching for dependencies of ignition-math6
+[0.678s] -- Looking for OGRE...
+[0.712s] -- Found Ogre Ghadamon (1.9.0)
+[0.712s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.746s] -- Looking for OGRE_Paging...
+[0.747s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.747s] -- Looking for OGRE_Terrain...
+[0.747s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.747s] -- Looking for OGRE_Property...
+[0.747s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.747s] -- Looking for OGRE_RTShaderSystem...
+[0.747s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.747s] -- Looking for OGRE_Volume...
+[0.747s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.747s] -- Looking for OGRE_Overlay...
+[0.748s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.394s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.395s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.395s] -- Searching for dependencies of ignition-transport8
+[1.487s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.550s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.550s] -- Checking for module 'libzmq >= 4'
+[1.641s] --   Found libzmq , version 4.3.4
+[2.043s] -- Checking for module 'uuid'
+[2.136s] --   Found uuid, version 2.37.2
+[2.412s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.415s] -- Searching for dependencies of ignition-msgs5
+[2.468s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.496s] -- Checking for module 'tinyxml2'
+[2.620s] --   Found tinyxml2, version 9.0.0
+[2.985s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.986s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.987s] -- Searching for dependencies of ignition-common3
+[2.987s] -- Looking for dlfcn.h - found
+[2.987s] -- Looking for libdl - found
+[3.030s] -- Searching for <ignition-common3> component [graphics]
+[3.030s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.031s] -- Searching for dependencies of ignition-common3-graphics
+[3.031s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.032s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.033s] -- Searching for dependencies of ignition-fuel_tools4
+[3.223s] -- Checking for module 'jsoncpp'
+[3.357s] --   Found jsoncpp, version 1.9.5
+[3.683s] -- Checking for module 'libzip'
+[3.833s] --   Found libzip, version 1.7.3
+[4.187s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.188s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.188s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.191s] -- Gazebo version: 11.10
+[4.284s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.297s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.313s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.059s] -- Found uuv_world_ros_plugins_msgs: 0.6.1 (/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake)
+[5.217s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[5.378s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.381s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.873s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.434s] -- Configuring done
+[6.598s] -- Generating done
+[6.613s] -- Build files have been written to: /home/sunny/catkin_ws/build/uuv_world_ros_plugins
+[6.797s] [ 25%] [32mBuilding CXX object CMakeFiles/uuv_underwater_current_ros_plugin.dir/src/UnderwaterCurrentROSPlugin.cpp.o[0m
+[6.803s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_sc_ros_interface_plugin.dir/src/SphericalCoordinatesROSInterfacePlugin.cpp.o[0m
+[11.381s] In file included from [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cpp:22[m[K:
+[11.381s] [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.h:38:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/node.hpp: No such file or directory
+[11.381s]    38 | #include [01;31m[K<gazebo_ros/node.hpp>[m[K
+[11.381s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.383s] compilation terminated.
+[11.383s] In file included from [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cpp:24[m[K:
+[11.383s] [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.h:35:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/node.hpp: No such file or directory
+[11.383s]    35 | #include [01;31m[K<gazebo_ros/node.hpp>[m[K
+[11.384s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.384s] compilation terminated.
+[11.451s] gmake[2]: *** [CMakeFiles/uuv_sc_ros_interface_plugin.dir/build.make:76: CMakeFiles/uuv_sc_ros_interface_plugin.dir/src/SphericalCoordinatesROSInterfacePlugin.cpp.o] Error 1
+[11.452s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/uuv_sc_ros_interface_plugin.dir/all] Error 2
+[11.452s] gmake[1]: *** Waiting for unfinished jobs....
+[11.452s] gmake[2]: *** [CMakeFiles/uuv_underwater_current_ros_plugin.dir/build.make:76: CMakeFiles/uuv_underwater_current_ros_plugin.dir/src/UnderwaterCurrentROSPlugin.cpp.o] Error 1
+[11.452s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uuv_underwater_current_ros_plugin.dir/all] Error 2
+[11.452s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,28 @@
+[0.120s] Invoking command in '/home/sunny/catkin_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/turtlesim -- -j16 -l16
+[0.283s] [  1%] Built target turtlesim__cpp
+[0.360s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.381s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.467s] [ 21%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.467s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.467s] [ 41%] Built target turtlesim__rosidl_typesupport_cpp
+[0.515s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.530s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.540s] [ 71%] Built target turtlesim__rosidl_typesupport_c
+[0.559s] [ 73%] Built target turtle_teleop_key
+[0.559s] [ 77%] Built target draw_square
+[0.560s] [ 77%] Built target mimic
+[0.561s] [ 83%] Built target turtlesim_node
+[0.598s] [ 83%] Built target turtlesim
+[0.673s] [ 84%] Built target turtlesim__py
+[0.749s] [ 93%] Built target turtlesim__rosidl_generator_py
+[0.835s] [ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.844s] [ 97%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.868s] [100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.900s] running egg_info
+[0.900s] writing turtlesim.egg-info/PKG-INFO
+[0.901s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.901s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.904s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.905s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.945s] [100%] Built target ament_cmake_python_build_turtlesim_egg
+[1.158s] Invoked command in '/home/sunny/catkin_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/turtlesim -- -j16 -l16

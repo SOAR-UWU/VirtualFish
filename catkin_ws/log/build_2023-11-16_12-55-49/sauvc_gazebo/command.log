@@ -1,0 +1,2 @@
+Invoking command in '/home/sunny/catkin_ws/build/sauvc_gazebo': /usr/bin/cmake /home/sunny/catkin_ws/src/sauvc_simulator/sauvc_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/sauvc_gazebo
+Invoked command in '/home/sunny/catkin_ws/build/sauvc_gazebo' returned '1': /usr/bin/cmake /home/sunny/catkin_ws/src/sauvc_simulator/sauvc_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/sauvc_gazebo

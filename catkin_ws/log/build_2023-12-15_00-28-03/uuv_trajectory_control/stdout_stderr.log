@@ -1,0 +1,40 @@
+Built target ament_cmake_python_copy_uuv_control_interfaces
+Built target ament_cmake_python_copy_uuv_trajectory_generator
+Built target ament_cmake_python_copy_uuv_waypoints
+Built target ament_cmake_python_copy_uuv_trajectory_generator.path_generator
+Built target ament_cmake_python_copy_utils
+running egg_info
+writing uuv_control_interfaces.egg-info/PKG-INFO
+writing dependency_links to uuv_control_interfaces.egg-info/dependency_links.txt
+writing top-level names to uuv_control_interfaces.egg-info/top_level.txt
+reading manifest file 'uuv_control_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'uuv_control_interfaces.egg-info/SOURCES.txt'
+running egg_info
+writing uuv_trajectory_generator.egg-info/PKG-INFO
+writing dependency_links to uuv_trajectory_generator.egg-info/dependency_links.txt
+writing top-level names to uuv_trajectory_generator.egg-info/top_level.txt
+reading manifest file 'uuv_trajectory_generator.egg-info/SOURCES.txt'
+writing manifest file 'uuv_trajectory_generator.egg-info/SOURCES.txt'
+running egg_info
+writing uuv_waypoints.egg-info/PKG-INFO
+writing dependency_links to uuv_waypoints.egg-info/dependency_links.txt
+writing top-level names to uuv_waypoints.egg-info/top_level.txt
+reading manifest file 'uuv_waypoints.egg-info/SOURCES.txt'
+running egg_info
+writing manifest file 'uuv_waypoints.egg-info/SOURCES.txt'
+writing utils.egg-info/PKG-INFO
+writing dependency_links to utils.egg-info/dependency_links.txt
+writing top-level names to utils.egg-info/top_level.txt
+reading manifest file 'utils.egg-info/SOURCES.txt'
+writing manifest file 'utils.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_uuv_trajectory_generator_egg
+running egg_info
+Built target ament_cmake_python_build_uuv_control_interfaces_egg
+writing uuv_trajectory_generator.path_generator.egg-info/PKG-INFO
+writing dependency_links to uuv_trajectory_generator.path_generator.egg-info/dependency_links.txt
+writing top-level names to uuv_trajectory_generator.path_generator.egg-info/top_level.txt
+reading manifest file 'uuv_trajectory_generator.path_generator.egg-info/SOURCES.txt'
+writing manifest file 'uuv_trajectory_generator.path_generator.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_uuv_waypoints_egg
+Built target ament_cmake_python_build_utils_egg
+Built target ament_cmake_python_build_uuv_trajectory_generator.path_generator_egg

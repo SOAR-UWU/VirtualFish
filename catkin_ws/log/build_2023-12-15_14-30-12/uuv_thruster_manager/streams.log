@@ -1,0 +1,260 @@
+[0.420s] Invoking command in '/home/sunny/catkin_ws/build/uuv_thruster_manager': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_thruster_manager -- -j16 -l16
+[0.484s] [ 10%] Built target uuv_thruster_manager__rosidl_generator_c
+[0.484s] [ 12%] Built target uuv_thruster_manager__cpp
+[0.491s] [ 12%] Built target ament_cmake_python_copy_uuv_thrusters
+[0.491s] [ 12%] Built target ament_cmake_python_copy_uuv_thrusters.models
+[0.494s] [ 12%] Built target ament_cmake_python_copy_uuv_thruster_manager
+[0.511s] [ 23%] Built target uuv_thruster_manager__rosidl_typesupport_c
+[0.511s] [ 34%] Built target uuv_thruster_manager__rosidl_typesupport_fastrtps_c
+[0.512s] [ 45%] Built target uuv_thruster_manager__rosidl_typesupport_introspection_c
+[0.517s] [ 56%] Built target uuv_thruster_manager__rosidl_typesupport_introspection_cpp
+[0.518s] [ 67%] Built target uuv_thruster_manager__rosidl_typesupport_cpp
+[0.518s] [ 78%] Built target uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp
+[0.544s] [ 78%] Built target uuv_thruster_manager
+[0.573s] [ 80%] Built target uuv_thruster_manager__py
+[0.604s] [ 89%] Built target uuv_thruster_manager__rosidl_generator_py
+[0.632s] [ 92%] Built target uuv_thruster_manager__rosidl_typesupport_fastrtps_c__pyext
+[0.640s] [ 96%] Built target uuv_thruster_manager__rosidl_typesupport_c__pyext
+[0.641s] [100%] Built target uuv_thruster_manager__rosidl_typesupport_introspection_c__pyext
+[0.753s] running egg_info
+[0.754s] writing uuv_thrusters.models.egg-info/PKG-INFO
+[0.754s] writing dependency_links to uuv_thrusters.models.egg-info/dependency_links.txt
+[0.755s] writing top-level names to uuv_thrusters.models.egg-info/top_level.txt
+[0.755s] reading manifest file 'uuv_thrusters.models.egg-info/SOURCES.txt'
+[0.757s] writing manifest file 'uuv_thrusters.models.egg-info/SOURCES.txt'
+[0.771s] running egg_info
+[0.772s] writing uuv_thrusters.egg-info/PKG-INFO
+[0.772s] writing dependency_links to uuv_thrusters.egg-info/dependency_links.txt
+[0.772s] writing top-level names to uuv_thrusters.egg-info/top_level.txt
+[0.776s] reading manifest file 'uuv_thrusters.egg-info/SOURCES.txt'
+[0.777s] writing manifest file 'uuv_thrusters.egg-info/SOURCES.txt'
+[0.777s] running egg_info
+[0.778s] writing uuv_thruster_manager.egg-info/PKG-INFO
+[0.778s] writing dependency_links to uuv_thruster_manager.egg-info/dependency_links.txt
+[0.779s] writing top-level names to uuv_thruster_manager.egg-info/top_level.txt
+[0.783s] reading manifest file 'uuv_thruster_manager.egg-info/SOURCES.txt'
+[0.783s] writing manifest file 'uuv_thruster_manager.egg-info/SOURCES.txt'
+[0.795s] [100%] Built target ament_cmake_python_build_uuv_thrusters.models_egg
+[0.823s] [100%] Built target ament_cmake_python_build_uuv_thrusters_egg
+[0.830s] [100%] Built target ament_cmake_python_build_uuv_thruster_manager_egg
+[0.889s] Invoked command in '/home/sunny/catkin_ws/build/uuv_thruster_manager' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_thruster_manager -- -j16 -l16
+[1.079s] Invoking command in '/home/sunny/catkin_ws/build/uuv_thruster_manager': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_thruster_manager
+[1.087s] -- Install configuration: ""
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/ament_index/resource_index/rosidl_interfaces/uuv_thruster_manager
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/get_thruster_manager_config.h
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/set_thruster_manager_config.h
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__functions.c
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__struct.h
+[1.088s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__struct.h
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.h
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__functions.h
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.h
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__functions.h
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__functions.c
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__functions.c
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.h
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__functions.c
+[1.089s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__struct.h
+[1.090s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__functions.h
+[1.090s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__functions.h
+[1.090s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__struct.h
+[1.090s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.h
+[1.090s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/get_thruster_curve.h
+[1.090s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/thruster_manager_info.h
+[1.090s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg/rosidl_generator_c__visibility_control.h
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/library_path.sh
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/library_path.dsv
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_generator_c.so
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_fastrtps_c.h
+[1.091s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_fastrtps_c.h
+[1.092s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_fastrtps_c.h
+[1.092s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_fastrtps_c.h
+[1.092s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg
+[1.092s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_fastrtps_c.so
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/get_thruster_curve.hpp
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/get_thruster_manager_config.hpp
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__struct.hpp
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__struct.hpp
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__builder.hpp
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__builder.hpp
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__struct.hpp
+[1.093s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__builder.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__builder.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__traits.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__traits.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__traits.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__struct.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__traits.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/thruster_manager_info.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/set_thruster_manager_config.hpp
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail
+[1.094s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.095s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_fastrtps_cpp.hpp
+[1.095s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_fastrtps_cpp.hpp
+[1.095s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_fastrtps_cpp.hpp
+[1.095s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/dds_fastrtps
+[1.095s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg
+[1.095s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.095s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.so
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_introspection_c.h
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.c
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_introspection_c.h
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_introspection_c.h
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.c
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.c
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_introspection_c.h
+[1.096s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.c
+[1.097s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg
+[1.097s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.097s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_introspection_c.so
+[1.097s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_c.so
+[1.097s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager
+[1.097s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv
+[1.097s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.cpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_introspection_cpp.hpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_introspection_cpp.hpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_introspection_cpp.hpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.cpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_introspection_cpp.hpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.cpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.cpp
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_introspection_cpp.so
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_cpp.so
+[1.098s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/pythonpath.sh
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/pythonpath.dsv
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager-0.6.1-py3.10.egg-info
+[1.099s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager-0.6.1-py3.10.egg-info/PKG-INFO
+[1.099s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager-0.6.1-py3.10.egg-info/SOURCES.txt
+[1.099s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager-0.6.1-py3.10.egg-info/top_level.txt
+[1.099s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager-0.6.1-py3.10.egg-info/dependency_links.txt
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/__init__.py
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/_uuv_thruster_manager_s.ep.rosidl_typesupport_introspection_c.c
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/__init__.py
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_get_thruster_manager_config_s.c
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_get_thruster_curve.py
+[1.099s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_set_thruster_manager_config_s.c
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_thruster_manager_info_s.c
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_thruster_manager_info.py
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_get_thruster_manager_config.py
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_set_thruster_manager_config.py
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv/_get_thruster_curve_s.c
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/_uuv_thruster_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/libuuv_thruster_manager__rosidl_generator_py.so
+[1.100s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.101s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/_uuv_thruster_manager_s.ep.rosidl_typesupport_c.c
+[1.124s] Listing '/home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager'...
+[1.124s] Listing '/home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/srv'...
+[1.128s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.129s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.129s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.130s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_generator_py.so
+[1.130s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve.idl
+[1.130s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo.idl
+[1.130s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig.idl
+[1.130s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig.idl
+[1.131s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve.srv
+[1.131s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve_Request.msg
+[1.131s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve_Response.msg
+[1.131s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo.srv
+[1.131s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo_Request.msg
+[1.131s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo_Response.msg
+[1.132s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig.srv
+[1.132s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig_Request.msg
+[1.132s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig_Response.msg
+[1.132s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig.srv
+[1.132s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig_Request.msg
+[1.132s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig_Response.msg
+[1.132s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters-0.6.1-py3.10.egg-info
+[1.132s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters-0.6.1-py3.10.egg-info/PKG-INFO
+[1.132s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters-0.6.1-py3.10.egg-info/SOURCES.txt
+[1.132s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters-0.6.1-py3.10.egg-info/top_level.txt
+[1.133s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters-0.6.1-py3.10.egg-info/dependency_links.txt
+[1.133s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters
+[1.134s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/__init__.py
+[1.134s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/models
+[1.134s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/models/__init__.py
+[1.134s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/models/thruster.py
+[1.134s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/models/thruster_proportional.py
+[1.134s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/models/thruster_custom.py
+[1.134s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/thruster_manager.py
+[1.162s] Listing '/home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters'...
+[1.162s] Listing '/home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters/models'...
+[1.165s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models-0.6.1-py3.10.egg-info
+[1.166s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models-0.6.1-py3.10.egg-info/PKG-INFO
+[1.166s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models-0.6.1-py3.10.egg-info/SOURCES.txt
+[1.166s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models-0.6.1-py3.10.egg-info/top_level.txt
+[1.166s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models-0.6.1-py3.10.egg-info/dependency_links.txt
+[1.166s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models
+[1.167s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models/__init__.py
+[1.167s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models/thruster.py
+[1.167s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models/thruster_proportional.py
+[1.167s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models/thruster_custom.py
+[1.197s] Listing '/home/sunny/catkin_ws/install/uuv_thruster_manager/local/lib/python3.10/dist-packages/uuv_thrusters.models'...
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/lib/uuv_thruster_manager/thruster_allocator.py
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/launch
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/launch/thruster_manager.launch
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config/rexrov
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config/rexrov/TAM.yaml
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config/rexrov/thruster_manager.yaml
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/ament_index/resource_index/package_run_dependencies/uuv_thruster_manager
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/ament_index/resource_index/parent_prefix_path/uuv_thruster_manager
+[1.202s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/ament_prefix_path.sh
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/ament_prefix_path.dsv
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/path.sh
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/path.dsv
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.bash
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.sh
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.zsh
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.dsv
+[1.203s] -- Installing: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/package.dsv
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/ament_index/resource_index/packages/uuv_thruster_manager
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_generator_cExport.cmake
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_generator_cExport-noconfig.cmake
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_typesupport_fastrtps_cExport.cmake
+[1.203s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_generator_cppExport.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cExport.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cExport.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cExport-noconfig.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cppExport.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cppExport.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cppExport-noconfig.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_generator_pyExport.cmake
+[1.204s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/export_uuv_thruster_manager__rosidl_generator_pyExport-noconfig.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/rosidl_cmake-extras.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_targets-extras.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_managerConfig.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_managerConfig-version.cmake
+[1.205s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/package.xml
+[1.208s] Invoked command in '/home/sunny/catkin_ws/build/uuv_thruster_manager' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_thruster_manager

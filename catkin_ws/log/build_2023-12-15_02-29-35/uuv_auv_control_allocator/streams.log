@@ -1,0 +1,169 @@
+[0.795s] Invoking command in '/home/sunny/catkin_ws/build/uuv_auv_control_allocator': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_auv_control_allocator -- -j16 -l16
+[0.862s] [  3%] Built target uuv_auv_control_allocator__cpp
+[0.863s] [ 12%] Built target uuv_auv_control_allocator__rosidl_generator_c
+[0.895s] [ 12%] Built target ament_cmake_python_copy_uuv_auv_actuator_interface
+[0.895s] [ 12%] Built target ament_cmake_python_copy_uuv_auv_control_allocator
+[0.899s] [ 32%] Built target uuv_auv_control_allocator__rosidl_typesupport_cpp
+[0.899s] [ 32%] Built target uuv_auv_control_allocator__rosidl_typesupport_introspection_c
+[0.902s] [ 51%] Built target uuv_auv_control_allocator__rosidl_typesupport_fastrtps_cpp
+[0.902s] [ 51%] Built target uuv_auv_control_allocator__rosidl_typesupport_introspection_cpp
+[0.904s] [ 61%] Built target uuv_auv_control_allocator__rosidl_typesupport_c
+[0.918s] [ 70%] Built target uuv_auv_control_allocator__rosidl_typesupport_fastrtps_c
+[0.950s] [ 70%] Built target uuv_auv_control_allocator
+[0.980s] [ 74%] Built target uuv_auv_control_allocator__py
+[1.010s] [ 80%] Built target uuv_auv_control_allocator__rosidl_generator_py
+[1.043s] [ 90%] Built target uuv_auv_control_allocator__rosidl_typesupport_introspection_c__pyext
+[1.043s] [ 93%] Built target uuv_auv_control_allocator__rosidl_typesupport_fastrtps_c__pyext
+[1.050s] [100%] Built target uuv_auv_control_allocator__rosidl_typesupport_c__pyext
+[1.134s] running egg_info
+[1.135s] writing uuv_auv_actuator_interface.egg-info/PKG-INFO
+[1.135s] writing dependency_links to uuv_auv_actuator_interface.egg-info/dependency_links.txt
+[1.135s] writing top-level names to uuv_auv_actuator_interface.egg-info/top_level.txt
+[1.137s] reading manifest file 'uuv_auv_actuator_interface.egg-info/SOURCES.txt'
+[1.138s] writing manifest file 'uuv_auv_actuator_interface.egg-info/SOURCES.txt'
+[1.177s] [100%] Built target ament_cmake_python_build_uuv_auv_actuator_interface_egg
+[1.236s] running egg_info
+[1.237s] writing uuv_auv_control_allocator.egg-info/PKG-INFO
+[1.237s] writing dependency_links to uuv_auv_control_allocator.egg-info/dependency_links.txt
+[1.238s] writing top-level names to uuv_auv_control_allocator.egg-info/top_level.txt
+[1.239s] reading manifest file 'uuv_auv_control_allocator.egg-info/SOURCES.txt'
+[1.240s] writing manifest file 'uuv_auv_control_allocator.egg-info/SOURCES.txt'
+[1.278s] [100%] Built target ament_cmake_python_build_uuv_auv_control_allocator_egg
+[1.579s] Invoked command in '/home/sunny/catkin_ws/build/uuv_auv_control_allocator' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_auv_control_allocator -- -j16 -l16
+[1.834s] Invoking command in '/home/sunny/catkin_ws/build/uuv_auv_control_allocator': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_auv_control_allocator
+[1.947s] -- Install configuration: ""
+[1.947s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/rosidl_interfaces/uuv_auv_control_allocator
+[1.947s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator
+[1.947s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg
+[1.948s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail
+[1.948s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__type_support.h
+[1.948s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__functions.c
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__struct.h
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__functions.h
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/rosidl_generator_c__visibility_control.h
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/auv_command.h
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/library_path.sh
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/library_path.dsv
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_generator_c.so
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg
+[1.949s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_fastrtps_c.h
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_fastrtps_c.so
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__traits.hpp
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__struct.hpp
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__builder.hpp
+[1.950s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/auv_command.hpp
+[1.961s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator
+[1.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg
+[1.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail
+[1.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/dds_fastrtps
+[1.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_fastrtps_cpp.so
+[1.962s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_introspection_c.h
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__type_support.c
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_introspection_c.so
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_c.so
+[1.963s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_introspection_cpp.hpp
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/uuv_auv_control_allocator/msg/detail/auv_command__type_support.cpp
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_introspection_cpp.so
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_cpp.so
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/pythonpath.sh
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/pythonpath.dsv
+[1.964s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator-0.6.1-py3.10.egg-info
+[1.964s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator-0.6.1-py3.10.egg-info/PKG-INFO
+[1.965s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator-0.6.1-py3.10.egg-info/SOURCES.txt
+[1.965s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator-0.6.1-py3.10.egg-info/top_level.txt
+[1.965s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator-0.6.1-py3.10.egg-info/dependency_links.txt
+[1.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator
+[1.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/__init__.py
+[1.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/libuuv_auv_control_allocator__rosidl_generator_py.so
+[1.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/_uuv_auv_control_allocator_s.ep.rosidl_typesupport_introspection_c.c
+[1.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/_uuv_auv_control_allocator_s.ep.rosidl_typesupport_c.c
+[1.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/_uuv_auv_control_allocator_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/msg
+[1.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/msg/__init__.py
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/msg/_auv_command.py
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/msg/_auv_command_s.c
+[1.967s] Listing '/home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator'...
+[1.967s] Listing '/home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/msg'...
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_generator_py.so
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/msg/AUVCommand.idl
+[1.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/msg/AUVCommand.msg
+[1.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface-0.6.1-py3.10.egg-info
+[1.968s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface-0.6.1-py3.10.egg-info/PKG-INFO
+[1.968s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface-0.6.1-py3.10.egg-info/SOURCES.txt
+[1.968s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface-0.6.1-py3.10.egg-info/top_level.txt
+[1.968s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface-0.6.1-py3.10.egg-info/dependency_links.txt
+[1.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface
+[1.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface/__init__.py
+[1.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface/actuator_manager.py
+[1.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface/fin_model.py
+[1.969s] Listing '/home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface'...
+[1.969s] Compiling '/home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface/actuator_manager.py'...
+[1.969s] ***   File "/home/sunny/catkin_ws/install/uuv_auv_control_allocator/local/lib/python3.10/dist-packages/uuv_auv_actuator_interface/actuator_manager.py", line 237
+[1.969s]     def build_topic_name(self, namespace, topic_prefix, id, topic_prefix):
+[1.969s]                                                             ^^^^^^^^^^^^
+[1.969s] SyntaxError: duplicate argument 'topic_prefix' in function definition
+[1.969s] 
+[1.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/launch
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/launch/start_control_allocator.launch
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib/uuv_auv_control_allocator/control_allocator
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/package_run_dependencies/uuv_auv_control_allocator
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/parent_prefix_path/uuv_auv_control_allocator
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/ament_prefix_path.sh
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/ament_prefix_path.dsv
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/path.sh
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/path.dsv
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.bash
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.sh
+[1.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.zsh
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.dsv
+[1.971s] -- Installing: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/package.dsv
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/packages/uuv_auv_control_allocator
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_generator_cExport.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_generator_cExport-noconfig.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_typesupport_fastrtps_cExport.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_generator_cppExport.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cExport.cmake
+[1.971s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.972s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cExport.cmake
+[1.972s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cExport-noconfig.cmake
+[1.972s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cppExport.cmake
+[1.972s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.972s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cppExport.cmake
+[1.972s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cppExport-noconfig.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_generator_pyExport.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/export_uuv_auv_control_allocator__rosidl_generator_pyExport-noconfig.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/rosidl_cmake-extras.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_libraries-extras.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_targets-extras.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.973s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocatorConfig.cmake
+[1.974s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocatorConfig-version.cmake
+[1.974s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/package.xml
+[2.116s] Invoked command in '/home/sunny/catkin_ws/build/uuv_auv_control_allocator' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_auv_control_allocator

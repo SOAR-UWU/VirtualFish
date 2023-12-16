@@ -1,0 +1,206 @@
+[0.352s] Invoking command in '/home/sunny/catkin_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/common_msgs -- -j16 -l16
+[0.373s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.821s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.316s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.337s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.337s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.373s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.385s] -- Added test 'lint_cmake' to check CMake code style
+[1.386s] -- Added test 'xmllint' to check XML markup files
+[1.388s] -- Configuring done
+[1.424s] -- Generating done
+[1.427s] -- Build files have been written to: /home/sunny/catkin_ws/build/common_msgs
+[1.456s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.465s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.475s] [  6%] Built target ament_cmake_python_copy_common_msgs
+[1.662s] [  6%] Built target common_msgs__cpp
+[1.673s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.673s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.674s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.701s] running egg_info
+[1.702s] writing common_msgs.egg-info/PKG-INFO
+[1.702s] writing dependency_links to common_msgs.egg-info/dependency_links.txt
+[1.702s] writing top-level names to common_msgs.egg-info/top_level.txt
+[1.704s] reading manifest file 'common_msgs.egg-info/SOURCES.txt'
+[1.704s] writing manifest file 'common_msgs.egg-info/SOURCES.txt'
+[1.720s] [ 19%] [32mBuilding C object CMakeFiles/common_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_msgs/msg/detail/float_stamped__functions.c.o[0m
+[1.735s] [ 19%] Built target ament_cmake_python_build_common_msgs_egg
+[1.770s] [ 22%] [32m[1mLinking C shared library libcommon_msgs__rosidl_generator_c.so[0m
+[1.808s] [ 22%] Built target common_msgs__rosidl_generator_c
+[1.820s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.820s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.820s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.852s] [ 35%] [32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_msgs/msg/float_stamped__type_support.cpp.o[0m
+[1.874s] [ 38%] [32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_msgs/msg/detail/float_stamped__type_support.cpp.o[0m
+[1.883s] [ 41%] [32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_msgs/msg/detail/dds_fastrtps/float_stamped__type_support.cpp.o[0m
+[2.004s] [ 45%] [32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_msgs/msg/float_stamped__type_support.cpp.o[0m
+[2.036s] [ 48%] [32m[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_c.so[0m
+[2.048s] [ 51%] [32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_msgs/msg/detail/float_stamped__type_support_c.cpp.o[0m
+[2.081s] [ 51%] Built target common_msgs__rosidl_typesupport_c
+[2.096s] [ 54%] [32m[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_cpp.so[0m
+[2.123s] [ 58%] [32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_msgs/msg/detail/float_stamped__type_support.c.o[0m
+[2.141s] [ 58%] Built target common_msgs__rosidl_typesupport_cpp
+[2.159s] [ 61%] [32m[1mLinking C shared library libcommon_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.199s] [ 61%] Built target common_msgs__rosidl_typesupport_introspection_c
+[2.225s] [ 64%] [32m[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.230s] [ 67%] [32m[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.298s] [ 67%] Built target common_msgs__rosidl_typesupport_introspection_cpp
+[2.309s] [ 67%] Built target common_msgs__rosidl_typesupport_fastrtps_cpp
+[2.353s] [ 70%] [32m[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.439s] [ 70%] Built target common_msgs__rosidl_typesupport_fastrtps_c
+[2.461s] [ 70%] Built target common_msgs
+[2.483s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.708s] [ 74%] Built target common_msgs__py
+[2.730s] [ 77%] [32mBuilding C object CMakeFiles/common_msgs__rosidl_generator_py.dir/rosidl_generator_py/common_msgs/msg/_float_stamped_s.c.o[0m
+[2.833s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/common_msgs/libcommon_msgs__rosidl_generator_py.so[0m
+[2.871s] [ 80%] Built target common_msgs__rosidl_generator_py
+[2.893s] [ 90%] [32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/common_msgs/_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.893s] [ 90%] [32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/common_msgs/_common_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.893s] [ 90%] [32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/common_msgs/_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.976s] [100%] [32m[1mLinking C shared library rosidl_generator_py/common_msgs/common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.976s] [100%] [32m[1mLinking C shared library rosidl_generator_py/common_msgs/common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.977s] [100%] [32m[1mLinking C shared library rosidl_generator_py/common_msgs/common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.013s] [100%] Built target common_msgs__rosidl_typesupport_c__pyext
+[3.014s] [100%] Built target common_msgs__rosidl_typesupport_introspection_c__pyext
+[3.014s] [100%] Built target common_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.027s] Invoked command in '/home/sunny/catkin_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/common_msgs -- -j16 -l16
+[3.093s] Invoking command in '/home/sunny/catkin_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/common_msgs
+[3.101s] -- Install configuration: ""
+[3.101s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/ament_index/resource_index/rosidl_interfaces/common_msgs
+[3.101s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs
+[3.101s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__functions.h
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__functions.c
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__type_support.h
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__struct.h
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/float_stamped.h
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/library_path.sh
+[3.102s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/library_path.dsv
+[3.103s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_generator_c.so
+[3.103s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_generator_c.so" to ""
+[3.103s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs
+[3.103s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg
+[3.103s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail
+[3.103s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__rosidl_typesupport_fastrtps_c.h
+[3.104s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.104s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_c.so
+[3.104s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.104s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs
+[3.104s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg
+[3.104s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.104s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail
+[3.104s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__type_support.c
+[3.104s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__rosidl_typesupport_introspection_c.h
+[3.105s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_c.so
+[3.105s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.105s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_c.so
+[3.105s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_c.so" to ""
+[3.105s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs
+[3.105s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg
+[3.105s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/float_stamped.hpp
+[3.105s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail
+[3.106s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__struct.hpp
+[3.106s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__builder.hpp
+[3.106s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__traits.hpp
+[3.106s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs
+[3.106s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg
+[3.106s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail
+[3.106s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.106s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/dds_fastrtps
+[3.106s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.106s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.107s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.107s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs
+[3.107s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg
+[3.107s] -- Up-to-date: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail
+[3.107s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__type_support.cpp
+[3.107s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/include/common_msgs/common_msgs/msg/detail/float_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.107s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_cpp.so
+[3.107s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.107s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_cpp.so
+[3.108s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_cpp.so" to ""
+[3.108s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/pythonpath.sh
+[3.108s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/pythonpath.dsv
+[3.108s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs-0.0.0-py3.10.egg-info
+[3.108s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.108s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/__init__.py
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/_common_msgs_s.ep.rosidl_typesupport_c.c
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.109s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/msg
+[3.110s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/msg/__init__.py
+[3.110s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/msg/_float_stamped.py
+[3.110s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/msg/_float_stamped_s.c
+[3.110s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.110s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.110s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/libcommon_msgs__rosidl_generator_py.so
+[3.137s] Listing '/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs'...
+[3.137s] Compiling '/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/__init__.py'...
+[3.137s] Listing '/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/msg'...
+[3.137s] Compiling '/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/msg/__init__.py'...
+[3.137s] Compiling '/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/msg/_float_stamped.py'...
+[3.140s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.140s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.140s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.140s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.141s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.141s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/local/lib/python3.10/dist-packages/common_msgs/common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.141s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_generator_py.so
+[3.142s] -- Set runtime path of "/home/sunny/catkin_ws/install/common_msgs/lib/libcommon_msgs__rosidl_generator_py.so" to ""
+[3.142s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/msg/FloatStamped.idl
+[3.142s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/msg/FloatStamped.msg
+[3.142s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/ament_index/resource_index/package_run_dependencies/common_msgs
+[3.142s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/ament_index/resource_index/parent_prefix_path/common_msgs
+[3.142s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/ament_prefix_path.sh
+[3.142s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/ament_prefix_path.dsv
+[3.143s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/path.sh
+[3.143s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/environment/path.dsv
+[3.143s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/local_setup.bash
+[3.143s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/local_setup.sh
+[3.143s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/local_setup.zsh
+[3.143s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/local_setup.dsv
+[3.143s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.dsv
+[3.144s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/ament_index/resource_index/packages/common_msgs
+[3.144s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_generator_cExport.cmake
+[3.144s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.144s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.144s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.144s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.144s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.145s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cExport.cmake
+[3.145s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.145s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_generator_cppExport.cmake
+[3.145s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.145s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.145s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.145s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.146s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cppExport.cmake
+[3.146s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.146s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_generator_pyExport.cmake
+[3.146s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/export_common_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.146s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/rosidl_cmake-extras.cmake
+[3.146s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.146s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.147s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.147s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.147s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.147s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.147s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgsConfig.cmake
+[3.147s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/cmake/common_msgsConfig-version.cmake
+[3.147s] -- Installing: /home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.xml
+[3.150s] Invoked command in '/home/sunny/catkin_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/common_msgs

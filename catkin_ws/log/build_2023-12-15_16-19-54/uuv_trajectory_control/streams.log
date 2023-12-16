@@ -1,0 +1,171 @@
+[0.223s] Invoking command in '/home/sunny/catkin_ws/build/uuv_trajectory_control': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_trajectory_control -- -j16 -l16
+[0.344s] Built target ament_cmake_python_copy_utils
+[0.344s] Built target ament_cmake_python_copy_uuv_control_interfaces
+[0.345s] Built target ament_cmake_python_copy_uuv_waypoints
+[0.345s] Built target ament_cmake_python_copy_uuv_trajectory_generator
+[0.345s] Built target ament_cmake_python_copy_uuv_trajectory_generator.path_generator
+[0.563s] running egg_info
+[0.564s] writing uuv_trajectory_generator.path_generator.egg-info/PKG-INFO
+[0.564s] writing dependency_links to uuv_trajectory_generator.path_generator.egg-info/dependency_links.txt
+[0.564s] writing top-level names to uuv_trajectory_generator.path_generator.egg-info/top_level.txt
+[0.565s] reading manifest file 'uuv_trajectory_generator.path_generator.egg-info/SOURCES.txt'
+[0.566s] writing manifest file 'uuv_trajectory_generator.path_generator.egg-info/SOURCES.txt'
+[0.569s] running egg_info
+[0.569s] writing utils.egg-info/PKG-INFO
+[0.570s] writing dependency_links to utils.egg-info/dependency_links.txt
+[0.570s] writing top-level names to utils.egg-info/top_level.txt
+[0.573s] reading manifest file 'utils.egg-info/SOURCES.txt'
+[0.573s] writing manifest file 'utils.egg-info/SOURCES.txt'
+[0.599s] running egg_info
+[0.600s] writing uuv_waypoints.egg-info/PKG-INFO
+[0.600s] writing dependency_links to uuv_waypoints.egg-info/dependency_links.txt
+[0.600s] writing top-level names to uuv_waypoints.egg-info/top_level.txt
+[0.601s] Built target ament_cmake_python_build_uuv_trajectory_generator.path_generator_egg
+[0.602s] reading manifest file 'uuv_waypoints.egg-info/SOURCES.txt'
+[0.602s] writing manifest file 'uuv_waypoints.egg-info/SOURCES.txt'
+[0.608s] Built target ament_cmake_python_build_utils_egg
+[0.613s] running egg_info
+[0.614s] writing uuv_trajectory_generator.egg-info/PKG-INFO
+[0.614s] writing dependency_links to uuv_trajectory_generator.egg-info/dependency_links.txt
+[0.615s] writing top-level names to uuv_trajectory_generator.egg-info/top_level.txt
+[0.618s] reading manifest file 'uuv_trajectory_generator.egg-info/SOURCES.txt'
+[0.618s] writing manifest file 'uuv_trajectory_generator.egg-info/SOURCES.txt'
+[0.634s] Built target ament_cmake_python_build_uuv_waypoints_egg
+[0.637s] running egg_info
+[0.638s] writing uuv_control_interfaces.egg-info/PKG-INFO
+[0.638s] writing dependency_links to uuv_control_interfaces.egg-info/dependency_links.txt
+[0.638s] writing top-level names to uuv_control_interfaces.egg-info/top_level.txt
+[0.641s] reading manifest file 'uuv_control_interfaces.egg-info/SOURCES.txt'
+[0.641s] writing manifest file 'uuv_control_interfaces.egg-info/SOURCES.txt'
+[0.658s] Built target ament_cmake_python_build_uuv_trajectory_generator_egg
+[0.669s] Built target ament_cmake_python_build_uuv_control_interfaces_egg
+[0.707s] Invoked command in '/home/sunny/catkin_ws/build/uuv_trajectory_control' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_trajectory_control -- -j16 -l16
+[0.749s] Invoking command in '/home/sunny/catkin_ws/build/uuv_trajectory_control': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_trajectory_control
+[0.757s] -- Install configuration: ""
+[0.757s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/pythonpath.sh
+[0.757s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/pythonpath.dsv
+[0.758s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces-0.6.1-py3.10.egg-info
+[0.758s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces-0.6.1-py3.10.egg-info/PKG-INFO
+[0.758s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces-0.6.1-py3.10.egg-info/SOURCES.txt
+[0.758s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces-0.6.1-py3.10.egg-info/top_level.txt
+[0.758s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces-0.6.1-py3.10.egg-info/dependency_links.txt
+[0.758s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces
+[0.758s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces/__init__.py
+[0.758s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces/dp_pid_controller_base.py
+[0.758s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces/dp_controller_base.py
+[0.759s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces/_log.py
+[0.759s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces/dp_controller_local_planner.py
+[0.759s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces/vehicle.py
+[0.759s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces/sym_vehicle.py
+[0.792s] Listing '/home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_control_interfaces'...
+[0.797s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator-0.6.1-py3.10.egg-info
+[0.797s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator-0.6.1-py3.10.egg-info/PKG-INFO
+[0.797s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator-0.6.1-py3.10.egg-info/SOURCES.txt
+[0.798s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator-0.6.1-py3.10.egg-info/top_level.txt
+[0.798s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator-0.6.1-py3.10.egg-info/dependency_links.txt
+[0.798s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator
+[0.798s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/__init__.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/trajectory_point.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/wp_trajectory_generator.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/trajectory_generator.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/_log.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/__init__.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/lipb_interpolator.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/cs_interpolator.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/helical_segment.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/dubins_interpolator.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/line_segment.py
+[0.799s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/bezier_curve.py
+[0.800s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/path_generator.py
+[0.800s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator/linear_interpolator.py
+[0.838s] Listing '/home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator'...
+[0.840s] Listing '/home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator/path_generator'...
+[0.843s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints-0.6.1-py3.10.egg-info
+[0.843s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints-0.6.1-py3.10.egg-info/PKG-INFO
+[0.843s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints-0.6.1-py3.10.egg-info/SOURCES.txt
+[0.844s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints-0.6.1-py3.10.egg-info/top_level.txt
+[0.844s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints-0.6.1-py3.10.egg-info/dependency_links.txt
+[0.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints
+[0.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints/__init__.py
+[0.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints/waypoint.py
+[0.844s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints/waypoint_set.py
+[0.877s] Listing '/home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_waypoints'...
+[0.882s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator-0.6.1-py3.10.egg-info
+[0.883s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator-0.6.1-py3.10.egg-info/PKG-INFO
+[0.883s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator-0.6.1-py3.10.egg-info/SOURCES.txt
+[0.883s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator-0.6.1-py3.10.egg-info/top_level.txt
+[0.883s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator-0.6.1-py3.10.egg-info/dependency_links.txt
+[0.883s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/__init__.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/lipb_interpolator.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/cs_interpolator.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/helical_segment.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/dubins_interpolator.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/line_segment.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/bezier_curve.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/path_generator.py
+[0.884s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator/linear_interpolator.py
+[0.919s] Listing '/home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/uuv_trajectory_generator.path_generator'...
+[0.928s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils-0.6.1-py3.10.egg-info
+[0.928s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils-0.6.1-py3.10.egg-info/PKG-INFO
+[0.928s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils-0.6.1-py3.10.egg-info/SOURCES.txt
+[0.928s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils-0.6.1-py3.10.egg-info/top_level.txt
+[0.928s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils-0.6.1-py3.10.egg-info/dependency_links.txt
+[0.928s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils
+[0.928s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils/__init__.py
+[0.928s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils/transform.py
+[0.960s] Listing '/home/sunny/catkin_ws/install/uuv_trajectory_control/local/lib/python3.10/dist-packages/utils'...
+[0.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_nl_pid_controller.py
+[0.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_mb_sm_controller.py
+[0.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_nmb_sm_controller.py
+[0.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_pid_controller.py
+[0.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_ua_pid_controller.py
+[0.965s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_mb_fl_controller.py
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/auv_geometric_tracking_controller.py
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/demo_wp_trajectory_generator.py
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_pd_grav_compensation_controller.py
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_sf_controller.py
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_pid_controller.launch
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_sf_controller.launch
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_nl_pid_controller.launch
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_nmb_sm_controller.launch
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_mb_sm_controller.launch
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_pd_grav_compensation_controller.launch
+[0.966s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_mb_fl_controller.launch
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/auv_geometric_tracking_controller.launch
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_ua_pid_controller.launch
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/models
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/models/rexrov
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/models/rexrov/params.yaml
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers
+[0.967s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/pid
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/pid/rexrov
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/pid/rexrov/params.yaml
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/mb_sm
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/mb_sm/rexrov
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/mb_sm/rexrov/params.yaml
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nl_pid
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nl_pid/rexrov
+[0.968s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nl_pid/rexrov/params.yaml
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nmb_sm
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nmb_sm/rexrov
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nmb_sm/rexrov/params.yaml
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/ament_index/resource_index/package_run_dependencies/uuv_trajectory_control
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/ament_index/resource_index/parent_prefix_path/uuv_trajectory_control
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/ament_prefix_path.sh
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/ament_prefix_path.dsv
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/path.sh
+[0.969s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/path.dsv
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.bash
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.sh
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.zsh
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.dsv
+[0.970s] -- Installing: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/package.dsv
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/ament_index/resource_index/packages/uuv_trajectory_control
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/cmake/uuv_trajectory_controlConfig.cmake
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/cmake/uuv_trajectory_controlConfig-version.cmake
+[0.970s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/package.xml
+[1.005s] Invoked command in '/home/sunny/catkin_ws/build/uuv_trajectory_control' returned '0': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/plankton:/home/sunny/catkin_ws/install/uuv_simulator:/home/sunny/catkin_ws/install/uuv_world_ros_plugins:/home/sunny/catkin_ws/install/uuv_tutorials:/home/sunny/catkin_ws/install/uuv_tutorial_dp_controller:/home/sunny/catkin_ws/install/uuv_tutorial_disturbances:/home/sunny/catkin_ws/install/uuv_control_utils:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_teleop:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_descriptions:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_trajectory_control

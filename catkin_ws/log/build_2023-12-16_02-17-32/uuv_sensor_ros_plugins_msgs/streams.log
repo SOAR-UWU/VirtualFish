@@ -1,0 +1,5 @@
+[0.531s] Invoking command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs -- -j16 -l16
+[0.561s] [0mCMake Error: The source directory "/home/sunny/catkin_ws/src/Plankton/uuv_sensor_plugins/uuv_sensor_ros_plugins_msgs" does not exist.
+[0.561s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.561s] gmake: *** [Makefile:2043: cmake_check_build_system] Error 1
+[0.581s] Invoked command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs -- -j16 -l16

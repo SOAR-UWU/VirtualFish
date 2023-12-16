@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target uuv_message_to_tf[0m
+[  0%] Built target ament_cmake_python_copy_tf_quaternion
+[ 50%] [32mBuilding CXX object CMakeFiles/uuv_message_to_tf.dir/src/message_to_tf.cpp.o[0m
+running egg_info
+writing tf_quaternion.egg-info/PKG-INFO
+writing dependency_links to tf_quaternion.egg-info/dependency_links.txt
+writing top-level names to tf_quaternion.egg-info/top_level.txt
+reading manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+writing manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_tf_quaternion_egg
+[100%] [32m[1mLinking CXX executable uuv_message_to_tf[0m
+[100%] Built target uuv_message_to_tf

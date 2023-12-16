@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/beluga-sim/beluga_sim.egg-info
+writing ../../build/beluga-sim/beluga_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/beluga-sim/beluga_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/beluga-sim/beluga_sim.egg-info/entry_points.txt
+writing requirements to ../../build/beluga-sim/beluga_sim.egg-info/requires.txt
+writing top-level names to ../../build/beluga-sim/beluga_sim.egg-info/top_level.txt
+writing manifest file '../../build/beluga-sim/beluga_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/beluga-sim/beluga_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/beluga-sim/beluga_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sunny/catkin_ws/build/beluga-sim/build
+creating /home/sunny/catkin_ws/build/beluga-sim/build/lib
+creating /home/sunny/catkin_ws/build/beluga-sim/build/lib/beluga-sim
+copying beluga-sim/__init__.py -> /home/sunny/catkin_ws/build/beluga-sim/build/lib/beluga-sim
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/sunny/catkin_ws/install/beluga-sim/lib/python3.10/site-packages/beluga-sim
+copying /home/sunny/catkin_ws/build/beluga-sim/build/lib/beluga-sim/__init__.py -> /home/sunny/catkin_ws/install/beluga-sim/lib/python3.10/site-packages/beluga-sim
+byte-compiling /home/sunny/catkin_ws/install/beluga-sim/lib/python3.10/site-packages/beluga-sim/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sunny/catkin_ws/install/beluga-sim/share/ament_index
+creating /home/sunny/catkin_ws/install/beluga-sim/share/ament_index/resource_index
+creating /home/sunny/catkin_ws/install/beluga-sim/share/ament_index/resource_index/packages
+copying resource/beluga-sim -> /home/sunny/catkin_ws/install/beluga-sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/sunny/catkin_ws/install/beluga-sim/share/beluga-sim
+running install_egg_info
+Copying ../../build/beluga-sim/beluga_sim.egg-info to /home/sunny/catkin_ws/install/beluga-sim/lib/python3.10/site-packages/beluga_sim-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sunny/catkin_ws/build/beluga-sim/install.log'

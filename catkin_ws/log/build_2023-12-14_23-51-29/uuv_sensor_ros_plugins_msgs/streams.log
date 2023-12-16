@@ -1,0 +1,413 @@
+[0.473s] Invoking command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_sensor_plugins/uuv_sensor_ros_plugins_msgs -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs
+[0.570s] -- The C compiler identification is GNU 11.4.0
+[0.684s] -- The CXX compiler identification is GNU 11.4.0
+[0.693s] -- Detecting C compiler ABI info
+[0.805s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.821s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.822s] -- Detecting CXX compiler ABI info
+[0.934s] -- Detecting CXX compiler ABI info - done
+[0.944s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.944s] -- Detecting CXX compile features
+[0.946s] -- Detecting CXX compile features - done
+[0.949s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.191s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.312s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.353s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.384s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.504s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.561s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.957s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.740s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.743s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.778s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.779s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.779s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.779s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.805s] -- Found PythonExtra: .so  
+[2.895s] -- Configuring done
+[2.959s] -- Generating done
+[2.963s] -- Build files have been written to: /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs
+[3.042s] Invoked command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_sensor_plugins/uuv_sensor_ros_plugins_msgs -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs
+[3.045s] Invoking command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs -- -j16 -l16
+[3.114s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.132s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.138s] [  2%] Built target ament_cmake_python_copy_uuv_sensor_ros_plugins_msgs
+[3.574s] running egg_info
+[3.576s] creating uuv_sensor_ros_plugins_msgs.egg-info
+[3.577s] writing uuv_sensor_ros_plugins_msgs.egg-info/PKG-INFO
+[3.577s] writing dependency_links to uuv_sensor_ros_plugins_msgs.egg-info/dependency_links.txt
+[3.577s] writing top-level names to uuv_sensor_ros_plugins_msgs.egg-info/top_level.txt
+[3.577s] writing manifest file 'uuv_sensor_ros_plugins_msgs.egg-info/SOURCES.txt'
+[3.579s] reading manifest file 'uuv_sensor_ros_plugins_msgs.egg-info/SOURCES.txt'
+[3.580s] writing manifest file 'uuv_sensor_ros_plugins_msgs.egg-info/SOURCES.txt'
+[3.677s] [  2%] Built target ament_cmake_python_build_uuv_sensor_ros_plugins_msgs_egg
+[5.247s] [  2%] Built target uuv_sensor_ros_plugins_msgs__cpp
+[5.317s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.319s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.332s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.448s] [  7%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__functions.c.o[0m
+[5.503s] [ 10%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__functions.c.o[0m
+[5.508s] [ 10%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__functions.c.o[0m
+[5.509s] [ 11%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__functions.c.o[0m
+[5.529s] [ 12%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__functions.c.o[0m
+[5.556s] [ 13%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__functions.c.o[0m
+[5.673s] [ 15%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__functions.c.o[0m
+[5.888s] [ 16%] [32m[1mLinking C shared library libuuv_sensor_ros_plugins_msgs__rosidl_generator_c.so[0m
+[6.149s] [ 16%] Built target uuv_sensor_ros_plugins_msgs__rosidl_generator_c
+[6.182s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.225s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.250s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.358s] [ 21%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__type_support.cpp.o[0m
+[7.374s] [ 22%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__type_support.cpp.o[0m
+[7.419s] [ 24%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__type_support.cpp.o[0m
+[7.432s] [ 25%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__type_support.cpp.o[0m
+[7.502s] [ 26%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__type_support.cpp.o[0m
+[7.534s] [ 27%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__type_support.cpp.o[0m
+[7.604s] [ 29%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__type_support.cpp.o[0m
+[7.672s] [ 30%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_sensor_ros_plugins_msgs/msg/dvl__type_support.cpp.o[0m
+[7.717s] [ 31%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance__type_support.cpp.o[0m
+[7.723s] [ 32%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_sensor_ros_plugins_msgs/msg/dvl_beam__type_support.cpp.o[0m
+[7.756s] [ 34%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dds_fastrtps/dvl__type_support.cpp.o[0m
+[7.757s] [ 35%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance_stamped__type_support.cpp.o[0m
+[7.759s] [ 36%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_sensor_ros_plugins_msgs/msg/chemical_particle_concentration__type_support.cpp.o[0m
+[8.482s] [ 37%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_sensor_ros_plugins_msgs/srv/change_sensor_state__type_support.cpp.o[0m
+[8.527s] [ 39%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_sensor_ros_plugins_msgs/msg/salinity__type_support.cpp.o[0m
+[8.733s] [ 40%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dds_fastrtps/dvl_beam__type_support.cpp.o[0m
+[8.815s] [ 41%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dds_fastrtps/position_with_covariance__type_support.cpp.o[0m
+[8.857s] [ 43%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dds_fastrtps/position_with_covariance_stamped__type_support.cpp.o[0m
+[8.909s] [ 44%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dds_fastrtps/chemical_particle_concentration__type_support.cpp.o[0m
+[8.960s] [ 45%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__type_support.c.o[0m
+[8.992s] [ 46%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_sensor_ros_plugins_msgs/msg/detail/dds_fastrtps/salinity__type_support.cpp.o[0m
+[9.171s] [ 48%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_sensor_ros_plugins_msgs/srv/detail/dds_fastrtps/change_sensor_state__type_support.cpp.o[0m
+[9.176s] [ 49%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__type_support.c.o[0m
+[9.248s] [ 50%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__type_support.c.o[0m
+[9.381s] [ 51%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__type_support.c.o[0m
+[9.422s] [ 54%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__type_support.c.o[0m
+[9.435s] [ 55%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__type_support.c.o[0m
+[9.436s] [ 55%] [32m[1mLinking CXX shared library libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.so[0m
+[9.456s] [ 56%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__type_support.c.o[0m
+[9.667s] [ 58%] [32m[1mLinking C shared library libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.715s] [ 59%] [32m[1mLinking CXX shared library libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.778s] [ 59%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp
+[9.833s] [ 59%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c
+[9.910s] [ 60%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_sensor_ros_plugins_msgs/msg/dvl__type_support.cpp.o[0m
+[9.923s] [ 62%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance__type_support.cpp.o[0m
+[9.932s] [ 63%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_sensor_ros_plugins_msgs/msg/dvl_beam__type_support.cpp.o[0m
+[9.972s] [ 64%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance_stamped__type_support.cpp.o[0m
+[9.976s] [ 65%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_sensor_ros_plugins_msgs/msg/chemical_particle_concentration__type_support.cpp.o[0m
+[10.083s] [ 68%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_sensor_ros_plugins_msgs/srv/change_sensor_state__type_support.cpp.o[0m
+[10.084s] [ 68%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_sensor_ros_plugins_msgs/msg/salinity__type_support.cpp.o[0m
+[10.213s] [ 69%] [32m[1mLinking CXX shared library libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.so[0m
+[10.327s] [ 69%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp
+[10.383s] [ 69%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c
+[10.567s] [ 70%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__type_support_c.cpp.o[0m
+[10.597s] [ 74%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__type_support_c.cpp.o[0m
+[10.599s] [ 74%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__type_support_c.cpp.o[0m
+[10.612s] [ 74%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__type_support_c.cpp.o[0m
+[10.643s] [ 75%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__type_support_c.cpp.o[0m
+[10.668s] [ 77%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__type_support_c.cpp.o[0m
+[10.696s] [ 78%] [32mBuilding CXX object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__type_support_c.cpp.o[0m
+[11.337s] [ 79%] [32m[1mLinking CXX shared library libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.109s] [ 79%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp
+[12.524s] [ 81%] [32m[1mLinking CXX shared library libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.799s] [ 81%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c
+[12.937s] [ 81%] Built target uuv_sensor_ros_plugins_msgs
+[13.024s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.283s] [ 82%] Built target uuv_sensor_ros_plugins_msgs__py
+[18.413s] [ 83%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/msg/_dvl_s.c.o[0m
+[18.463s] [ 84%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/msg/_dvl_beam_s.c.o[0m
+[18.465s] [ 86%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance_stamped_s.c.o[0m
+[18.472s] [ 87%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/msg/_salinity_s.c.o[0m
+[18.472s] [ 88%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance_s.c.o[0m
+[18.500s] [ 89%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/srv/_change_sensor_state_s.c.o[0m
+[18.500s] [ 91%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/msg/_chemical_particle_concentration_s.c.o[0m
+[18.991s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/uuv_sensor_ros_plugins_msgs/libuuv_sensor_ros_plugins_msgs__rosidl_generator_py.so[0m
+[19.175s] [ 92%] Built target uuv_sensor_ros_plugins_msgs__rosidl_generator_py
+[19.328s] [ 93%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/_uuv_sensor_ros_plugins_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.358s] [ 94%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/_uuv_sensor_ros_plugins_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.377s] [ 96%] [32mBuilding C object CMakeFiles/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uuv_sensor_ros_plugins_msgs/_uuv_sensor_ros_plugins_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.737s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.744s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.838s] [100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.853s] [100%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext
+[19.929s] [100%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c__pyext
+[20.026s] [100%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext
+[20.092s] Invoked command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs -- -j16 -l16
+[23.444s] Invoking command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs
+[23.478s] -- Install configuration: ""
+[23.478s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/ament_index/resource_index/rosidl_interfaces/uuv_sensor_ros_plugins_msgs
+[23.478s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs
+[23.478s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv
+[23.478s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail
+[23.479s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__functions.c
+[23.479s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__struct.h
+[23.479s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__functions.h
+[23.479s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__type_support.h
+[23.480s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/change_sensor_state.h
+[23.493s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg
+[23.494s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail
+[23.494s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__type_support.h
+[23.496s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__functions.h
+[23.496s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__functions.c
+[23.496s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__struct.h
+[23.496s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__functions.c
+[23.496s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__functions.h
+[23.497s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__type_support.h
+[23.497s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__functions.c
+[23.497s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__struct.h
+[23.497s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__functions.h
+[23.498s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__functions.c
+[23.498s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__functions.h
+[23.498s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__type_support.h
+[23.498s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__functions.h
+[23.498s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__type_support.h
+[23.499s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__type_support.h
+[23.499s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__struct.h
+[23.500s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__struct.h
+[23.500s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__functions.c
+[23.500s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__struct.h
+[23.508s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__functions.h
+[23.508s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__struct.h
+[23.508s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__type_support.h
+[23.508s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__functions.c
+[23.508s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance_stamped.h
+[23.508s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/dvl.h
+[23.509s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/dvl_beam.h
+[23.509s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/chemical_particle_concentration.h
+[23.509s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.509s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance.h
+[23.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/salinity.h
+[23.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/library_path.sh
+[23.511s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/library_path.dsv
+[23.519s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_generator_c.so
+[23.520s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_generator_c.so" to ""
+[23.520s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs
+[23.521s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv
+[23.521s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail
+[23.521s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__rosidl_typesupport_fastrtps_c.h
+[23.521s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg
+[23.521s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail
+[23.521s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__rosidl_typesupport_fastrtps_c.h
+[23.521s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__rosidl_typesupport_fastrtps_c.h
+[23.522s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__rosidl_typesupport_fastrtps_c.h
+[23.522s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__rosidl_typesupport_fastrtps_c.h
+[23.522s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__rosidl_typesupport_fastrtps_c.h
+[23.522s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[23.522s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.522s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so
+[23.523s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.523s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs
+[23.523s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv
+[23.523s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail
+[23.523s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__builder.hpp
+[23.523s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__traits.hpp
+[23.523s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__struct.hpp
+[23.523s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/change_sensor_state.hpp
+[23.524s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg
+[23.524s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/chemical_particle_concentration.hpp
+[23.524s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/dvl_beam.hpp
+[23.524s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail
+[23.524s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__struct.hpp
+[23.524s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__struct.hpp
+[23.524s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__traits.hpp
+[23.524s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__traits.hpp
+[23.525s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__builder.hpp
+[23.525s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__struct.hpp
+[23.525s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__traits.hpp
+[23.525s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__struct.hpp
+[23.525s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__builder.hpp
+[23.526s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__builder.hpp
+[23.526s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__builder.hpp
+[23.526s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__struct.hpp
+[23.526s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__traits.hpp
+[23.526s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__traits.hpp
+[23.532s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__builder.hpp
+[23.532s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__traits.hpp
+[23.532s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__builder.hpp
+[23.532s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__struct.hpp
+[23.532s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/salinity.hpp
+[23.533s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/dvl.hpp
+[23.533s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance_stamped.hpp
+[23.533s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/position_with_covariance.hpp
+[23.533s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs
+[23.533s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv
+[23.533s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail
+[23.534s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[23.534s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/dds_fastrtps
+[23.534s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg
+[23.534s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail
+[23.534s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[23.534s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__rosidl_typesupport_fastrtps_cpp.hpp
+[23.534s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__rosidl_typesupport_fastrtps_cpp.hpp
+[23.535s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__rosidl_typesupport_fastrtps_cpp.hpp
+[23.535s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__rosidl_typesupport_fastrtps_cpp.hpp
+[23.535s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dds_fastrtps
+[23.535s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[23.535s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.535s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.536s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.537s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs
+[23.537s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv
+[23.537s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail
+[23.537s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__rosidl_typesupport_introspection_c.h
+[23.537s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__type_support.c
+[23.537s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg
+[23.537s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.537s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail
+[23.538s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__type_support.c
+[23.538s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__type_support.c
+[23.538s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__rosidl_typesupport_introspection_c.h
+[23.538s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__type_support.c
+[23.538s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__rosidl_typesupport_introspection_c.h
+[23.538s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__rosidl_typesupport_introspection_c.h
+[23.538s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__rosidl_typesupport_introspection_c.h
+[23.539s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__rosidl_typesupport_introspection_c.h
+[23.539s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__type_support.c
+[23.540s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[23.563s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__type_support.c
+[23.564s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__type_support.c
+[23.564s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.so
+[23.565s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.571s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.so
+[23.572s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_c.so" to ""
+[23.572s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs
+[23.572s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv
+[23.573s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail
+[23.573s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__type_support.cpp
+[23.573s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/srv/detail/change_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[23.573s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg
+[23.573s] -- Up-to-date: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail
+[23.573s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__type_support.cpp
+[23.573s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__rosidl_typesupport_introspection_cpp.hpp
+[23.573s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__type_support.cpp
+[23.573s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__type_support.cpp
+[23.574s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/salinity__rosidl_typesupport_introspection_cpp.hpp
+[23.574s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[23.574s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__type_support.cpp
+[23.574s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__type_support.cpp
+[23.574s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/chemical_particle_concentration__rosidl_typesupport_introspection_cpp.hpp
+[23.574s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl__type_support.cpp
+[23.575s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/dvl_beam__rosidl_typesupport_introspection_cpp.hpp
+[23.575s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/include/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs/msg/detail/position_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[23.575s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so
+[23.576s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.576s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.so
+[23.576s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp.so" to ""
+[23.576s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/pythonpath.sh
+[23.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/pythonpath.dsv
+[23.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs-0.6.13-py3.10.egg-info
+[23.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs-0.6.13-py3.10.egg-info/PKG-INFO
+[23.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs-0.6.13-py3.10.egg-info/SOURCES.txt
+[23.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs-0.6.13-py3.10.egg-info/top_level.txt
+[23.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs-0.6.13-py3.10.egg-info/dependency_links.txt
+[23.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs
+[23.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/__init__.py
+[23.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/_uuv_sensor_ros_plugins_msgs_s.ep.rosidl_typesupport_c.c
+[23.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/srv
+[23.579s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/srv/__init__.py
+[23.579s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/srv/_change_sensor_state.py
+[23.579s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/srv/_change_sensor_state_s.c
+[23.580s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.600s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/_uuv_sensor_ros_plugins_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.600s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.600s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.600s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg
+[23.601s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/__init__.py
+[23.601s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance_stamped_s.c
+[23.608s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_dvl_s.c
+[23.608s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_chemical_particle_concentration_s.c
+[23.608s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_salinity.py
+[23.608s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_dvl_beam.py
+[23.608s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance_s.c
+[23.608s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance.py
+[23.609s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_dvl_beam_s.c
+[23.609s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_chemical_particle_concentration.py
+[23.609s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_salinity_s.c
+[23.609s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance_stamped.py
+[23.610s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_dvl.py
+[23.610s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/_uuv_sensor_ros_plugins_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[23.610s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/libuuv_sensor_ros_plugins_msgs__rosidl_generator_py.so
+[23.801s] Listing '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs'...
+[23.801s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/__init__.py'...
+[23.801s] Listing '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg'...
+[23.801s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/__init__.py'...
+[23.801s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_chemical_particle_concentration.py'...
+[23.802s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_dvl.py'...
+[23.802s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_dvl_beam.py'...
+[23.802s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance.py'...
+[23.802s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_position_with_covariance_stamped.py'...
+[23.802s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/msg/_salinity.py'...
+[23.802s] Listing '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/srv'...
+[23.802s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/srv/__init__.py'...
+[23.802s] Compiling '/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/srv/_change_sensor_state.py'...
+[23.856s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.856s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.857s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.857s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.858s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.858s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/local/lib/python3.10/dist-packages/uuv_sensor_ros_plugins_msgs/uuv_sensor_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.858s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_generator_py.so
+[23.859s] -- Set runtime path of "/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib/libuuv_sensor_ros_plugins_msgs__rosidl_generator_py.so" to ""
+[23.859s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/DVL.idl
+[23.860s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/DVLBeam.idl
+[23.860s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/PositionWithCovariance.idl
+[23.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/PositionWithCovarianceStamped.idl
+[23.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/ChemicalParticleConcentration.idl
+[23.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/Salinity.idl
+[23.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/srv/ChangeSensorState.idl
+[23.863s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/DVL.msg
+[23.863s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/DVLBeam.msg
+[23.864s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/PositionWithCovariance.msg
+[23.864s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/PositionWithCovarianceStamped.msg
+[23.865s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/ChemicalParticleConcentration.msg
+[23.865s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/msg/Salinity.msg
+[23.866s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/srv/ChangeSensorState.srv
+[23.866s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/srv/ChangeSensorState_Request.msg
+[23.866s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/srv/ChangeSensorState_Response.msg
+[23.867s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/ament_index/resource_index/package_run_dependencies/uuv_sensor_ros_plugins_msgs
+[23.867s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/ament_index/resource_index/parent_prefix_path/uuv_sensor_ros_plugins_msgs
+[23.868s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/ament_prefix_path.sh
+[23.868s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/ament_prefix_path.dsv
+[23.869s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/path.sh
+[23.869s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/environment/path.dsv
+[23.869s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/local_setup.bash
+[23.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/local_setup.sh
+[23.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/local_setup.zsh
+[23.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/local_setup.dsv
+[23.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/package.dsv
+[23.872s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/ament_index/resource_index/packages/uuv_sensor_ros_plugins_msgs
+[23.872s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_generator_cExport.cmake
+[23.872s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_generator_cExport-noconfig.cmake
+[23.873s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[23.873s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.874s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_generator_cppExport.cmake
+[23.883s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.895s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.896s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.897s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.897s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cExport.cmake
+[23.898s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[23.899s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.899s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.900s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cppExport.cmake
+[23.900s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[23.901s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_generator_pyExport.cmake
+[23.901s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/export_uuv_sensor_ros_plugins_msgs__rosidl_generator_pyExport-noconfig.cmake
+[23.902s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/rosidl_cmake-extras.cmake
+[23.903s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.903s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.904s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.904s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.905s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.905s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.906s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgsConfig.cmake
+[23.906s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/cmake/uuv_sensor_ros_plugins_msgsConfig-version.cmake
+[23.907s] -- Installing: /home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/share/uuv_sensor_ros_plugins_msgs/package.xml
+[23.916s] Invoked command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs

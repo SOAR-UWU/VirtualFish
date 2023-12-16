@@ -1,0 +1,23 @@
+[0.501s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs -- -j16 -l16
+[0.635s] [  1%] Built target uuv_world_ros_plugins_msgs__cpp
+[0.644s] [ 12%] Built target uuv_world_ros_plugins_msgs__rosidl_generator_c
+[0.683s] [ 12%] Built target ament_cmake_python_copy_uuv_world_ros_plugins_msgs
+[0.767s] [ 24%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp
+[0.767s] [ 35%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp
+[0.788s] [ 47%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c
+[0.813s] [ 58%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp
+[0.826s] [ 70%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c
+[0.844s] [ 81%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_c
+[0.935s] [ 81%] Built target uuv_world_ros_plugins_msgs
+[1.013s] [ 82%] Built target uuv_world_ros_plugins_msgs__py
+[1.135s] [ 93%] Built target uuv_world_ros_plugins_msgs__rosidl_generator_py
+[1.193s] [ 95%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.209s] [ 97%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext
+[1.233s] [100%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext
+[1.295s] running egg_info
+[1.296s] writing uuv_world_ros_plugins_msgs.egg-info/PKG-INFO
+[1.297s] writing dependency_links to uuv_world_ros_plugins_msgs.egg-info/dependency_links.txt
+[1.297s] writing top-level names to uuv_world_ros_plugins_msgs.egg-info/top_level.txt
+[1.301s] reading manifest file 'uuv_world_ros_plugins_msgs.egg-info/SOURCES.txt'
+[1.302s] writing manifest file 'uuv_world_ros_plugins_msgs.egg-info/SOURCES.txt'
+[1.361s] [100%] Built target ament_cmake_python_build_uuv_world_ros_plugins_msgs_egg

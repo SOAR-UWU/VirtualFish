@@ -1,0 +1,42 @@
+[0.727s] Invoking command in '/home/sunny/catkin_ws/build/plankton_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/plankton_utils -- -j16 -l16
+[0.835s] [  0%] Built target ament_cmake_python_copy_plankton_utils
+[0.849s] [100%] Built target plankton_global_sim_time
+[1.343s] running egg_info
+[1.352s] writing plankton_utils.egg-info/PKG-INFO
+[1.353s] writing dependency_links to plankton_utils.egg-info/dependency_links.txt
+[1.353s] writing top-level names to plankton_utils.egg-info/top_level.txt
+[1.353s] reading manifest file 'plankton_utils.egg-info/SOURCES.txt'
+[1.353s] writing manifest file 'plankton_utils.egg-info/SOURCES.txt'
+[1.418s] [100%] Built target ament_cmake_python_build_plankton_utils_egg
+[1.609s] Invoked command in '/home/sunny/catkin_ws/build/plankton_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/plankton_utils -- -j16 -l16
+[1.825s] Invoking command in '/home/sunny/catkin_ws/build/plankton_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/plankton_utils
+[1.842s] -- Install configuration: ""
+[1.842s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/lib/plankton_utils/plankton_global_sim_time
+[1.845s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/environment/pythonpath.sh
+[1.845s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/environment/pythonpath.dsv
+[1.845s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils-0.6.1-py3.10.egg-info
+[1.848s] -- Installing: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils-0.6.1-py3.10.egg-info/PKG-INFO
+[1.848s] -- Installing: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils-0.6.1-py3.10.egg-info/SOURCES.txt
+[1.848s] -- Installing: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils-0.6.1-py3.10.egg-info/top_level.txt
+[1.848s] -- Installing: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils-0.6.1-py3.10.egg-info/dependency_links.txt
+[1.849s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils
+[1.849s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils/__init__.py
+[1.849s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils/time.py
+[1.849s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils/param_helper.py
+[1.876s] Listing '/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages/plankton_utils'...
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/ament_index/resource_index/package_run_dependencies/plankton_utils
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/ament_index/resource_index/parent_prefix_path/plankton_utils
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/environment/ament_prefix_path.sh
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/environment/ament_prefix_path.dsv
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/environment/path.sh
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/environment/path.dsv
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/local_setup.bash
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/local_setup.sh
+[1.881s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/local_setup.zsh
+[1.882s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/local_setup.dsv
+[1.882s] -- Installing: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/package.dsv
+[1.882s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/ament_index/resource_index/packages/plankton_utils
+[1.883s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/cmake/plankton_utilsConfig.cmake
+[1.884s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/cmake/plankton_utilsConfig-version.cmake
+[1.884s] -- Up-to-date: /home/sunny/catkin_ws/install/plankton_utils/share/plankton_utils/package.xml
+[2.090s] Invoked command in '/home/sunny/catkin_ws/build/plankton_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/plankton_utils

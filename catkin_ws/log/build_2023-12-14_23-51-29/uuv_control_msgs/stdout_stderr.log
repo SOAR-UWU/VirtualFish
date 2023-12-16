@@ -1,0 +1,289 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunny/catkin_ws/build/uuv_control_msgs
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_uuv_control_msgs
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating uuv_control_msgs.egg-info
+writing uuv_control_msgs.egg-info/PKG-INFO
+writing dependency_links to uuv_control_msgs.egg-info/dependency_links.txt
+writing top-level names to uuv_control_msgs.egg-info/top_level.txt
+writing manifest file 'uuv_control_msgs.egg-info/SOURCES.txt'
+reading manifest file 'uuv_control_msgs.egg-info/SOURCES.txt'
+writing manifest file 'uuv_control_msgs.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_uuv_control_msgs_egg
+[  1%] Built target uuv_control_msgs__cpp
+[  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  3%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/trajectory__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/trajectory_point__functions.c.o[0m
+[  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  4%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/waypoint__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/add_waypoint__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/waypoint_set__functions.c.o[0m
+[  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  6%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/clear_waypoints__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_helical_trajectory__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_waypoints_from_file__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_circular_trajectory__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_waypoints__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/go_to__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/go_to_incremental__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/hold__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/is_running_trajectory__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_waypoint_set__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_rect_trajectory__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/switch_to_automatic__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/switch_to_manual__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/start_trajectory__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_pid_params__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/set_mbsm_controller_params__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/set_sm_controller_params__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_sm_controller_params__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/reset_controller__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/set_pid_params__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_mbsm_controller_params__functions.c.o[0m
+[ 15%] [32m[1mLinking C shared library libuuv_control_msgs__rosidl_generator_c.so[0m
+[ 15%] Built target uuv_control_msgs__rosidl_generator_c
+[ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/trajectory__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/waypoint_set__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/waypoint__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/add_waypoint__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/clear_waypoints__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_circular_trajectory__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_helical_trajectory__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_waypoints_from_file__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_waypoints__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/go_to__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/go_to_incremental__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/hold__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/is_running_trajectory__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_waypoint_set__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/start_trajectory__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_rect_trajectory__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/switch_to_automatic__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/switch_to_manual__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_pid_params__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/set_pid_params__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/set_sm_controller_params__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/set_mbsm_controller_params__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_sm_controller_params__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_mbsm_controller_params__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/reset_controller__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/trajectory__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/waypoint__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/waypoint_set__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/add_waypoint__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/clear_waypoints__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_circular_trajectory__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_helical_trajectory__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_waypoints_from_file__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_waypoints__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/go_to__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/go_to_incremental__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/hold__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/is_running_trajectory__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_waypoint_set__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/switch_to_automatic__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/start_trajectory__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_rect_trajectory__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/switch_to_manual__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/set_pid_params__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_cpp.so[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_sm_controller_params__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_pid_params__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/set_sm_controller_params__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/set_mbsm_controller_params__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_mbsm_controller_params__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/reset_controller__type_support.cpp.o[0m
+[ 40%] Built target uuv_control_msgs__rosidl_typesupport_cpp
+[ 40%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_c.so[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/trajectory__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/waypoint__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/trajectory_point__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/add_waypoint__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/clear_waypoints__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/waypoint_set__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.cpp.o[0m
+[ 43%] Built target uuv_control_msgs__rosidl_typesupport_c
+[ 43%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_waypoints__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/go_to__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/go_to_incremental__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/hold__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/start_trajectory__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/switch_to_manual__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/set_pid_params__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_pid_params__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/reset_controller__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/waypoint_set__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/add_waypoint__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/clear_waypoints__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_circular_trajectory__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/waypoint__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/trajectory__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/trajectory_point__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_helical_trajectory__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_waypoints_from_file__type_support.cpp.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/waypoint_set__type_support.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/trajectory__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/trajectory_point__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/waypoint__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/add_waypoint__type_support.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/clear_waypoints__type_support.c.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/waypoint_set__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/add_waypoint__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/clear_waypoints__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.c.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_waypoints__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.c.o[0m
+[ 62%] Built target uuv_control_msgs__rosidl_typesupport_introspection_cpp
+[ 62%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/go_to__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_waypoints__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/go_to_incremental__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/go_to__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/hold__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/hold__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/go_to_incremental__type_support.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.c.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.c.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/is_running_trajectory__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_waypoints__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_waypoint_set__type_support.cpp.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.c.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/go_to__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/go_to_incremental__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_rect_trajectory__type_support.cpp.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/start_trajectory__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.c.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/hold__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/switch_to_manual__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/set_pid_params__type_support.c.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/start_trajectory__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/switch_to_automatic__type_support.cpp.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_pid_params__type_support.c.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/is_running_trajectory__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.c.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_waypoint_set__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.c.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/start_trajectory__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/switch_to_manual__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/set_pid_params__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_pid_params__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/switch_to_automatic__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/reset_controller__type_support.c.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/set_sm_controller_params__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/switch_to_manual__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_sm_controller_params__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/set_mbsm_controller_params__type_support.cpp.o[0m
+[ 82%] [32m[1mLinking C shared library libuuv_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/set_pid_params__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_pid_params__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_mbsm_controller_params__type_support.cpp.o[0m
+[ 84%] Built target uuv_control_msgs__rosidl_typesupport_introspection_c
+[ 85%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/reset_controller__type_support.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/reset_controller__type_support_c.cpp.o[0m
+[ 86%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 86%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 86%] Built target uuv_control_msgs__rosidl_typesupport_fastrtps_c
+[ 86%] Built target uuv_control_msgs__rosidl_typesupport_fastrtps_cpp
+[ 86%] Built target uuv_control_msgs
+[ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 86%] Built target uuv_control_msgs__py
+[ 88%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_add_waypoint_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/msg/_trajectory_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/msg/_trajectory_point_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/msg/_waypoint_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/msg/_waypoint_set_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_clear_waypoints_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_rect_trajectory_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_is_running_trajectory_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_waypoint_set_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_hold_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_go_to_incremental_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_waypoints_from_file_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_waypoints_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_go_to_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_pid_params_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_set_sm_controller_params_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_set_mbsm_controller_params_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_sm_controller_params_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_reset_controller_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_mbsm_controller_params_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_set_pid_params_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_switch_to_manual_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_switch_to_automatic_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_start_trajectory_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_circular_trajectory_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_helical_trajectory_s.c.o[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/uuv_control_msgs/libuuv_control_msgs__rosidl_generator_py.so[0m
+[ 98%] Built target uuv_control_msgs__rosidl_generator_py
+[ 99%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uuv_control_msgs/_uuv_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uuv_control_msgs/_uuv_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uuv_control_msgs/_uuv_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target uuv_control_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target uuv_control_msgs__rosidl_typesupport_c__pyext
+[100%] Built target uuv_control_msgs__rosidl_typesupport_fastrtps_c__pyext

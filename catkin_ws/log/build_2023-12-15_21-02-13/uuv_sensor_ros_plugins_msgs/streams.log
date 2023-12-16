@@ -1,0 +1,24 @@
+[0.562s] Invoking command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs -- -j16 -l16
+[0.666s] [  1%] Built target uuv_sensor_ros_plugins_msgs__cpp
+[0.682s] [  1%] Built target ament_cmake_python_copy_uuv_sensor_ros_plugins_msgs
+[0.699s] [ 12%] Built target uuv_sensor_ros_plugins_msgs__rosidl_generator_c
+[0.789s] [ 24%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp
+[0.790s] [ 35%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_cpp
+[0.799s] [ 46%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c
+[0.868s] [ 58%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c
+[0.868s] [ 69%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_cpp
+[0.870s] [ 81%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c
+[0.973s] [ 81%] Built target uuv_sensor_ros_plugins_msgs
+[1.100s] [ 82%] Built target uuv_sensor_ros_plugins_msgs__py
+[1.170s] [ 92%] Built target uuv_sensor_ros_plugins_msgs__rosidl_generator_py
+[1.199s] running egg_info
+[1.200s] writing uuv_sensor_ros_plugins_msgs.egg-info/PKG-INFO
+[1.203s] writing dependency_links to uuv_sensor_ros_plugins_msgs.egg-info/dependency_links.txt
+[1.203s] writing top-level names to uuv_sensor_ros_plugins_msgs.egg-info/top_level.txt
+[1.205s] reading manifest file 'uuv_sensor_ros_plugins_msgs.egg-info/SOURCES.txt'
+[1.206s] writing manifest file 'uuv_sensor_ros_plugins_msgs.egg-info/SOURCES.txt'
+[1.246s] [ 94%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext
+[1.269s] [ 97%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.322s] [100%] Built target uuv_sensor_ros_plugins_msgs__rosidl_typesupport_c__pyext
+[1.330s] [100%] Built target ament_cmake_python_build_uuv_sensor_ros_plugins_msgs_egg
+[1.640s] Invoked command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs -- -j16 -l16

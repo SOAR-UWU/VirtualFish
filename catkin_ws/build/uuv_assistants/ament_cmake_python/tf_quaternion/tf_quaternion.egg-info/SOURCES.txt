@@ -1,0 +1,7 @@
+setup.py
+tf_quaternion/__init__.py
+tf_quaternion/transformations.py
+tf_quaternion.egg-info/PKG-INFO
+tf_quaternion.egg-info/SOURCES.txt
+tf_quaternion.egg-info/dependency_links.txt
+tf_quaternion.egg-info/top_level.txt

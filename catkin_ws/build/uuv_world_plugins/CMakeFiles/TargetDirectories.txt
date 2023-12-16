@@ -1,0 +1,10 @@
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/uninstall.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/uuv_world_plugins_uninstall.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/uuv_underwater_current_plugin.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/test.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/edit_cache.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/rebuild_cache.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/list_install_components.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/install.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/install/local.dir
+/home/sunny/catkin_ws/build/uuv_world_plugins/CMakeFiles/install/strip.dir

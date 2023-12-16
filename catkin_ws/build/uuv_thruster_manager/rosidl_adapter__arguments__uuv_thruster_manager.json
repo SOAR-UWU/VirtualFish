@@ -1,0 +1,9 @@
+{
+  "package_name": "uuv_thruster_manager",
+  "non_idl_tuples": [
+    "/home/sunny/catkin_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/GetThrusterCurve.srv",
+    "/home/sunny/catkin_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/ThrusterManagerInfo.srv",
+    "/home/sunny/catkin_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/SetThrusterManagerConfig.srv",
+    "/home/sunny/catkin_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/GetThrusterManagerConfig.srv"
+  ]
+}

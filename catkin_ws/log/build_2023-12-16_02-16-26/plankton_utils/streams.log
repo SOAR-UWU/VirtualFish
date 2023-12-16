@@ -1,0 +1,5 @@
+[0.730s] Invoking command in '/home/sunny/catkin_ws/build/plankton_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/plankton_utils -- -j16 -l16
+[0.768s] [0mCMake Error: The source directory "/home/sunny/catkin_ws/src/Plankton/plankton_utils" does not exist.
+[0.768s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.769s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[0.775s] Invoked command in '/home/sunny/catkin_ws/build/plankton_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/plankton_utils -- -j16 -l16

@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/launch/uuv_keyboard_teleop.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/launch/uuv_teleop.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/launch/finned_uuv_teleop.launch
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/lib/uuv_teleop/vehicle_teleop.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/lib/uuv_teleop/vehicle_keyboard_teleop.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/lib/uuv_teleop/finned_uuv_teleop.py
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/ament_index/resource_index/package_run_dependencies/uuv_teleop
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/ament_index/resource_index/parent_prefix_path/uuv_teleop
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/environment/ament_prefix_path.sh
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/environment/ament_prefix_path.dsv
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/environment/path.sh
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/environment/path.dsv
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/local_setup.bash
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/local_setup.sh
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/local_setup.zsh
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/local_setup.dsv
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/package.dsv
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/ament_index/resource_index/packages/uuv_teleop
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/cmake/uuv_teleopConfig.cmake
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/cmake/uuv_teleopConfig-version.cmake
+-- Installing: /home/sunny/catkin_ws/install/uuv_teleop/share/uuv_teleop/package.xml

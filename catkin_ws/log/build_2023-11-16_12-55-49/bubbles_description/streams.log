@@ -1,0 +1,41 @@
+[0.110s] Invoking command in '/home/sunny/catkin_ws/build/bubbles_description': /usr/bin/cmake /home/sunny/catkin_ws/src/sauvc_simulator/bubbles_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/bubbles_description
+[0.116s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.116s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.116s]   CMake.
+[0.116s] 
+[0.116s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.116s]   CMake that the project does not need compatibility with older versions.
+[0.116s] 
+[0.116s] [0m
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.293s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.293s] -- Detecting C compile features
+[0.294s] -- Detecting C compile features - done
+[0.297s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.382s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.382s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.382s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.382s]   CMake did not find one.
+[0.382s] 
+[0.382s]   Could not find a package configuration file provided by "catkin" with any
+[0.382s]   of the following names:
+[0.382s] 
+[0.382s]     catkinConfig.cmake
+[0.382s]     catkin-config.cmake
+[0.382s] 
+[0.382s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.383s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.383s]   provides a separate development package or SDK, be sure it has been
+[0.383s]   installed.
+[0.383s] 
+[0.383s] [0m
+[0.383s] -- Configuring incomplete, errors occurred!
+[0.383s] See also "/home/sunny/catkin_ws/build/bubbles_description/CMakeFiles/CMakeOutput.log".
+[0.385s] Invoked command in '/home/sunny/catkin_ws/build/bubbles_description' returned '1': /usr/bin/cmake /home/sunny/catkin_ws/src/sauvc_simulator/bubbles_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/bubbles_description

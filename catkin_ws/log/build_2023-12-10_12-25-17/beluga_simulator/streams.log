@@ -1,0 +1,99 @@
+[0.114s] Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_simulator -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_simulator
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.206s] -- The CXX compiler identification is GNU 11.4.0
+[0.212s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.280s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.360s] -- Detecting CXX compiler ABI info - done
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.365s] -- Detecting CXX compile features
+[0.366s] -- Detecting CXX compile features - done
+[0.368s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.580s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.644s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.645s] -- Added test 'lint_cmake' to check CMake code style
+[0.646s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.649s] -- Added test 'xmllint' to check XML markup files
+[0.651s] -- Configuring done
+[0.654s] -- Generating done
+[0.654s] -- Build files have been written to: /home/sunny/catkin_ws/build/beluga_simulator
+[0.658s] Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_simulator -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_simulator
+[0.660s] Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16
+[0.696s] Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16
+[0.728s] Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/beluga_simulator
+[0.735s] -- Install configuration: ""
+[0.735s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/config
+[0.735s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/launch
+[0.735s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/launch/beluga_model.launch.py
+[0.735s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/maps
+[0.735s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes
+[0.735s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/angled_thruster_mount.dae
+[0.735s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/pressure.dae
+[0.736s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/oe14-372.dae
+[0.736s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/oe14-372.blend
+[0.737s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/angled_thruster_mount.stl
+[0.737s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/propeller.dae
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/propeller.stl
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/camera_snippets.xacro
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/imu_snippets.xacro
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_snippets.xacro
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_base.xacro
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/thruster_snippets.xacro
+[0.738s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/pressure_snippets.xacro
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/misc.xacro
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_sensors.xacro
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/sensor_snippets.xacro
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/common.urdf.xacro
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/models/beluga_thrusters.xacro
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/params
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/rviz
+[0.739s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/rviz/urdf.rviz
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/src
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/worlds
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/worlds/sauvc_2020.world
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/urdf
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/urdf/beluga_default.urdf
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/urdf/beluga_default.xacro
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/gate
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/gate/model.sdf
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/gate/model.config
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/red_drum
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/red_drum/model.sdf
+[0.740s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/red_drum/model.config
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/blue_drum
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/blue_drum/model.sdf
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/blue_drum/model.config
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/target_acquistion_area
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/target_acquistion_area/model.sdf
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/target_acquistion_area/model.config
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/swimming_pool
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/swimming_pool/model.sdf
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/swimming_pool/model.config
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/yellow_flare
+[0.741s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/yellow_flare/model.sdf
+[0.742s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/yellow_flare/model.config
+[0.742s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/red_flare
+[0.742s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/red_flare/model.sdf
+[0.742s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/world_models/red_flare/model.config
+[0.742s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/ament_index/resource_index/package_run_dependencies/beluga_simulator
+[0.742s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/ament_index/resource_index/parent_prefix_path/beluga_simulator
+[0.742s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/ament_prefix_path.sh
+[0.743s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/ament_prefix_path.dsv
+[0.743s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/path.sh
+[0.743s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/environment/path.dsv
+[0.743s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.bash
+[0.743s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.sh
+[0.743s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.zsh
+[0.743s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/local_setup.dsv
+[0.744s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.dsv
+[0.744s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/ament_index/resource_index/packages/beluga_simulator
+[0.744s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/cmake/beluga_simulatorConfig.cmake
+[0.744s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/cmake/beluga_simulatorConfig-version.cmake
+[0.744s] -- Installing: /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.xml
+[0.746s] Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/beluga_simulator

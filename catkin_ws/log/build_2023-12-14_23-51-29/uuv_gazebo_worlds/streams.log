@@ -1,0 +1,296 @@
+[0.278s] Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_gazebo_worlds
+[0.365s] -- The C compiler identification is GNU 11.4.0
+[0.475s] -- The CXX compiler identification is GNU 11.4.0
+[0.488s] -- Detecting C compiler ABI info
+[0.597s] -- Detecting C compiler ABI info - done
+[0.617s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.617s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.618s] -- Detecting CXX compiler ABI info
+[0.736s] -- Detecting CXX compiler ABI info - done
+[0.746s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.747s] -- Detecting CXX compile features
+[0.747s] -- Detecting CXX compile features - done
+[0.752s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.984s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.165s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.191s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.196s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.353s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.359s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.525s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.559s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.617s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.628s] -- Looking for pthread.h
+[1.716s] -- Looking for pthread.h - found
+[1.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.826s] -- Found Threads: TRUE  
+[2.101s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.104s] -- Checking for module 'bullet>=2.82'
+[2.143s] --   Found bullet, version 3.05
+[2.294s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.378s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.401s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.446s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.463s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.469s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.477s] -- Searching for dependencies of ignition-math6
+[2.479s] -- Looking for OGRE...
+[2.479s] -- OGRE_PREFIX_WATCH changed.
+[2.487s] -- Checking for module 'OGRE'
+[2.507s] --   Found OGRE, version 1.9.0
+[2.559s] -- Found Ogre Ghadamon (1.9.0)
+[2.571s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.581s] -- Looking for OGRE_Paging...
+[2.589s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.590s] -- Looking for OGRE_Terrain...
+[2.600s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.600s] -- Looking for OGRE_Property...
+[2.613s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.614s] -- Looking for OGRE_RTShaderSystem...
+[2.623s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.623s] -- Looking for OGRE_Volume...
+[2.634s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.634s] -- Looking for OGRE_Overlay...
+[2.643s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.886s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.888s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.889s] -- Searching for dependencies of ignition-transport8
+[2.917s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.936s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.944s] -- Checking for module 'libzmq >= 4'
+[3.003s] --   Found libzmq , version 4.3.4
+[3.135s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.154s] -- Checking for module 'uuid'
+[3.186s] --   Found uuid, version 2.37.2
+[3.352s] -- Found UUID: TRUE  
+[3.361s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.361s] -- Searching for dependencies of ignition-msgs5
+[3.434s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.458s] -- Checking for module 'tinyxml2'
+[3.508s] --   Found tinyxml2, version 9.0.0
+[3.624s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.628s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.629s] -- Searching for dependencies of ignition-common3
+[3.630s] -- Looking for dlfcn.h - found
+[3.631s] -- Looking for libdl - found
+[3.633s] -- Found DL: TRUE  
+[3.679s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.680s] -- Searching for <ignition-common3> component [graphics]
+[3.684s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.685s] -- Searching for dependencies of ignition-common3-graphics
+[3.686s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.701s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.701s] -- Searching for dependencies of ignition-fuel_tools4
+[4.185s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.224s] -- Checking for module 'jsoncpp'
+[4.308s] --   Found jsoncpp, version 1.9.5
+[4.624s] -- Found JSONCPP: TRUE  
+[4.646s] -- Checking for module 'libzip'
+[4.767s] --   Found libzip, version 1.7.3
+[5.130s] -- Found ZIP: TRUE  
+[5.131s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.132s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.133s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.140s] -- Gazebo version: 11.10
+[5.141s] -- Checking for module 'tbb'
+[5.244s] --   Found tbb, version 2021.5.0
+[5.884s] -- Configuring done
+[5.903s] -- Generating done
+[5.919s] -- Build files have been written to: /home/sunny/catkin_ws/build/uuv_gazebo_worlds
+[5.968s] Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_gazebo_worlds
+[5.968s] Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_worlds -- -j16 -l16
+[6.185s] Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_worlds -- -j16 -l16
+[6.488s] Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_gazebo_worlds
+[6.509s] -- Install configuration: ""
+[6.509s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/auv_underwater_world.yaml
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/herkules_ship_wreck.yaml
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/mangalia.yaml
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/ocean_waves.yaml
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/munkholmen.yaml
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/lake.yaml
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/empty_uw_world.yaml
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/auv_underwater_world.launch
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/mangalia_manipulation.launch
+[6.510s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/subsea_bop_panel.launch
+[6.511s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/ocean_waves.launch
+[6.511s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/herkules_ship_wreck.launch
+[6.511s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/empty_underwater_world.launch
+[6.511s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/mangalia.launch
+[6.511s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/rov_bop_panel.launch
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/lake.launch
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/munkholmen.launch
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/models
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/models/sea_surface_1000m_x_1000m.dae
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/programs
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/programs/SimpleWaves.vert
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/programs/SimpleWaves.frag
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts
+[6.512s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/sand.material
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/fiducials.material
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/waves.material
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/water.material
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_3.png
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_1.png
+[6.513s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_5.png
+[6.514s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/License and source for textures.txt
+[6.514s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_2.png
+[6.514s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_4.png
+[6.514s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0076_03_s.jpg
+[6.518s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0093_01.jpg
+[6.530s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0046_01.jpg
+[6.551s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_up.jpg
+[6.551s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0051_01.jpg
+[6.576s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds.jpg
+[6.576s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/License and source for textures.txt
+[6.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_rt.jpg
+[6.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_bk.jpg
+[6.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_fr.jpg
+[6.577s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/wave_normals.dds
+[6.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_dn.jpg
+[6.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_lf.jpg
+[6.578s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/soil_sand_0045_01.jpg
+[6.586s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds
+[6.587s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/empty_underwater.world
+[6.587s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/herkules_ship_wreck.world
+[6.587s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/munkholmen.world
+[6.588s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/mangalia.world
+[6.588s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/auv_underwater_world.world
+[6.588s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/lake.world
+[6.588s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/subsea_bop_panel.world
+[6.588s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/underwater_heightmap.world
+[6.597s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/mangalia_manipulation.world
+[6.597s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/ocean_waves.world
+[6.597s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models
+[6.597s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen
+[6.597s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/model.sdf
+[6.597s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/meshes
+[6.598s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/meshes/munkholmen.dae
+[6.598s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/model.config
+[6.598s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean
+[6.598s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean/model.sdf
+[6.599s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean/model.config
+[6.599s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck
+[6.599s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/model.sdf
+[6.599s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/meshes
+[6.599s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/meshes/herkules.dae
+[6.620s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/model.config
+[6.620s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/umbilical
+[6.620s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/umbilical/model.sdf
+[6.620s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/umbilical/model.config
+[6.620s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap
+[6.627s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/model.sdf
+[6.629s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes
+[6.629s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes/License and source for textures.txt
+[6.629s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes/heightmap.dae
+[6.642s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes/soil_sand_0045_01.jpg
+[6.667s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/model.config
+[6.676s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool
+[6.676s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/model.sdf
+[6.676s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/meshes
+[6.676s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/meshes/TBarForkTool.dae
+[6.677s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/model.config
+[6.677s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree
+[6.677s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/model.sdf
+[6.677s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/meshes
+[6.677s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/meshes/Tree.dae
+[6.683s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/model.config
+[6.683s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static
+[6.683s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/model.sdf
+[6.683s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/meshes
+[6.683s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/meshes/aurora_collision.stl
+[6.692s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/meshes/aurora.dae
+[6.708s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/model.config
+[6.708s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel
+[6.708s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/model.sdf
+[6.708s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes
+[6.709s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.mtl
+[6.709s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.obj
+[6.767s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/Valve.dae
+[6.767s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.stl
+[6.782s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/model.config
+[6.783s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ned_frame
+[6.783s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ned_frame/model.sdf
+[6.784s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ned_frame/model.config
+[6.785s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_bottom
+[6.786s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_bottom/model.sdf
+[6.786s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_bottom/model.config
+[6.787s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel
+[6.787s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/model.sdf
+[6.788s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes
+[6.788s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/Valve.dae
+[6.788s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/metal_bare_0045_01.jpg
+[6.799s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/SmallValve.dae
+[6.800s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/License and source texture.txt
+[6.800s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/BOP_Panel.dae
+[6.801s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/model.config
+[6.801s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool
+[6.801s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/model.sdf
+[6.801s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/meshes
+[6.804s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/meshes/TorqueTool.dae
+[6.804s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/model.config
+[6.805s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab
+[6.806s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/model.sdf
+[6.806s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/meshes
+[6.807s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/meshes/HotStab.dae
+[6.807s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/model.config
+[6.808s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake
+[6.808s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/model.sdf
+[6.809s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/meshes
+[6.809s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/meshes/LakeBottom.dae
+[6.813s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/meshes/WaterSurface.dae
+[6.813s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/model.config
+[6.813s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean_box
+[6.813s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean_box/model.sdf
+[6.813s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean_box/model.config
+[6.814s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed
+[6.814s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/model.sdf
+[6.814s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/meshes
+[6.814s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/meshes/seabed.dae
+[6.815s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/model.config
+[6.815s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed
+[6.830s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/model.sdf
+[6.831s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/meshes
+[6.831s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/meshes/herkules_seabed.dae
+[6.831s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/model.config
+[6.832s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/april_tag_36_11_00000
+[6.832s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.sdf
+[6.832s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.config
+[6.832s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia
+[6.832s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/model.sdf
+[6.832s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes
+[6.832s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/grass_grass_0101_02_tiled_s.jpg
+[6.845s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/MangaliaTerrain.dae
+[6.846s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.dae
+[6.849s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/License and source for textures.txt
+[6.851s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/ground_stone_ground_0029_02_tiled_s.jpg
+[6.853s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.blend
+[6.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/model.config
+[6.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_surface
+[6.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_surface/model.sdf
+[6.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_surface/model.config
+[6.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/uuv_gazebo_worlds
+[6.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/ament_index/resource_index/parent_prefix_path/uuv_gazebo_worlds
+[6.861s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/ament_prefix_path.sh
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/ament_prefix_path.dsv
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/path.sh
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/path.dsv
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.bash
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.sh
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.zsh
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.dsv
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/package.dsv
+[6.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/ament_index/resource_index/packages/uuv_gazebo_worlds
+[6.863s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/cmake/uuv_gazebo_worldsConfig.cmake
+[6.863s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/cmake/uuv_gazebo_worldsConfig-version.cmake
+[6.864s] -- Installing: /home/sunny/catkin_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/package.xml
+[6.864s] Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_gazebo_worlds

@@ -1,0 +1,69 @@
+[0.558s] Invoking command in '/home/sunny/catkin_ws/build/uuv_assistants': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_assistants -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_assistants
+[0.818s] -- The C compiler identification is GNU 11.4.0
+[1.020s] -- The CXX compiler identification is GNU 11.4.0
+[1.057s] -- Detecting C compiler ABI info
+[1.360s] -- Detecting C compiler ABI info - done
+[1.378s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.378s] -- Detecting C compile features
+[1.383s] -- Detecting C compile features - done
+[1.393s] -- Detecting CXX compiler ABI info
+[1.682s] -- Detecting CXX compiler ABI info - done
+[1.698s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.698s] -- Detecting CXX compile features
+[1.699s] -- Detecting CXX compile features - done
+[1.703s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.296s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.656s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.672s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.698s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.044s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.553s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.557s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.400s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.482s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.660s] -- Looking for pthread.h
+[5.132s] -- Looking for pthread.h - found
+[5.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.433s] -- Found Threads: TRUE  
+[7.295s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.404s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.405s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.405s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.476s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.722s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.853s] -- Configuring done
+[8.936s] -- Generating done
+[8.940s] -- Build files have been written to: /home/sunny/catkin_ws/build/uuv_assistants
+[9.043s] Invoked command in '/home/sunny/catkin_ws/build/uuv_assistants' returned '0': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_assistants -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_assistants
+[9.044s] Invoking command in '/home/sunny/catkin_ws/build/uuv_assistants': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_assistants -- -j16 -l16
+[9.366s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_message_to_tf.dir/src/message_to_tf.cpp.o[0m
+[9.432s] [ 50%] Built target ament_cmake_python_copy_tf_quaternion
+[10.337s] running egg_info
+[10.338s] creating tf_quaternion.egg-info
+[10.339s] writing tf_quaternion.egg-info/PKG-INFO
+[10.340s] writing dependency_links to tf_quaternion.egg-info/dependency_links.txt
+[10.341s] writing top-level names to tf_quaternion.egg-info/top_level.txt
+[10.341s] writing manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+[10.344s] reading manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+[10.344s] writing manifest file 'tf_quaternion.egg-info/SOURCES.txt'
+[10.467s] [ 50%] Built target ament_cmake_python_build_tf_quaternion_egg
+[10.599s] In file included from [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_assistants/src/message_to_tf.cpp:41[m[K:
+[10.600s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[10.600s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[10.600s]       |  [01;35m[K^~~~~~~[m[K
+[15.399s] [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_assistants/src/message_to_tf.cpp:78:22:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid tf2::fromMsg(const Point&, tf2::Vector3&)[m[K’
+[15.400s]    78 |   static inline void [01;31m[KfromMsg[m[K(const geometry_msgs::msg::Point& msgIn, tf2::Vector3& out)
+[15.401s]       |                      [01;31m[K^~~~~~~[m[K
+[15.401s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+[15.402s]                  from [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_assistants/src/message_to_tf.cpp:41[m[K:
+[15.403s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:243:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid tf2::fromMsg(const Point&, tf2::Vector3&)[m[K’ previously defined here
+[15.403s]   243 | void [01;36m[KfromMsg[m[K(const geometry_msgs::msg::Point & in, tf2::Vector3 & out)
+[15.404s]       |      [01;36m[K^~~~~~~[m[K
+[22.030s] gmake[2]: *** [CMakeFiles/uuv_message_to_tf.dir/build.make:76: CMakeFiles/uuv_message_to_tf.dir/src/message_to_tf.cpp.o] Error 1
+[22.031s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/uuv_message_to_tf.dir/all] Error 2
+[22.031s] gmake: *** [Makefile:146: all] Error 2
+[22.036s] Invoked command in '/home/sunny/catkin_ws/build/uuv_assistants' returned '2': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_assistants -- -j16 -l16

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/beluga_adapter/beluga_adapter.egg-info/PKG-INFO
+../../build/beluga_adapter/beluga_adapter.egg-info/SOURCES.txt
+../../build/beluga_adapter/beluga_adapter.egg-info/dependency_links.txt
+../../build/beluga_adapter/beluga_adapter.egg-info/entry_points.txt
+../../build/beluga_adapter/beluga_adapter.egg-info/requires.txt
+../../build/beluga_adapter/beluga_adapter.egg-info/top_level.txt
+../../build/beluga_adapter/beluga_adapter.egg-info/zip-safe
+beluga_adapter/__init__.py
+beluga_adapter/basic_teleop.py
+beluga_adapter/thruster_manager.py
+resource/beluga_adapter
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

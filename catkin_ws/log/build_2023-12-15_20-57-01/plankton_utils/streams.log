@@ -1,0 +1,11 @@
+[0.808s] Invoking command in '/home/sunny/catkin_ws/build/plankton_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/plankton_utils -- -j16 -l16
+[0.905s] [100%] Built target plankton_global_sim_time
+[0.929s] [100%] Built target ament_cmake_python_copy_plankton_utils
+[1.406s] running egg_info
+[1.408s] writing plankton_utils.egg-info/PKG-INFO
+[1.408s] writing dependency_links to plankton_utils.egg-info/dependency_links.txt
+[1.409s] writing top-level names to plankton_utils.egg-info/top_level.txt
+[1.413s] reading manifest file 'plankton_utils.egg-info/SOURCES.txt'
+[1.416s] writing manifest file 'plankton_utils.egg-info/SOURCES.txt'
+[1.470s] [100%] Built target ament_cmake_python_build_plankton_utils_egg
+[1.553s] Invoked command in '/home/sunny/catkin_ws/build/plankton_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/plankton_utils -- -j16 -l16

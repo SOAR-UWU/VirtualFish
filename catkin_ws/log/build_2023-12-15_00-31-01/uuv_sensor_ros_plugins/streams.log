@@ -1,0 +1,49 @@
+[0.841s] Invoking command in '/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins': CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo_plugins:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_world_plugins:/home/sunny/catkin_ws/install/uuv_tutorial_seabed_world:/home/sunny/catkin_ws/install/uuv_trajectory_control:/home/sunny/catkin_ws/install/uuv_thruster_manager:/home/sunny/catkin_ws/install/uuv_gazebo_worlds:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs:/home/sunny/catkin_ws/install/uuv_gazebo:/home/sunny/catkin_ws/install/uuv_control_msgs:/home/sunny/catkin_ws/install/uuv_control_cascaded_pid:/home/sunny/catkin_ws/install/uuv_auv_control_allocator:/home/sunny/catkin_ws/install/uuv_assistants:/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_gazebo_plugins/lib:/home/sunny/catkin_ws/install/uuv_world_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_world_plugins/lib:/home/sunny/catkin_ws/install/uuv_thruster_manager/lib:/home/sunny/catkin_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/sunny/catkin_ws/install/uuv_control_msgs/lib:/home/sunny/catkin_ws/install/uuv_auv_control_allocator/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/home/sunny/catkin_ws/install/common_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_sensor_ros_plugins -- -j16 -l16
+[0.941s] [ 26%] Built target uuv_sensor_gazebo_msgs
+[0.952s] [35m[1mConsolidate compiler generated dependencies of target uuv_gazebo_ros_pose_gt_plugin[0m
+[0.979s] [ 29%] Built target uuv_gazebo_ros_camera_plugin
+[0.994s] [ 33%] Built target image_sonar_ros_plugin
+[1.016s] [35m[1mConsolidate compiler generated dependencies of target uuv_gazebo_ros_dvl_plugin[0m
+[1.033s] [ 35%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_base_sensor_plugin.so[0m
+[1.035s] [ 36%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_base_model_plugin.so[0m
+[1.036s] [ 38%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_gps_plugin.so[0m
+[1.042s] [ 40%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_cpc_plugin.so[0m
+[1.088s] [ 42%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_magnetometer_plugin.so[0m
+[1.096s] [ 43%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_rpt_plugin.so[0m
+[1.096s] [ 45%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_imu_plugin.so[0m
+[1.124s] [ 47%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_subsea_pressure_plugin.so[0m
+[1.139s] [ 49%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_pose_gt_plugin.dir/src/PoseGTROSPlugin.cpp.o[0m
+[1.207s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_dvl_plugin.dir/src/DVLROSPlugin.cpp.o[0m
+[26.404s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_base_model_plugin.so'
+[26.404s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_gps_plugin.so'
+[26.405s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_base_sensor_plugin.so'
+[26.405s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_pose_gt_plugin.dir/build.make:76: CMakeFiles/uuv_gazebo_ros_pose_gt_plugin.dir/src/PoseGTROSPlugin.cpp.o] Interrupt
+[26.405s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_magnetometer_plugin.so'
+[26.405s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_imu_plugin.so'
+[26.405s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_rpt_plugin.so'
+[26.405s] gmake[2]: *** wait: No child processes.  Stop.
+[26.405s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_subsea_pressure_plugin.so'
+[26.406s] gmake[2]: *** Deleting file 'libuuv_gazebo_ros_cpc_plugin.so'
+[26.406s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_base_model_plugin.dir/build.make:4454: libuuv_gazebo_ros_base_model_plugin.so] Interrupt
+[26.406s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_gps_plugin.dir/build.make:4470: libuuv_gazebo_ros_gps_plugin.so] Interrupt
+[26.406s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_base_sensor_plugin.dir/build.make:4454: libuuv_gazebo_ros_base_sensor_plugin.so] Interrupt
+[26.406s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_magnetometer_plugin.dir/build.make:4470: libuuv_gazebo_ros_magnetometer_plugin.so] Interrupt
+[26.406s] gmake[1]: *** [CMakeFiles/Makefile2:187: CMakeFiles/uuv_gazebo_ros_base_model_plugin.dir/all] Interrupt
+[26.406s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/uuv_gazebo_ros_gps_plugin.dir/all] Interrupt
+[26.406s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/uuv_gazebo_ros_base_sensor_plugin.dir/all] Interrupt
+[26.406s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/build.make:4470: libuuv_gazebo_ros_imu_plugin.so] Interrupt
+[26.406s] gmake[2]: *** Waiting for unfinished jobs....
+[26.406s] gmake[2]: *** wait: No child processes.  Stop.
+[26.407s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/all] Interrupt
+[26.407s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/uuv_gazebo_ros_magnetometer_plugin.dir/all] Interrupt
+[26.407s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/uuv_gazebo_ros_dvl_plugin.dir/all] Error 2
+[26.411s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_cpc_plugin.dir/build.make:4470: libuuv_gazebo_ros_cpc_plugin.so] Interrupt
+[26.411s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/build.make:4470: libuuv_gazebo_ros_rpt_plugin.so] Interrupt
+[26.411s] gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_subsea_pressure_plugin.dir/build.make:4470: libuuv_gazebo_ros_subsea_pressure_plugin.so] Interrupt
+[26.412s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/uuv_gazebo_ros_cpc_plugin.dir/all] Interrupt
+[26.412s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/all] Interrupt
+[26.413s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/uuv_gazebo_ros_subsea_pressure_plugin.dir/all] Interrupt
+[26.413s] gmake[1]: *** wait: No child processes.  Stop.
+[26.413s] gmake[1]: *** Waiting for unfinished jobs....
+[26.413s] gmake[1]: *** wait: No child processes.  Stop.
+[26.414s] gmake: *** [Makefile:146: all] Error 2

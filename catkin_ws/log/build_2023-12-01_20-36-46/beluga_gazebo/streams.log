@@ -1,0 +1,23 @@
+[0.100s] Invoking command in '/home/sunny/catkin_ws/build/beluga_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_gazebo -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_gazebo
+[0.111s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.250s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[0.261s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.261s]   By not providing "Findgazebo_ros.cmake" in CMAKE_MODULE_PATH this project
+[0.261s]   has asked CMake to find a package configuration file provided by
+[0.261s]   "gazebo_ros", but CMake did not find one.
+[0.261s] 
+[0.261s]   Could not find a package configuration file provided by "gazebo_ros" with
+[0.262s]   any of the following names:
+[0.262s] 
+[0.262s]     gazebo_rosConfig.cmake
+[0.262s]     gazebo_ros-config.cmake
+[0.262s] 
+[0.262s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[0.262s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[0.262s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[0.262s]   been installed.
+[0.262s] 
+[0.262s] [0m
+[0.262s] -- Configuring incomplete, errors occurred!
+[0.262s] See also "/home/sunny/catkin_ws/build/beluga_gazebo/CMakeFiles/CMakeOutput.log".
+[0.264s] Invoked command in '/home/sunny/catkin_ws/build/beluga_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_gazebo -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_gazebo

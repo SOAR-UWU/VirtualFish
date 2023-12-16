@@ -1,0 +1,77 @@
+[0.212s] Invoking command in '/home/sunny/catkin_ws/build/uuv_control_cascaded_pid': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_control/uuv_control_cascaded_pids -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_control_cascaded_pid
+[0.523s] -- The C compiler identification is GNU 11.4.0
+[0.617s] -- The CXX compiler identification is GNU 11.4.0
+[0.644s] -- Detecting C compiler ABI info
+[0.978s] -- Detecting C compiler ABI info - done
+[0.987s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.987s] -- Detecting C compile features
+[0.988s] -- Detecting C compile features - done
+[0.998s] -- Detecting CXX compiler ABI info
+[1.350s] -- Detecting CXX compiler ABI info - done
+[1.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.366s] -- Detecting CXX compile features
+[1.367s] -- Detecting CXX compile features - done
+[1.372s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.937s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.721s] -- Configuring done
+[2.727s] -- Generating done
+[2.729s] -- Build files have been written to: /home/sunny/catkin_ws/build/uuv_control_cascaded_pid
+[2.786s] Invoked command in '/home/sunny/catkin_ws/build/uuv_control_cascaded_pid' returned '0': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunny/catkin_ws/src/Plankton/uuv_control/uuv_control_cascaded_pids -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/uuv_control_cascaded_pid
+[2.787s] Invoking command in '/home/sunny/catkin_ws/build/uuv_control_cascaded_pid': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_control_cascaded_pid -- -j16 -l16
+[3.144s] Built target ament_cmake_python_copy_uuv_PID
+[4.219s] running egg_info
+[4.220s] creating uuv_PID.egg-info
+[4.221s] writing uuv_PID.egg-info/PKG-INFO
+[4.226s] writing dependency_links to uuv_PID.egg-info/dependency_links.txt
+[4.227s] writing top-level names to uuv_PID.egg-info/top_level.txt
+[4.233s] writing manifest file 'uuv_PID.egg-info/SOURCES.txt'
+[4.236s] reading manifest file 'uuv_PID.egg-info/SOURCES.txt'
+[4.237s] writing manifest file 'uuv_PID.egg-info/SOURCES.txt'
+[4.488s] Built target ament_cmake_python_build_uuv_PID_egg
+[4.538s] Invoked command in '/home/sunny/catkin_ws/build/uuv_control_cascaded_pid' returned '0': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_control_cascaded_pid -- -j16 -l16
+[4.750s] Invoking command in '/home/sunny/catkin_ws/build/uuv_control_cascaded_pid': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_control_cascaded_pid
+[4.764s] -- Install configuration: ""
+[4.764s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/environment/pythonpath.sh
+[4.764s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/environment/pythonpath.dsv
+[4.765s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID-0.6.1-py3.10.egg-info
+[4.765s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID-0.6.1-py3.10.egg-info/PKG-INFO
+[4.765s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID-0.6.1-py3.10.egg-info/SOURCES.txt
+[4.765s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID-0.6.1-py3.10.egg-info/top_level.txt
+[4.766s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID-0.6.1-py3.10.egg-info/dependency_links.txt
+[4.766s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID
+[4.767s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID/__init__.py
+[4.767s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID/PIDRegulator.py
+[4.849s] Listing '/home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID'...
+[4.850s] Compiling '/home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID/PIDRegulator.py'...
+[4.850s] Compiling '/home/sunny/catkin_ws/install/uuv_control_cascaded_pid/local/lib/python3.10/dist-packages/uuv_PID/__init__.py'...
+[4.858s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/lib/uuv_control_cascaded_pid/acceleration_control.py
+[4.860s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/lib/uuv_control_cascaded_pid/position_control.py
+[4.862s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/lib/uuv_control_cascaded_pid/velocity_control.py
+[4.864s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/launch
+[4.864s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/launch/joy_accel.launch
+[4.865s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/launch/joy_velocity.launch
+[4.866s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/launch/key_board_velocity.launch
+[4.867s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/launch/position_hold.launch
+[4.868s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/config
+[4.868s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/config/rexrov
+[4.869s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/config/rexrov/inertial.yaml
+[4.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/config/rexrov/pos_pid_control.yaml
+[4.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/config/rexrov/vel_pid_control.yaml
+[4.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/config/joy_vel.yaml
+[4.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/config/joy_accel.yaml
+[4.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/ament_index/resource_index/package_run_dependencies/uuv_control_cascaded_pid
+[4.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/ament_index/resource_index/parent_prefix_path/uuv_control_cascaded_pid
+[4.870s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/environment/ament_prefix_path.sh
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/environment/ament_prefix_path.dsv
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/environment/path.sh
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/environment/path.dsv
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/local_setup.bash
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/local_setup.sh
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/local_setup.zsh
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/local_setup.dsv
+[4.871s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/package.dsv
+[4.872s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/ament_index/resource_index/packages/uuv_control_cascaded_pid
+[4.872s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/cmake/uuv_control_cascaded_pidConfig.cmake
+[4.873s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/cmake/uuv_control_cascaded_pidConfig-version.cmake
+[4.873s] -- Installing: /home/sunny/catkin_ws/install/uuv_control_cascaded_pid/share/uuv_control_cascaded_pid/package.xml
+[4.886s] Invoked command in '/home/sunny/catkin_ws/build/uuv_control_cascaded_pid' returned '0': AMENT_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunny/catkin_ws/install/plankton_utils:/home/sunny/catkin_ws/install/turtlesim:/home/sunny/catkin_ws/install/common_msgs:/home/sunny/catkin_ws/install/beluga_simulator:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble PYTHONPATH=/home/sunny/catkin_ws/install/plankton_utils/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunny/catkin_ws/build/uuv_control_cascaded_pid

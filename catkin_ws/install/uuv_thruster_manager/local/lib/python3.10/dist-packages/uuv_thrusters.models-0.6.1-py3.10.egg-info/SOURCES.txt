@@ -1,0 +1,5 @@
+setup.py
+uuv_thrusters.models.egg-info/PKG-INFO
+uuv_thrusters.models.egg-info/SOURCES.txt
+uuv_thrusters.models.egg-info/dependency_links.txt
+uuv_thrusters.models.egg-info/top_level.txt

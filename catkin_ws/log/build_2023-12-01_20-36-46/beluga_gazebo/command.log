@@ -1,0 +1,2 @@
+Invoking command in '/home/sunny/catkin_ws/build/beluga_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_gazebo -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_gazebo
+Invoked command in '/home/sunny/catkin_ws/build/beluga_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_gazebo -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_gazebo

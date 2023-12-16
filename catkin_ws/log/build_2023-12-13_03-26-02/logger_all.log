@@ -1,0 +1,366 @@
+[0.864s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.864s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6568829cf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6568829390>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6568829390>>)
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.904s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunny/catkin_ws'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_adapter) by extension 'ros'
+[0.918s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga_adapter' with type 'ros.ament_python' and name 'beluga_adapter'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga_simulator) by extension 'ros'
+[0.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga_simulator' with type 'ros.ament_cmake' and name 'beluga_simulator'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common_msgs' with type 'ros.ament_cmake' and name 'common_msgs'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.922s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.013s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/sunny/catkin_ws/src/beluga_adapter/beluga_adapter/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.026s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/sunny/catkin_ws/install
+[1.039s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[1.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.114s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/sunny/catkin_ws/install/turtlesim, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'cmake_args' from command line to 'None'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'cmake_target' from command line to 'None'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.127s] Level 5:colcon.colcon_core.verb:set package 'beluga_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.127s] DEBUG:colcon.colcon_core.verb:Building package 'beluga_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunny/catkin_ws/build/beluga_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunny/catkin_ws/install/beluga_simulator', 'merge_install': False, 'path': '/home/sunny/catkin_ws/src/beluga_simulator', 'symlink_install': False, 'test_result_base': None}
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_target' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.140s] DEBUG:colcon.colcon_core.verb:Building package 'common_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunny/catkin_ws/build/common_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunny/catkin_ws/install/common_msgs', 'merge_install': False, 'path': '/home/sunny/catkin_ws/src/common_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.153s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunny/catkin_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunny/catkin_ws/install/turtlesim', 'merge_install': False, 'path': '/home/sunny/catkin_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'cmake_target' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'beluga_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.165s] DEBUG:colcon.colcon_core.verb:Building package 'beluga_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunny/catkin_ws/build/beluga_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunny/catkin_ws/install/beluga_adapter', 'merge_install': False, 'path': '/home/sunny/catkin_ws/src/beluga_adapter', 'symlink_install': False, 'test_result_base': None}
+[1.177s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.191s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunny/catkin_ws/src/common_msgs' with build type 'ament_cmake'
+[1.191s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunny/catkin_ws/src/common_msgs'
+[1.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunny/catkin_ws/src/beluga_simulator' with build type 'ament_cmake'
+[1.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunny/catkin_ws/src/beluga_simulator'
+[1.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunny/catkin_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[1.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunny/catkin_ws/src/ros_tutorials/turtlesim'
+[1.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunny/catkin_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/common_msgs -- -j16 -l16
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16
+[1.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunny/catkin_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/turtlesim -- -j16 -l16
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/beluga_simulator
+[1.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(beluga_simulator)
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/beluga_simulator
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator' for CMake module files
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator' for CMake config files
+[1.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('beluga_simulator', 'cmake_prefix_path')
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/hook/cmake_prefix_path.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/hook/cmake_prefix_path.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/hook/cmake_prefix_path.sh'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/bin'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/lib/pkgconfig/beluga_simulator.pc'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/lib/python3.10/site-packages'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/bin'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.sh'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.bash'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.zsh'
+[1.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunny/catkin_ws/install/beluga_simulator/share/colcon-core/packages/beluga_simulator)
+[1.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(beluga_simulator)
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator' for CMake module files
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator' for CMake config files
+[1.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('beluga_simulator', 'cmake_prefix_path')
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/hook/cmake_prefix_path.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/hook/cmake_prefix_path.dsv'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/hook/cmake_prefix_path.sh'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/bin'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/lib/pkgconfig/beluga_simulator.pc'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/lib/python3.10/site-packages'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_simulator/bin'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.ps1'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.dsv'
+[1.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.sh'
+[1.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.bash'
+[1.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/package.zsh'
+[1.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunny/catkin_ws/install/beluga_simulator/share/colcon-core/packages/beluga_simulator)
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunny/catkin_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/turtlesim -- -j16 -l16
+[1.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunny/catkin_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/common_msgs -- -j16 -l16
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunny/catkin_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/common_msgs
+[1.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_msgs)
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunny/catkin_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/common_msgs
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs' for CMake module files
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs' for CMake config files
+[1.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'cmake_prefix_path')
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.ps1'
+[1.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.dsv'
+[1.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.sh'
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/lib'
+[1.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'ld_library_path_lib')
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.sh'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/bin'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/lib/pkgconfig/common_msgs.pc'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/lib/python3.10/site-packages'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/bin'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.dsv'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.sh'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.bash'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.zsh'
+[1.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunny/catkin_ws/install/common_msgs/share/colcon-core/packages/common_msgs)
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunny/catkin_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/turtlesim
+[2.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_msgs)
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs' for CMake module files
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs' for CMake config files
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'cmake_prefix_path')
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.ps1'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.sh'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/lib'
+[2.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'ld_library_path_lib')
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/bin'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/lib/pkgconfig/common_msgs.pc'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/lib/python3.10/site-packages'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/common_msgs/bin'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.ps1'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.sh'
+[2.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.bash'
+[2.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/common_msgs/share/common_msgs/package.zsh'
+[2.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunny/catkin_ws/install/common_msgs/share/colcon-core/packages/common_msgs)
+[2.101s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunny/catkin_ws/src/beluga_adapter' with build type 'ament_python'
+[2.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('beluga_adapter', 'ament_prefix_path')
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/hook/ament_prefix_path.ps1'
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/hook/ament_prefix_path.dsv'
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/hook/ament_prefix_path.sh'
+[2.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunny/catkin_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/turtlesim
+[2.189s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim' for CMake module files
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim' for CMake config files
+[2.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/lib'
+[2.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/bin'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/lib/python3.10/site-packages'
+[2.235s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/bin'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.sh'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.bash'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.zsh'
+[2.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunny/catkin_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[2.516s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunny/catkin_ws/src/beluga_adapter'
+[2.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim' for CMake module files
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim' for CMake config files
+[2.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[2.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[2.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[2.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/lib'
+[2.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[2.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[2.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[2.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/bin'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/lib/python3.10/site-packages'
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/turtlesim/bin'
+[2.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.ps1'
+[2.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.dsv'
+[2.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.sh'
+[2.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.bash'
+[2.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/turtlesim/share/turtlesim/package.zsh'
+[2.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunny/catkin_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[2.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunny/catkin_ws/src/beluga_adapter': LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/common_msgs/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sunny/catkin_ws/build/beluga_adapter/prefix_override:/home/sunny/catkin_ws/install/beluga_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/beluga_adapter build --build-base /home/sunny/catkin_ws/build/beluga_adapter/build install --record /home/sunny/catkin_ws/build/beluga_adapter/install.log --single-version-externally-managed
+[3.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunny/catkin_ws/src/beluga_adapter' returned '0': LD_LIBRARY_PATH=/home/sunny/catkin_ws/install/common_msgs/lib:/home/sunny/catkin_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sunny/catkin_ws/build/beluga_adapter/prefix_override:/home/sunny/catkin_ws/install/beluga_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/beluga_adapter build --build-base /home/sunny/catkin_ws/build/beluga_adapter/build install --record /home/sunny/catkin_ws/build/beluga_adapter/install.log --single-version-externally-managed
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_adapter' for CMake module files
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_adapter' for CMake config files
+[3.236s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_adapter/lib'
+[3.236s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_adapter/bin'
+[3.236s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_adapter/lib/pkgconfig/beluga_adapter.pc'
+[3.237s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_adapter/lib/python3.10/site-packages'
+[3.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('beluga_adapter', 'pythonpath')
+[3.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/hook/pythonpath.ps1'
+[3.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/hook/pythonpath.dsv'
+[3.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/hook/pythonpath.sh'
+[3.256s] Level 1:colcon.colcon_core.environment:checking '/home/sunny/catkin_ws/install/beluga_adapter/bin'
+[3.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(beluga_adapter)
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/package.ps1'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/package.dsv'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/package.sh'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/package.bash'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunny/catkin_ws/install/beluga_adapter/share/beluga_adapter/package.zsh'
+[3.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunny/catkin_ws/install/beluga_adapter/share/colcon-core/packages/beluga_adapter)
+[3.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.273s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.292s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.303s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunny/catkin_ws/install/local_setup.ps1'
+[3.320s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunny/catkin_ws/install/_local_setup_util_ps1.py'
+[3.321s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunny/catkin_ws/install/setup.ps1'
+[3.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunny/catkin_ws/install/local_setup.sh'
+[3.338s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunny/catkin_ws/install/_local_setup_util_sh.py'
+[3.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunny/catkin_ws/install/setup.sh'
+[3.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunny/catkin_ws/install/local_setup.bash'
+[3.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunny/catkin_ws/install/setup.bash'
+[3.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunny/catkin_ws/install/local_setup.zsh'
+[3.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunny/catkin_ws/install/setup.zsh'

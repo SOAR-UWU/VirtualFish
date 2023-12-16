@@ -1,0 +1,18 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/uuv_underwater_current_ros_plugin.dir/src/UnderwaterCurrentROSPlugin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uuv_sc_ros_interface_plugin.dir/src/SphericalCoordinatesROSInterfacePlugin.cpp.o[0m
+In file included from [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cpp:22[m[K:
+[01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.h:38:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/node.hpp: No such file or directory
+   38 | #include [01;31m[K<gazebo_ros/node.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/uuv_underwater_current_ros_plugin.dir/build.make:76: CMakeFiles/uuv_underwater_current_ros_plugin.dir/src/UnderwaterCurrentROSPlugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uuv_underwater_current_ros_plugin.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cpp:24[m[K:
+[01m[K/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.h:35:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/node.hpp: No such file or directory
+   35 | #include [01;31m[K<gazebo_ros/node.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/uuv_sc_ros_interface_plugin.dir/build.make:76: CMakeFiles/uuv_sc_ros_interface_plugin.dir/src/SphericalCoordinatesROSInterfacePlugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/uuv_sc_ros_interface_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
