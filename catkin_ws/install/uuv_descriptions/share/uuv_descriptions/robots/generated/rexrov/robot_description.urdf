@@ -103,6 +103,11 @@
       </geometry>
     </collision>
   </link>
+  <link name="base_link"/>
+  <joint name="rexrov/dummy_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="rexrov/base_link"/>
+  </joint>
   <!-- Set up hydrodynamic plugin given as input parameter -->
   <gazebo>
     <plugin filename="libuuv_underwater_object_ros_plugin.so" name="rexrov_uuv_plugin">

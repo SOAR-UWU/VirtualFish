@@ -9,8 +9,8 @@
 /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_body_sname.launch
 /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/unpause_simulation.launch
 /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_world_ned_frame.launch
+/home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/message_to_tf_launch.xml
 /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/set_simulation_timer.launch
-/home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/message_to_tf.launch
 /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_footprints.launch
 /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_vehicle_footprint.launch
 /home/sunny/catkin_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch/upload.launch.template

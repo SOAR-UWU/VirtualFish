@@ -1,4 +1,5 @@
 /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/launch/beluga_model.launch.py
+/home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/launch/beluga_model_plankton.launch.py
 /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/launch/beluga_sim_launch.sh
 /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/angled_thruster_mount.dae
 /home/sunny/catkin_ws/install/beluga_simulator/share/beluga_simulator/meshes/pressure.dae

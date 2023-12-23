@@ -1,4 +1,5 @@
 /home/sunny/catkin_ws/install/uuv_descriptions/share/uuv_descriptions/launch/upload_rexrov_default_noisy_pose.launch
+/home/sunny/catkin_ws/install/uuv_descriptions/share/uuv_descriptions/launch/upload_beluga.launch
 /home/sunny/catkin_ws/install/uuv_descriptions/share/uuv_descriptions/launch/message_to_tf.launch
 /home/sunny/catkin_ws/install/uuv_descriptions/share/uuv_descriptions/launch/upload_rexrov_oberon4.launch
 /home/sunny/catkin_ws/install/uuv_descriptions/share/uuv_descriptions/launch/upload_rexrov_default.launch

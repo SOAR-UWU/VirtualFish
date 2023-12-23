@@ -64,6 +64,9 @@ def generate_launch_description():
   gazebo_models_path = os.path.join(pkg_share, gazebo_models_file_path)
   worlds_path = os.path.join(pkg_share, worlds_file_path)
 
+  # Request sim time value to the global node
+  res = is_sim_time(return_param=False, use_subprocess=True)
+
   # Set required environment variables
   os.environ['GAZEBO_MODEL_PATH'] = base_gazebo_model_path + ':' + urdf_model_path + ':' + gazebo_models_path
   print('[Beluga Simulation Launcher]: Set Gazebo Model Paths')
@@ -215,15 +218,19 @@ def generate_launch_description():
 
   # Launch the robot
   spawn_entity_cmd = Node(
+    name='urdf_spawner',
     package='gazebo_ros', 
     executable='spawn_entity.py',
+    output='screen',
+    parameters=[{'use_sim_time': res}],
     arguments=['-entity', robot_name_in_model, 
                 '-topic', 'robot_description',
                     '-x', spawn_x_val,
                     '-y', spawn_y_val,
                     '-z', spawn_z_val,
-                    '-Y', spawn_yaw_val],
-                    output='screen')
+                    '-Y', spawn_yaw_val]
+  )
+  
   ld.add_action(spawn_entity_cmd)
   print('[Beluga Simulation Launcher]: Spawned Robot')
 

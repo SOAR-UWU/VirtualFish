@@ -58,8 +58,12 @@ def launch_setup(context, *args, **kwargs):
     is_write_on_disk = Lc('write_file_on_disk').perform(context)
     gazebo_namespace = Lc('gazebo_namespace').perform(context)
 
+    print("=A=")
+
     # Request sim time value to the global node
     res = is_sim_time(return_param=False, use_subprocess=True)
+
+    print("=B=")
 
     # Xacro
     #xacro_file = PathJoinSubstitution(get_package_share_directory('uuv_descriptions'),'robots','rexrov_')
@@ -69,6 +73,8 @@ def launch_setup(context, *args, **kwargs):
         'rexrov_' + (Lc('mode')).perform(context) + '.xacro'
     )
 
+    print("=C=")
+
     # Build the directories, check for existence
     path = os.path.join(
         get_package_share_directory('uuv_descriptions'),
@@ -76,6 +82,8 @@ def launch_setup(context, *args, **kwargs):
         'generated',
         namespace,
     )
+
+    print("=D=")
 
     if not pathlib.Path(path).exists():
         try:
@@ -88,6 +96,8 @@ def launch_setup(context, *args, **kwargs):
         path,
         'robot_description.urdf'
     )
+
+    print("=E=")
 
     if not pathlib.Path(xacro_file).exists():
         exc = 'Launch file ' + xacro_file + ' does not exist'
@@ -105,6 +115,8 @@ def launch_setup(context, *args, **kwargs):
         with open(output, 'w') as file_out:
             file_out.write(doc)
     
+    print("=F=")
+
     # URDF spawner
 
     # Example: calling the launch file using an empty gazebo_namespace
@@ -113,8 +125,7 @@ def launch_setup(context, *args, **kwargs):
       args=('-x %s -y %s -z %s -R %s -P %s -Y %s -entity %s -topic robot_description' 
           %(x, y, z, roll, pitch, yaw, namespace)).split()
     else:
-      args=('-gazebo_namespace /%s '
-          '-x %s -y %s -z %s -R %s -P %s -Y %s -entity %s -topic robot_description' 
+      args=('-gazebo_namespace /%s -x %s -y %s -z %s -R %s -P %s -Y %s -entity %s -topic robot_description' 
           %(gazebo_namespace, x, y, z, roll, pitch, yaw, namespace)).split()
 
 

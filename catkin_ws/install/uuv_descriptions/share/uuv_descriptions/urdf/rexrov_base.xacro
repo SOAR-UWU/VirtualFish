@@ -82,6 +82,12 @@
 
     </link>
 
+    <link name="base_link"/>
+    <joint name="${namespace}/dummy_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="${namespace}/base_link"/>
+    </joint>
+
     <!-- Set up hydrodynamic plugin given as input parameter -->
     <xacro:insert_block name="gazebo"/>
 
