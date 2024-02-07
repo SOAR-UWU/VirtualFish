@@ -1,8 +1,0 @@
-setup.py
-uuv_auv_control_allocator/__init__.py
-uuv_auv_control_allocator.egg-info/PKG-INFO
-uuv_auv_control_allocator.egg-info/SOURCES.txt
-uuv_auv_control_allocator.egg-info/dependency_links.txt
-uuv_auv_control_allocator.egg-info/top_level.txt
-uuv_auv_control_allocator/msg/__init__.py
-uuv_auv_control_allocator/msg/_auv_command.py

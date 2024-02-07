@@ -1,5 +1,0 @@
-[0.369s] Invoking command in '/home/sunny/catkin_ws/build/uuv_world_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_plugins -- -j16 -l16
-[0.394s] [0mCMake Error: The source directory "/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_plugins" does not exist.
-[0.394s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.400s] gmake: *** [Makefile:294: cmake_check_build_system] Error 1
-[0.414s] Invoked command in '/home/sunny/catkin_ws/build/uuv_world_plugins' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_world_plugins -- -j16 -l16

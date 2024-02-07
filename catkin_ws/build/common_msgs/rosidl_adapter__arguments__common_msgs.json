@@ -1,6 +1,0 @@
-{
-  "package_name": "common_msgs",
-  "non_idl_tuples": [
-    "/home/sunny/catkin_ws/src/common_msgs:msg/FloatStamped.msg"
-  ]
-}

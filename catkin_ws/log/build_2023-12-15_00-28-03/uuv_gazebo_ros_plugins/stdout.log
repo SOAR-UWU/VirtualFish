@@ -1,7 +1,0 @@
-[  7%] [32mBuilding CXX object CMakeFiles/uuv_thruster_ros_plugin.dir/src/ThrusterROSPlugin.cpp.o[0m
-[ 14%] [32mBuilding CXX object CMakeFiles/uuv_joint_state_publisher.dir/src/JointStatePublisher.cpp.o[0m
-[ 21%] [32mBuilding CXX object CMakeFiles/uuv_fin_ros_plugin.dir/src/FinROSPlugin.cpp.o[0m
-[ 28%] [32mBuilding CXX object CMakeFiles/uuv_underwater_object_ros_plugin.dir/src/UnderwaterObjectROSPlugin.cpp.o[0m
-[ 35%] [32mBuilding CXX object CMakeFiles/linear_battery_ros_plugin.dir/src/LinearBatteryROSPlugin.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/uuv_accelerations_test_plugin.dir/src/AccelerationsTestPlugin.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/custom_battery_consumer_ros_plugin.dir/src/CustomBatteryConsumerROSPlugin.cpp.o[0m

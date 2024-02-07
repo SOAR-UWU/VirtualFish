@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/build.make:104: CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/src/ROSBaseModelPlugin.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

@@ -1,5 +1,0 @@
-[0.155s] Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16
-[0.181s] [0mCMake Error: The source directory "/home/sunny/catkin_ws/src/beluga_simulator" does not exist.
-[0.181s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.181s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.186s] Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16

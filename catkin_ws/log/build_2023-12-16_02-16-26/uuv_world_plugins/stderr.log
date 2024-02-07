@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/sunny/catkin_ws/src/Plankton/uuv_world_plugins/uuv_world_plugins" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:294: cmake_check_build_system] Error 1

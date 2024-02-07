@@ -1,9 +1,0 @@
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/uninstall.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/uuv_tutorial_seabed_world_uninstall.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/test.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/edit_cache.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/rebuild_cache.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/list_install_components.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/install.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/install/local.dir
-/home/sunny/catkin_ws/build/uuv_tutorial_seabed_world/CMakeFiles/install/strip.dir

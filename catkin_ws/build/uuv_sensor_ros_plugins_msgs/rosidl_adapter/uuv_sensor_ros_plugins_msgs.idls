@@ -1,7 +1,0 @@
-/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs/rosidl_adapter/uuv_sensor_ros_plugins_msgs:msg/DVL.idl
-/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs/rosidl_adapter/uuv_sensor_ros_plugins_msgs:msg/DVLBeam.idl
-/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs/rosidl_adapter/uuv_sensor_ros_plugins_msgs:msg/PositionWithCovariance.idl
-/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs/rosidl_adapter/uuv_sensor_ros_plugins_msgs:msg/PositionWithCovarianceStamped.idl
-/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs/rosidl_adapter/uuv_sensor_ros_plugins_msgs:msg/ChemicalParticleConcentration.idl
-/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs/rosidl_adapter/uuv_sensor_ros_plugins_msgs:msg/Salinity.idl
-/home/sunny/catkin_ws/build/uuv_sensor_ros_plugins_msgs/rosidl_adapter/uuv_sensor_ros_plugins_msgs:srv/ChangeSensorState.idl

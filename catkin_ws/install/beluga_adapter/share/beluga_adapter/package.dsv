@@ -1,6 +1,0 @@
-source;share/beluga_adapter/hook/pythonpath.ps1
-source;share/beluga_adapter/hook/pythonpath.dsv
-source;share/beluga_adapter/hook/pythonpath.sh
-source;share/beluga_adapter/hook/ament_prefix_path.ps1
-source;share/beluga_adapter/hook/ament_prefix_path.dsv
-source;share/beluga_adapter/hook/ament_prefix_path.sh

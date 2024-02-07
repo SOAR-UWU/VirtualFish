@@ -1,7 +1,0 @@
-setup.py
-uuv_PID/PIDRegulator.py
-uuv_PID/__init__.py
-uuv_PID.egg-info/PKG-INFO
-uuv_PID.egg-info/SOURCES.txt
-uuv_PID.egg-info/dependency_links.txt
-uuv_PID.egg-info/top_level.txt

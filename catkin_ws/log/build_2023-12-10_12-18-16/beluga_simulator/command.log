@@ -1,6 +1,0 @@
-Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_simulator -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_simulator
-Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunny/catkin_ws/src/beluga_simulator -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/beluga_simulator
-Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16
-Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/beluga_simulator -- -j16 -l16
-Invoking command in '/home/sunny/catkin_ws/build/beluga_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/beluga_simulator
-Invoked command in '/home/sunny/catkin_ws/build/beluga_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunny/catkin_ws/build/beluga_simulator

@@ -1,8 +1,0 @@
-setup.py
-uuv_waypoints/__init__.py
-uuv_waypoints/waypoint.py
-uuv_waypoints/waypoint_set.py
-uuv_waypoints.egg-info/PKG-INFO
-uuv_waypoints.egg-info/SOURCES.txt
-uuv_waypoints.egg-info/dependency_links.txt
-uuv_waypoints.egg-info/top_level.txt

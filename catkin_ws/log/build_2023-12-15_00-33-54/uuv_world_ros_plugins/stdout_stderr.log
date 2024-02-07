@@ -1,8 +1,0 @@
-[31mCMake Error at CMakeLists.txt:35:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "${gazebo_ros_INDLUDE_DIRECTORIES}".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/sunny/catkin_ws/build/uuv_world_ros_plugins/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:308: cmake_check_build_system] Error 1

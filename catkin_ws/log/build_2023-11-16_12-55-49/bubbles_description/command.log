@@ -1,2 +1,0 @@
-Invoking command in '/home/sunny/catkin_ws/build/bubbles_description': /usr/bin/cmake /home/sunny/catkin_ws/src/sauvc_simulator/bubbles_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/bubbles_description
-Invoked command in '/home/sunny/catkin_ws/build/bubbles_description' returned '1': /usr/bin/cmake /home/sunny/catkin_ws/src/sauvc_simulator/bubbles_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sunny/catkin_ws/install/bubbles_description

@@ -1,8 +1,0 @@
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetCurrentModel.idl
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/GetCurrentModel.idl
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetCurrentVelocity.idl
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetCurrentDirection.idl
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetOriginSphericalCoord.idl
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/GetOriginSphericalCoord.idl
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/TransformToSphericalCoord.idl
-/home/sunny/catkin_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/TransformFromSphericalCoord.idl

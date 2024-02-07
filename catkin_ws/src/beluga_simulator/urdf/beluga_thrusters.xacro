@@ -16,7 +16,7 @@
 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <!-- Thrusters -->
-  <xacro:include filename="$(find beluga_simulator)/models/beluga_snippets.xacro"/>
+  <xacro:include filename="$(find beluga_simulator)/urdf/beluga_snippets.xacro"/>
 
   <!-- Left Front Thruster -->
   <xacro:thruster_macro

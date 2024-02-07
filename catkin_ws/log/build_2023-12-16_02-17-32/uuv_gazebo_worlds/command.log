@@ -1,2 +1,0 @@
-Invoking command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_worlds -- -j16 -l16
-Invoked command in '/home/sunny/catkin_ws/build/uuv_gazebo_worlds' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_gazebo_worlds -- -j16 -l16

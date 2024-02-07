@@ -1,5 +1,0 @@
-[0.597s] Invoking command in '/home/sunny/catkin_ws/build/uuv_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_control_msgs -- -j16 -l16
-[0.632s] [0mCMake Error: The source directory "/home/sunny/catkin_ws/src/Plankton/uuv_control/uuv_control_msgs" does not exist.
-[0.632s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.632s] gmake: *** [Makefile:6147: cmake_check_build_system] Error 1
-[0.652s] Invoked command in '/home/sunny/catkin_ws/build/uuv_control_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunny/catkin_ws/install/beluga_adapter:/opt/ros/humble /usr/bin/cmake --build /home/sunny/catkin_ws/build/uuv_control_msgs -- -j16 -l16

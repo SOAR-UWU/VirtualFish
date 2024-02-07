@@ -18,9 +18,9 @@
   <xacro:macro name="beluga_base" params="namespace debug inertial_reference_frame">
 
   <!-- Import xacros -->
-  <xacro:include filename="$(find beluga_simulator)/models/common.urdf.xacro"/>
-  <xacro:include filename="$(find beluga_simulator)/models/sensor_snippets.xacro"/>
-  <xacro:include filename="$(find beluga_simulator)/models/thruster_snippets.xacro"/>
+  <xacro:include filename="$(find beluga_simulator)/urdf/common.urdf.xacro"/>
+  <xacro:include filename="$(find beluga_simulator)/urdf/sensor_snippets.xacro"/>
+  <xacro:include filename="$(find beluga_simulator)/urdf/thruster_snippets.xacro"/>
   
   <!-- Define Parameters -->
   <xacro:property name="mass" value="20"/>
@@ -122,48 +122,9 @@
      <child link="${namespace}/base_link"/>
   </joint>
 
-  <gazebo reference="${namespace}/base_link">
-    <selfCollide>false</selfCollide> 
-  </gazebo>
 
-  <!-- Set up hydrodynamics plugin -->
-  <gazebo>
-    <plugin name="${namespace}_uuv_plugin" filename="libuuv_underwater_object_ros_plugin.so">
-      <fluid_density>${rho}</fluid_density>
-      <flow_velocity_topic>hydrodynamics/current_velocity</flow_velocity_topic>
-      <debug>${debug}</debug>
-      <link name="${namespace}/base_link">
-        <neutrally_bouyant>0</neutrally_bouyant>
-        <volume>${volume}</volume>
-        <box>
-          <width>${y_size}</width>
-          <length>${x_size}</length>
-          <height>${z_size}</height>
-        </box>
-        <center_of_buoyancy>${cob}</center_of_buoyancy>
-          <hydrodynamic_model>
-            <type>fossen</type>
-            <added_mass>
-              3.899   -0.034  -0.517  0.043   -0.828  -0.039
-              -0.034  6.110   0.256   2.047   -0.029  0.314
-              -0.517  0.256   18.300  0.031   -1.932  0.054
-              0.043   2.047   0.031   1.675   -0.050  0.105
-              -0.828  -0.029  -1.932  -0.050  2.213   -0.006
-              -0.039  0.314   0.054   0.105   -0.006  0.622
-            </added_mass>
-            <linear_damping>
-              -9.352  -8.685  -91.050 -10 -10 -5
-            </linear_damping>
-            <quadratic_damping>
-              -93.528 -124.066 -227.626 -20 -20 -15
-            </quadratic_damping>
-          </hydrodynamic_model>
-        </link>
-      </plugin>
-    </gazebo>
-
-    <xacro:include filename="$(find beluga_simulator)/models/beluga_thrusters.xacro"/>
-    <xacro:include filename="$(find beluga_simulator)/models/beluga_sensors.xacro"/>
+    <xacro:include filename="$(find beluga_simulator)/urdf/beluga_thrusters.xacro"/>
+    <!-- <xacro:include filename="$(find beluga_simulator)/urdf/beluga_sensors.xacro"/> -->
 
   </xacro:macro>
 </robot>
