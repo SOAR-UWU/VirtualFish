@@ -17,6 +17,8 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:property name="prop_mesh_file" value="file://$(find beluga_simulator)/meshes/propeller.dae"/>
 
+  <xacro:include filename="$(find beluga_simulator)/urdf/thruster_snippets.xacro"/>
+
   <!-- Thruster joint and link snippet --> 
   <xacro:macro name="thruster_macro"
     params="robot_namespace thruster_id rotor_constant *origin">

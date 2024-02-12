@@ -13,17 +13,24 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+
+     ***************************
+
+     This document contains the base Xacro specification for the bot. To 
+     create the URDF from this file, build the package, source the install, then
+     run `xacro beluga_default.xacro` in this directory.
 -->
 <robot name="beluga" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+  <!-- Set some variables -->
   <xacro:arg name="namespace" default="beluga"/>
   <xacro:arg name="debug" default="1"/>
   <xacro:arg name="inertial_reference_frame" default="world"/>
 
-  <!-- Include the ROV macro file -->
+  <!-- Insert the ROV macro file -->
   <xacro:include filename="$(find beluga_simulator)/urdf/beluga_base.xacro"/>
   <!-- <xacro:include filename="$(find beluga_simulator)/urdf/misc.xacro"/> -->
 
-  <!-- Create the beluga -->
+  <!-- Create the ROV -->
   <xacro:beluga_base
     namespace="$(arg namespace)"
     debug="$(arg debug)"

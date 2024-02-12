@@ -18,23 +18,27 @@
   <xacro:macro name="beluga_base" params="namespace debug inertial_reference_frame">
 
   <!-- Import xacros -->
-  <xacro:include filename="$(find beluga_simulator)/urdf/common.urdf.xacro"/>
+  <!-- <xacro:include filename="$(find beluga_simulator)/urdf/common.urdf.xacro"/>
   <xacro:include filename="$(find beluga_simulator)/urdf/sensor_snippets.xacro"/>
-  <xacro:include filename="$(find beluga_simulator)/urdf/thruster_snippets.xacro"/>
+  <xacro:include filename="$(find beluga_simulator)/urdf/thruster_snippets.xacro"/> -->
   
   <!-- Define Parameters -->
   <xacro:property name="mass" value="20"/>
   <xacro:property name="volume" value="0.011054"/>
+  <!-- Centre of gravity -->
   <xacro:property name="cog" value="0 0.005 -.03"/>
+  <!-- Centre of buoyancy -->
   <xacro:property name="cob" value="0 0 0"/>
   <xacro:property name="rho" value="1028"/>
 
+  <!-- X, Y and Z dimensions -->
   <xacro:property name="x_size" value="0.448"/>
   <xacro:property name="y_size" value="0.2384"/>
   <xacro:property name="z_size" value="0.28066"/>
 
   <xacro:property name="equivalent_radius" value="${0.5*z_size}"/>
     
+  <!-- Frame -->
   <link name="${namespace}/base_link">
     <inertial>
       <mass value="${mass}"/>
